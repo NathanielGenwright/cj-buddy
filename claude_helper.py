@@ -1,4 +1,3 @@
-
 import os
 import requests
 from dotenv import load_dotenv
@@ -14,10 +13,21 @@ def get_claude_response(prompt):
         "Content-Type": "application/json"
     }
     data = {
-        "model": "claude-3-opus-20240229",
+        "model": "claude-3-5-sonnet-20241022",
         "max_tokens": 400,
         "temperature": 0.3,
         "messages": [{"role": "user", "content": prompt}]
     }
     response = requests.post(url, headers=headers, json=data)
-    return response.json()['content'][0]['text']
+    result = response.json()
+    
+    # Debug print
+    print(f"Claude API response: {result}")
+    
+    if 'error' in result:
+        return f"Error: {result['error'].get('message', 'Unknown error')}"
+    
+    if 'content' in result and len(result['content']) > 0:
+        return result['content'][0]['text']
+    else:
+        return "Error: Unexpected response format"
