@@ -60,6 +60,20 @@ def run(ticket_id, mode):
     click.echo("🔍 Fetching ticket data...", nl=False)
     try:
         issue = get_issue(ticket_id)
+        
+        # Debug: Check if we got a valid response
+        if not isinstance(issue, dict):
+            click.echo(f" ✗\n❌ Invalid response format: {type(issue)}")
+            click.echo(f"Response: {issue}")
+            return
+            
+        if 'fields' not in issue:
+            click.echo(f" ✗\n❌ Missing 'fields' in response")
+            click.echo(f"Available keys: {list(issue.keys())}")
+            if 'errorMessages' in issue:
+                click.echo(f"Error messages: {issue['errorMessages']}")
+            return
+            
         summary = issue['fields'].get('summary', 'No summary')
         click.echo(" ✓")
     except Exception as e:
