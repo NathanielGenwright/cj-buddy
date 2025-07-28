@@ -34,8 +34,37 @@ def extract_text_from_content(content):
 @click.argument('ticket_id')
 @click.option('--mode', default='summarize', help='Options: summarize, tag, subtasks, test-notes')
 def run(ticket_id, mode):
-    issue = get_issue(ticket_id)
-    summary = issue['fields'].get('summary', 'No summary')
+    # Enhanced visual output
+    mode_icons = {
+        'summarize': '📋',
+        'tag': '🏷️',
+        'subtasks': '📝',
+        'test-notes': '🧪'
+    }
+    
+    mode_names = {
+        'summarize': 'ANALYSIS',
+        'tag': 'TAGGING',
+        'subtasks': 'TASK BREAKDOWN', 
+        'test-notes': 'QA TEST PLAN'
+    }
+    
+    icon = mode_icons.get(mode, '🤖')
+    mode_name = mode_names.get(mode, mode.upper())
+    
+    # Header
+    click.echo(f"\n{icon} {mode_name}: {ticket_id.upper()}")
+    click.echo("━" * 50)
+    
+    # Step 1: Fetch ticket
+    click.echo("🔍 Fetching ticket data...", nl=False)
+    try:
+        issue = get_issue(ticket_id)
+        summary = issue['fields'].get('summary', 'No summary')
+        click.echo(" ✓")
+    except Exception as e:
+        click.echo(f" ✗\n❌ Error fetching ticket: {e}")
+        return
     
     # Extract description text
     description_obj = issue['fields'].get('description')
@@ -44,22 +73,24 @@ def run(ticket_id, mode):
     else:
         description = extract_text_from_content(description_obj)
     
-    prompt = generate_prompt(mode, summary, description)
-    response = get_claude_response(prompt)
+    # Step 2: AI Analysis
+    click.echo("🤖 Analyzing with Claude AI...", nl=False)
+    try:
+        prompt = generate_prompt(mode, summary, description)
+        response = get_claude_response(prompt)
+        click.echo(" ✓")
+    except Exception as e:
+        click.echo(f" ✗\n❌ Error with AI analysis: {e}")
+        return
     
+    # Step 3: Process response based on mode
     if mode == 'tag':
-        # For tag mode, apply labels directly instead of posting comment
-        suggested_tags = parse_tags_from_response(response)
-        for tag in suggested_tags:
-            add_label(ticket_id, tag)
-        add_label(ticket_id, 'ai-tagged')
-        click.echo(f"✅ Applied {len(suggested_tags)} tags to {ticket_id}: {', '.join(suggested_tags)}")
+        handle_tag_mode(ticket_id, response)
     else:
-        # For other modes, post as comment
-        post_comment(ticket_id, response)
-        if mode == 'summarize':
-            add_label(ticket_id, 'ai-reviewed')
-        click.echo(f"✅ {mode.capitalize()} complete for {ticket_id}")
+        handle_other_modes(ticket_id, mode, response)
+    
+    click.echo("━" * 50)
+    click.echo(f"✅ {mode_name} complete!\n")
 
 def generate_prompt(mode, summary, description):
     prompts = {
@@ -99,6 +130,52 @@ def parse_tags_from_response(response):
     tags = [tag for tag in tags if tag and len(tag) > 1 and tag not in ['and', 'or', 'the', 'a', 'an']]
     
     return tags
+
+def handle_tag_mode(ticket_id, response):
+    """Handle tag mode with enhanced output"""
+    click.echo("🏷️  Parsing and applying tags...", nl=False)
+    try:
+        suggested_tags = parse_tags_from_response(response)
+        click.echo(" ✓")
+        
+        click.echo(f"📌 Applying {len(suggested_tags)} tags:")
+        for tag in suggested_tags:
+            click.echo(f"   • {tag}", nl=False)
+            add_label(ticket_id, tag)
+            click.echo(" ✓")
+        
+        click.echo("🔖 Adding audit label...", nl=False)
+        add_label(ticket_id, 'ai-tagged')
+        click.echo(" ✓")
+        
+        click.echo(f"\n🎯 Applied tags: {', '.join(suggested_tags)}")
+        
+    except Exception as e:
+        click.echo(f" ✗\n❌ Error applying tags: {e}")
+
+def handle_other_modes(ticket_id, mode, response):
+    """Handle summarize, subtasks, and test-notes modes with enhanced output"""
+    # Show a preview of the analysis
+    preview = response[:150] + "..." if len(response) > 150 else response
+    click.echo(f"\n📄 PREVIEW:")
+    click.echo(f"   {preview}")
+    
+    click.echo(f"\n💬 Posting to Jira...", nl=False)
+    try:
+        post_comment(ticket_id, response)
+        click.echo(" ✓")
+    except Exception as e:
+        click.echo(f" ✗\n❌ Error posting comment: {e}")
+        return
+    
+    # Add label for summarize mode
+    if mode == 'summarize':
+        click.echo("🔖 Adding 'ai-reviewed' label...", nl=False)
+        try:
+            add_label(ticket_id, 'ai-reviewed')
+            click.echo(" ✓")
+        except Exception as e:
+            click.echo(f" ✗\n❌ Error adding label: {e}")
 
 if __name__ == '__main__':
     run()

@@ -33,9 +33,7 @@ def post_comment(ticket_id, body):
     }
     response = requests.post(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload)
     if response.status_code != 201:
-        print(f"Error posting comment: {response.status_code} - {response.text}")
-    else:
-        print(f"✓ Comment posted successfully to {ticket_id}")
+        raise Exception(f"HTTP {response.status_code}: {response.text}")
     return response
 
 def add_label(ticket_id, label):
@@ -48,7 +46,5 @@ def add_label(ticket_id, label):
     headers = {"Content-Type": "application/json"}
     response = requests.put(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload, headers=headers)
     if response.status_code != 204:
-        print(f"Error adding label: {response.status_code} - {response.text}")
-    else:
-        print(f"✓ Label '{label}' added to {ticket_id}")
+        raise Exception(f"HTTP {response.status_code}: {response.text}")
     return response

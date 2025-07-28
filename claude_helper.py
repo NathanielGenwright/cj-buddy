@@ -21,9 +21,6 @@ def get_claude_response(prompt):
     response = requests.post(url, headers=headers, json=data)
     result = response.json()
     
-    # Debug print
-    print(f"Claude API response: {result}")
-    
     if 'error' in result:
         return f"Error: {result['error'].get('message', 'Unknown error')}"
     
