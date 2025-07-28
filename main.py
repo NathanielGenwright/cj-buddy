@@ -46,12 +46,20 @@ def run(ticket_id, mode):
     
     prompt = generate_prompt(mode, summary, description)
     response = get_claude_response(prompt)
-    post_comment(ticket_id, response)
-
-    if mode == 'summarize':
-        add_label(ticket_id, 'ai-reviewed')
-
-    click.echo(f"✅ {mode.capitalize()} complete for {ticket_id}")
+    
+    if mode == 'tag':
+        # For tag mode, apply labels directly instead of posting comment
+        suggested_tags = parse_tags_from_response(response)
+        for tag in suggested_tags:
+            add_label(ticket_id, tag)
+        add_label(ticket_id, 'ai-tagged')
+        click.echo(f"✅ Applied {len(suggested_tags)} tags to {ticket_id}: {', '.join(suggested_tags)}")
+    else:
+        # For other modes, post as comment
+        post_comment(ticket_id, response)
+        if mode == 'summarize':
+            add_label(ticket_id, 'ai-reviewed')
+        click.echo(f"✅ {mode.capitalize()} complete for {ticket_id}")
 
 def generate_prompt(mode, summary, description):
     prompts = {
@@ -64,11 +72,33 @@ def generate_prompt(mode, summary, description):
 Title: {summary}
 
 Description: {description}""",
-        "tag": f"Suggest appropriate Jira tags based on the following issue:\n\n{summary}\n\n{description}",
+        "tag": f"""Suggest appropriate Jira tags/labels for this issue. Return ONLY a comma-separated list of tags (no explanations, bullet points, or extra text).
+
+Issue: {summary}
+Description: {description}
+
+Tags:""",
         "subtasks": f"Break down this issue into smaller development subtasks:\n\n{summary}\n\n{description}",
         "test-notes": f"Generate QA test notes and edge cases:\n\n{summary}\n\n{description}"
     }
     return prompts[mode]
+
+def parse_tags_from_response(response):
+    """Parse comma-separated tags from Claude response"""
+    # Clean up the response and split into tags
+    tags_text = response.strip()
+    
+    # Remove common prefixes/suffixes
+    if tags_text.lower().startswith('tags:'):
+        tags_text = tags_text[5:].strip()
+    
+    # Split by comma and clean each tag
+    tags = [tag.strip().lower().replace(' ', '-') for tag in tags_text.split(',')]
+    
+    # Filter out empty tags and common stop words
+    tags = [tag for tag in tags if tag and len(tag) > 1 and tag not in ['and', 'or', 'the', 'a', 'an']]
+    
+    return tags
 
 if __name__ == '__main__':
     run()

@@ -7,7 +7,7 @@ CLI tool to summarize and enhance Jira tickets using Claude AI.
 - **AI-Powered Analysis**: Get intelligent summaries of Jira tickets
 - **Multiple Modes**:
   - `summarize`: Structured technical analysis
-  - `tag`: Suggest relevant tags
+  - `tag`: Apply relevant labels directly to tickets
   - `subtasks`: Break down into development tasks
   - `test-notes`: Generate QA test plans
 - **Quick Access**: Simple command shortcuts
@@ -22,7 +22,7 @@ cj SAAS-1234
 # Generate test notes
 cj-test SAAS-1234
 
-# Suggest tags
+# Apply tags directly to ticket
 cj-tag SAAS-1234
 
 # Break into subtasks
@@ -79,7 +79,7 @@ python main.py TICKET-ID --mode MODE
 ```bash
 cj TICKET-ID          # Summarize (default)
 cj-sum TICKET-ID      # Summarize
-cj-tag TICKET-ID      # Suggest tags
+cj-tag TICKET-ID      # Apply tags directly
 cj-task TICKET-ID     # Break into subtasks
 cj-test TICKET-ID     # Generate test notes
 ```
