@@ -24,7 +24,9 @@ CJ-Buddy is an AI-powered CLI tool that transforms how you interact with Jira ti
 - Analyzes Jira tickets using Claude AI
 - Generates structured summaries and breakdowns
 - Posts AI insights as Jira comments automatically
+- **Applies smart labels directly to tickets** (tag mode)
 - Provides multiple analysis modes for different use cases
+- **Beautiful terminal interface** with progress indicators and visual feedback
 
 ## Installation & Setup
 
@@ -97,6 +99,28 @@ CJ-Buddy is an AI-powered CLI tool that transforms how you interact with Jira ti
 | `JIRA_TOKEN` | Jira API token | `ATATTxxx...` |
 | `CLAUDE_API_KEY` | Claude API key | `sk-ant-xxx...` |
 
+## Enhanced Terminal Experience
+
+CJ-Buddy provides a beautiful, intuitive terminal interface with:
+
+### Visual Progress Indicators
+- **Mode-specific icons**: 📋 Analysis, 🏷️ Tagging, 📝 Task Breakdown, 🧪 QA Testing
+- **Step-by-step progress**: Real-time status updates with checkmarks
+- **Clean separators**: Unicode lines for clear visual sections
+
+### Smart Error Handling
+- **Graceful failures**: Clear error messages without technical jargon
+- **Progressive updates**: See exactly where issues occur
+- **Recovery guidance**: Helpful troubleshooting hints
+
+### Real-time Feedback
+```bash
+🔍 Fetching ticket data... ✓
+🤖 Analyzing with Claude AI... ✓
+💬 Posting to Jira... ✓
+🔖 Adding labels... ✓
+```
+
 ## Core Features
 
 ### 1. Summarize Mode (`cj` or `cj-sum`)
@@ -128,14 +152,34 @@ cj SAAS-1234
 cj-test MI-43
 ```
 
-### 3. Tag Suggestion Mode (`cj-tag`)
-**Purpose**: Suggests relevant labels and categorizations
+### 3. Smart Tagging Mode (`cj-tag`)
+**Purpose**: Applies relevant labels directly to Jira tickets
 
-**Output Format**:
-- **Primary Tags**: Main categories (bug, feature, enhancement)
-- **Technical Tags**: Technology/component specific
-- **Priority Indicators**: Urgency and impact markers
-- **Team Tags**: Which teams might be involved
+**Enhanced Terminal Experience**:
+```bash
+🏷️ TAGGING: TRI-2114
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Fetching ticket data... ✓
+🤖 Analyzing with Claude AI... ✓
+🏷️  Parsing and applying tags... ✓
+📌 Applying 5 tags:
+   • documentation ✓
+   • configuration ✓
+   • api-integration ✓
+   • backend ✓
+   • data-migration ✓
+🔖 Adding audit label... ✓
+
+🎯 Applied tags: documentation, configuration, api-integration, backend, data-migration
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ TAGGING complete!
+```
+
+**Features**:
+- **Direct Application**: Labels are applied to tickets, not posted as comments
+- **Smart Parsing**: AI response converted to clean, searchable labels
+- **Audit Trail**: Automatic `ai-tagged` label for tracking
+- **Real-time Feedback**: See each label being applied with confirmation
 
 **Example**:
 ```bash

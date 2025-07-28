@@ -7,11 +7,13 @@ CLI tool to summarize and enhance Jira tickets using Claude AI.
 - **AI-Powered Analysis**: Get intelligent summaries of Jira tickets
 - **Multiple Modes**:
   - `summarize`: Structured technical analysis
-  - `tag`: Suggest relevant tags
+  - `tag`: Apply relevant labels directly to tickets
   - `subtasks`: Break down into development tasks
   - `test-notes`: Generate QA test plans
+- **Enhanced Terminal Experience**: Beautiful, progressive output with icons and status updates
 - **Quick Access**: Simple command shortcuts
 - **Rich Text Support**: Handles complex Jira descriptions
+- **Smart Error Handling**: Clear error messages and graceful recovery
 
 ## Quick Start
 
@@ -22,7 +24,7 @@ cj SAAS-1234
 # Generate test notes
 cj-test SAAS-1234
 
-# Suggest tags
+# Apply tags directly to ticket
 cj-tag SAAS-1234
 
 # Break into subtasks
@@ -79,7 +81,7 @@ python main.py TICKET-ID --mode MODE
 ```bash
 cj TICKET-ID          # Summarize (default)
 cj-sum TICKET-ID      # Summarize
-cj-tag TICKET-ID      # Suggest tags
+cj-tag TICKET-ID      # Apply tags directly
 cj-task TICKET-ID     # Break into subtasks
 cj-test TICKET-ID     # Generate test notes
 ```
@@ -88,12 +90,19 @@ cj-test TICKET-ID     # Generate test notes
 ```bash
 # Get a structured analysis
 cj SAAS-658
+# Output: 📋 ANALYSIS with preview and progress indicators
 
-# Generate QA test cases
+# Generate QA test cases  
 cj-test MI-43
+# Output: 🧪 QA TEST PLAN with structured test scenarios
 
 # Get development subtasks
 cj-task TRI-2114
+# Output: 📝 TASK BREAKDOWN with actionable development tasks
+
+# Apply smart labels
+cj-tag SAAS-658
+# Output: 🏷️ TAGGING with real-time label application
 ```
 
 ## Customization
@@ -115,6 +124,8 @@ def generate_prompt(mode, summary, description):
 - Uses **Jira REST API v3**
 - Claude model: **claude-3-5-sonnet-20241022**
 - Handles Atlassian Document Format (ADF)
+- **Enhanced Terminal UI** with Unicode icons and progress indicators
+- **Smart Label Management** with direct Jira integration
 
 ## Troubleshooting
 
