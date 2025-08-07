@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 JIRA_EMAIL = os.getenv("JIRA_EMAIL")
-JIRA_TOKEN = os.getenv("JIRA_TOKEN")
+JIRA_TOKEN = os.getenv("JIRA_API_TOKEN")
 JIRA_BASE_URL = os.getenv("JIRA_BASE_URL")
 
 def get_issue(ticket_id):

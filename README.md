@@ -10,6 +10,8 @@ CLI tool to summarize and enhance Jira tickets using Claude AI.
   - `tag`: Apply relevant labels directly to tickets
   - `subtasks`: Break down into development tasks
   - `test-notes`: Generate QA test plans
+  - `rca`: Generate comprehensive Root Cause Analysis documents
+- **AgentJ Monitoring**: Automated ticket quality validation with approval tagging
 - **Enhanced Terminal Experience**: Beautiful, progressive output with icons and status updates
 - **Quick Access**: Simple command shortcuts
 - **Rich Text Support**: Handles complex Jira descriptions
@@ -29,6 +31,12 @@ cj-tag SAAS-1234
 
 # Break into subtasks
 cj-task SAAS-1234
+
+# Generate Root Cause Analysis
+cj-rca SAAS-1234
+
+# Monitor ticket queue for quality
+agentj monitor --dry-run
 ```
 
 ## Installation
@@ -84,6 +92,12 @@ cj-sum TICKET-ID      # Summarize
 cj-tag TICKET-ID      # Apply tags directly
 cj-task TICKET-ID     # Break into subtasks
 cj-test TICKET-ID     # Generate test notes
+cj-rca TICKET-ID      # Generate Root Cause Analysis
+
+# AgentJ monitoring
+agentj monitor        # Start monitoring ticket queue
+agentj validate TICKET-ID # Validate specific ticket
+agentj status         # Show monitoring statistics
 ```
 
 ### Examples
@@ -103,7 +117,76 @@ cj-task TRI-2114
 # Apply smart labels
 cj-tag SAAS-658
 # Output: 🏷️ TAGGING with real-time label application
+
+# Generate Root Cause Analysis
+cj-rca SAAS-1761
+# Output: 🔍 ROOT CAUSE ANALYSIS saved as Markdown file with optional Jira posting
 ```
+
+## Root Cause Analysis (RCA) Feature
+
+The RCA mode generates comprehensive Root Cause Analysis documents that include:
+
+- **Incident Summary**: What happened, impact, and timeline
+- **Immediate Cause**: Direct trigger of the incident
+- **Root Causes**: Underlying causes and contributing factors
+- **Resolution**: Actions taken and time to resolve
+- **Lessons Learned**: What went wrong and what went well
+- **Preventive Measures**: Short and long-term improvements
+- **Action Items**: Specific tasks to prevent recurrence
+
+RCA documents are:
+- Saved as Markdown files in `rca_reports/` directory
+- Named with format: `RCA_TICKET-ID_YYYYMMDD_HHMMSS.md`
+- Optionally posted to Jira as a comment
+- Tagged with `rca-completed` label when posted
+
+## AgentJ - Ticket Monitoring Agent
+
+AgentJ automatically monitors Jira ticket queues and validates ticket quality:
+
+### Core Features:
+- **Automated Validation**: Checks required fields, field rules, and severity-specific requirements
+- **Approval Tagging**: Tickets passing all validations get `AJ-approved` label
+- **Smart Re-evaluation**: Only re-checks tickets without approval labels
+- **Reporter Alerts**: Posts helpful comments with improvement suggestions
+- **Configurable Rules**: JSON-based validation configuration
+
+### Monitoring Process:
+1. **Queue Monitoring**: Continuously watches specified JQL filter
+2. **Validation**: Checks each ticket against configured rules
+3. **Approval**: Adds `AJ-approved` label if all validations pass
+4. **Feedback**: Posts comment with improvement suggestions if issues found
+5. **Re-evaluation**: Rechecks tickets in next cycle until approved
+
+### Commands:
+```bash
+# Start continuous monitoring
+agentj monitor
+
+# Run once in dry-run mode (no changes)
+agentj monitor --once --dry-run
+
+# Validate specific ticket
+agentj validate SAAS-1234
+
+# Force revalidation (removes approval first)
+agentj revalidate SAAS-1234
+
+# Show monitoring statistics
+agentj status
+
+# Create default config file
+agentj init-config
+```
+
+### Configuration:
+Edit `agentj_config.json` to customize:
+- **JQL Filter**: Which tickets to monitor
+- **Required Fields**: Fields that must be present
+- **Field Rules**: Minimum length, patterns, allowed values
+- **Severity Fields**: Additional requirements for Critical/High priority
+- **Alert Methods**: Comment and/or label alerts
 
 ## Customization
 
