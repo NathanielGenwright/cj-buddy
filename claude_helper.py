@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
+CLAUDE_API_KEY = os.getenv("ANTHROPIC_API_KEY")
 
 def get_claude_response(prompt):
     url = "https://api.anthropic.com/v1/messages"
@@ -14,7 +14,7 @@ def get_claude_response(prompt):
     }
     data = {
         "model": "claude-3-5-sonnet-20241022",
-        "max_tokens": 400,
+        "max_tokens": 2000,
         "temperature": 0.3,
         "messages": [{"role": "user", "content": prompt}]
     }

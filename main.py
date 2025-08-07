@@ -1,6 +1,7 @@
 import click
 from jira_helper import get_issue, post_comment, add_label
 from claude_helper import get_claude_response
+from rca_generator import generate_rca, format_rca_as_markdown, save_rca_to_file, format_rca_for_jira
 
 def extract_text_from_content(content):
     """Recursively extract text from Jira's Atlassian Document Format"""
@@ -32,21 +33,24 @@ def extract_text_from_content(content):
 
 @click.command()
 @click.argument('ticket_id')
-@click.option('--mode', default='summarize', help='Options: summarize, tag, subtasks, test-notes')
-def run(ticket_id, mode):
+@click.option('--mode', default='summarize', help='Options: summarize, tag, subtasks, test-notes, rca')
+@click.option('--post-rca/--no-post-rca', default=None, help='Post RCA to Jira without prompting (RCA mode only)')
+def run(ticket_id, mode, post_rca):
     # Enhanced visual output
     mode_icons = {
         'summarize': '📋',
         'tag': '🏷️',
         'subtasks': '📝',
-        'test-notes': '🧪'
+        'test-notes': '🧪',
+        'rca': '🔍'
     }
     
     mode_names = {
         'summarize': 'ANALYSIS',
         'tag': 'TAGGING',
         'subtasks': 'TASK BREAKDOWN', 
-        'test-notes': 'QA TEST PLAN'
+        'test-notes': 'QA TEST PLAN',
+        'rca': 'ROOT CAUSE ANALYSIS'
     }
     
     icon = mode_icons.get(mode, '🤖')
@@ -87,19 +91,22 @@ def run(ticket_id, mode):
     else:
         description = extract_text_from_content(description_obj)
     
-    # Step 2: AI Analysis
-    click.echo("🤖 Analyzing with Claude AI...", nl=False)
-    try:
-        prompt = generate_prompt(mode, summary, description)
-        response = get_claude_response(prompt)
-        click.echo(" ✓")
-    except Exception as e:
-        click.echo(f" ✗\n❌ Error with AI analysis: {e}")
-        return
+    # Step 2: AI Analysis (skip for RCA mode)
+    if mode != 'rca':
+        click.echo("🤖 Analyzing with Claude AI...", nl=False)
+        try:
+            prompt = generate_prompt(mode, summary, description)
+            response = get_claude_response(prompt)
+            click.echo(" ✓")
+        except Exception as e:
+            click.echo(f" ✗\n❌ Error with AI analysis: {e}")
+            return
     
     # Step 3: Process response based on mode
     if mode == 'tag':
         handle_tag_mode(ticket_id, response)
+    elif mode == 'rca':
+        handle_rca_mode(ticket_id, issue, post_rca)
     else:
         handle_other_modes(ticket_id, mode, response)
     
@@ -124,9 +131,10 @@ Description: {description}
 
 Tags:""",
         "subtasks": f"Break down this issue into smaller development subtasks:\n\n{summary}\n\n{description}",
-        "test-notes": f"Generate QA test notes and edge cases:\n\n{summary}\n\n{description}"
+        "test-notes": f"Generate QA test notes and edge cases:\n\n{summary}\n\n{description}",
+        "rca": "RCA mode uses specialized prompt generation"
     }
-    return prompts[mode]
+    return prompts.get(mode, "")
 
 def parse_tags_from_response(response):
     """Parse comma-separated tags from Claude response"""
@@ -166,6 +174,52 @@ def handle_tag_mode(ticket_id, response):
         
     except Exception as e:
         click.echo(f" ✗\n❌ Error applying tags: {e}")
+
+def handle_rca_mode(ticket_id, issue, post_rca=None):
+    """Handle RCA mode - generate and save RCA as markdown file"""
+    click.echo("🔍 Generating Root Cause Analysis...", nl=False)
+    try:
+        rca_data = generate_rca(issue)
+        click.echo(" ✓")
+        
+        # Format as markdown
+        markdown_content = format_rca_as_markdown(rca_data, issue)
+        
+        # Save to file
+        click.echo("📝 Saving RCA to file...", nl=False)
+        filepath = save_rca_to_file(ticket_id, markdown_content)
+        click.echo(" ✓")
+        
+        click.echo(f"\n📄 RCA saved to: {filepath}")
+        
+        # Handle posting to Jira
+        should_post = False
+        if post_rca is not None:
+            # Use command line option if provided
+            should_post = post_rca
+        else:
+            # Try interactive prompt
+            try:
+                should_post = click.confirm("\n💬 Would you like to post this RCA to Jira as a comment?", default=False)
+            except:
+                # If interactive prompt fails, default to not posting
+                click.echo("\n💡 Tip: Use --post-rca or --no-post-rca to avoid interactive prompt")
+                should_post = False
+        
+        if should_post:
+            click.echo("💬 Posting to Jira...", nl=False)
+            formatted_rca = format_rca_for_jira(rca_data)
+            post_comment(ticket_id, formatted_rca)
+            click.echo(" ✓")
+            
+            click.echo("🔖 Adding 'rca-completed' label...", nl=False)
+            add_label(ticket_id, 'rca-completed')
+            click.echo(" ✓")
+        else:
+            click.echo("📋 RCA saved locally only.")
+            
+    except Exception as e:
+        click.echo(f" ✗\n❌ Error generating RCA: {e}")
 
 def handle_other_modes(ticket_id, mode, response):
     """Handle summarize, subtasks, and test-notes modes with enhanced output"""
