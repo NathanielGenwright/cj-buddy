@@ -1,7 +1,9 @@
 import os
 import requests
 from dotenv import load_dotenv
-load_dotenv()
+
+# Load .env from parent directory
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
 
 JIRA_EMAIL = os.getenv("JIRA_EMAIL")
 JIRA_TOKEN = os.getenv("JIRA_API_TOKEN")

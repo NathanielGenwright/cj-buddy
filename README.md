@@ -54,12 +54,16 @@ pip install -r requirements.txt
 
 3. Configure environment:
 ```bash
+# Create shared .env file in parent directory (recommended for multi-project setup)
+cp .env.example ../.env
+# OR create local .env file
 cp .env.example .env
+
 # Edit .env with your credentials:
 # - JIRA_BASE_URL
 # - JIRA_EMAIL  
-# - JIRA_TOKEN
-# - CLAUDE_API_KEY
+# - JIRA_API_TOKEN (or JIRA_TOKEN for compatibility)
+# - ANTHROPIC_API_KEY (or CLAUDE_API_KEY for compatibility)
 ```
 
 4. Install shortcuts:
@@ -70,13 +74,30 @@ source ~/.zshrc
 
 ## Configuration
 
+### Environment Variables
+CJ-Buddy now supports shared configuration for multi-project setups. The tool automatically looks for `.env` files in this order:
+1. Parent directory (recommended for shared setup with AgentJ)
+2. Current project directory (traditional setup)
+
 ### Jira Setup
 1. Get your Jira API token from: https://id.atlassian.com/manage-profile/security/api-tokens
-2. Add to `.env` file
+2. Add to `.env` file as `JIRA_API_TOKEN`
 
 ### Claude Setup
 1. Get your Claude API key from: https://console.anthropic.com/
-2. Add to `.env` file
+2. Add to `.env` file as `ANTHROPIC_API_KEY`
+
+### Shared Configuration (Recommended)
+If you're using both CJ-Buddy and AgentJ, create a single `.env` file in the parent directory:
+```bash
+# In parent directory containing both cj-buddy/ and agentJ/
+JIRA_BASE_URL=https://your-domain.atlassian.net
+JIRA_EMAIL=your-email@example.com
+JIRA_API_TOKEN=your-api-token
+ANTHROPIC_API_KEY=your-claude-api-key
+```
+
+This eliminates duplicate credentials and simplifies maintenance.
 
 ## Usage
 

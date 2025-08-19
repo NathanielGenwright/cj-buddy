@@ -1,7 +1,7 @@
 import click
 from jira_helper import get_issue, post_comment, add_label
 from claude_helper import get_claude_response
-from rca_generator import generate_rca, format_rca_as_markdown, save_rca_to_file, format_rca_for_jira
+# from rca_generator import generate_rca, format_rca_as_markdown, save_rca_to_file, format_rca_for_jira
 
 def extract_text_from_content(content):
     """Recursively extract text from Jira's Atlassian Document Format"""
