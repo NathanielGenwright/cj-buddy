@@ -1,7 +1,9 @@
 import os
 import requests
 from dotenv import load_dotenv
-load_dotenv()
+
+# Load .env from parent directory
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
 
 JIRA_EMAIL = os.getenv("JIRA_EMAIL")
 JIRA_TOKEN = os.getenv("JIRA_API_TOKEN")
@@ -41,6 +43,20 @@ def add_label(ticket_id, label):
     payload = {
         "update": {
             "labels": [{"add": label}]
+        }
+    }
+    headers = {"Content-Type": "application/json"}
+    response = requests.put(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload, headers=headers)
+    if response.status_code != 204:
+        raise Exception(f"HTTP {response.status_code}: {response.text}")
+    return response
+
+def update_field(ticket_id, field_id, value):
+    """Update a custom field in a Jira issue"""
+    url = f"{JIRA_BASE_URL}/rest/api/3/issue/{ticket_id}"
+    payload = {
+        "fields": {
+            field_id: value
         }
     }
     headers = {"Content-Type": "application/json"}

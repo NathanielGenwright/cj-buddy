@@ -11,6 +11,7 @@ CLI tool to summarize and enhance Jira tickets using Claude AI.
   - `subtasks`: Break down into development tasks
   - `test-notes`: Generate QA test plans
   - `rca`: Generate comprehensive Root Cause Analysis documents
+  - `release-notes`: Generate and append release notes to Instructions/Operational Notes field
 - **AgentJ Monitoring**: Automated ticket quality validation with approval tagging
 - **Enhanced Terminal Experience**: Beautiful, progressive output with icons and status updates
 - **Quick Access**: Simple command shortcuts
@@ -35,6 +36,9 @@ cj-task SAAS-1234
 # Generate Root Cause Analysis
 cj-rca SAAS-1234
 
+# Generate release notes
+cj-release SAAS-1234
+
 # Monitor ticket queue for quality
 agentj monitor --dry-run
 ```
@@ -54,12 +58,16 @@ pip install -r requirements.txt
 
 3. Configure environment:
 ```bash
+# Create shared .env file in parent directory (recommended for multi-project setup)
+cp .env.example ../.env
+# OR create local .env file
 cp .env.example .env
+
 # Edit .env with your credentials:
 # - JIRA_BASE_URL
 # - JIRA_EMAIL  
-# - JIRA_TOKEN
-# - CLAUDE_API_KEY
+# - JIRA_API_TOKEN (or JIRA_TOKEN for compatibility)
+# - ANTHROPIC_API_KEY (or CLAUDE_API_KEY for compatibility)
 ```
 
 4. Install shortcuts:
@@ -70,13 +78,30 @@ source ~/.zshrc
 
 ## Configuration
 
+### Environment Variables
+CJ-Buddy now supports shared configuration for multi-project setups. The tool automatically looks for `.env` files in this order:
+1. Parent directory (recommended for shared setup with AgentJ)
+2. Current project directory (traditional setup)
+
 ### Jira Setup
 1. Get your Jira API token from: https://id.atlassian.com/manage-profile/security/api-tokens
-2. Add to `.env` file
+2. Add to `.env` file as `JIRA_API_TOKEN`
 
 ### Claude Setup
 1. Get your Claude API key from: https://console.anthropic.com/
-2. Add to `.env` file
+2. Add to `.env` file as `ANTHROPIC_API_KEY`
+
+### Shared Configuration (Recommended)
+If you're using both CJ-Buddy and AgentJ, create a single `.env` file in the parent directory:
+```bash
+# In parent directory containing both cj-buddy/ and agentJ/
+JIRA_BASE_URL=https://your-domain.atlassian.net
+JIRA_EMAIL=your-email@example.com
+JIRA_API_TOKEN=your-api-token
+ANTHROPIC_API_KEY=your-claude-api-key
+```
+
+This eliminates duplicate credentials and simplifies maintenance.
 
 ## Usage
 
@@ -93,6 +118,7 @@ cj-tag TICKET-ID      # Apply tags directly
 cj-task TICKET-ID     # Break into subtasks
 cj-test TICKET-ID     # Generate test notes
 cj-rca TICKET-ID      # Generate Root Cause Analysis
+cj-release TICKET-ID  # Generate release notes
 
 # AgentJ monitoring
 agentj monitor        # Start monitoring ticket queue
@@ -121,6 +147,10 @@ cj-tag SAAS-658
 # Generate Root Cause Analysis
 cj-rca SAAS-1761
 # Output: 🔍 ROOT CAUSE ANALYSIS saved as Markdown file with optional Jira posting
+
+# Generate release notes
+cj-release SAAS-1234
+# Output: 📝 RELEASE NOTES with interactive questions and draft review
 ```
 
 ## Root Cause Analysis (RCA) Feature
@@ -140,6 +170,39 @@ RCA documents are:
 - Named with format: `RCA_TICKET-ID_YYYYMMDD_HHMMSS.md`
 - Optionally posted to Jira as a comment
 - Tagged with `rca-completed` label when posted
+
+## Release Notes Feature
+
+The Release Notes mode generates user-facing release notes and appends them to the "Instructions / Operational Notes" field (customfield_10424):
+
+### Interactive Process:
+1. **Issue Analysis**: Extracts key information from the Jira ticket
+2. **Clarifying Questions**: Asks about user impact, business value, and limitations
+3. **AI Generation**: Creates draft release notes using Claude AI
+4. **Review & Edit**: Allows review, manual editing, or regeneration with feedback
+5. **Field Update**: Appends final notes to the Instructions/Operational Notes field
+
+### Release Note Formats:
+- **✨ New**: For new features and capabilities
+- **🐛 Fixed**: For bug fixes and corrections
+- **⚡ Improved**: For enhancements and optimizations
+- **⚠️ Breaking**: For breaking changes requiring attention
+
+### Features:
+- **User-Centric Language**: Focuses on business value and user impact
+- **Interactive Workflow**: Asks clarifying questions for better quality
+- **Draft Review System**: Multiple rounds of review and editing
+- **Automatic Timestamping**: Tracks when release notes were added
+- **Field Preservation**: Appends to existing content rather than overwriting
+
+Usage:
+```bash
+# Generate release notes for a ticket
+cj-release SAAS-571
+
+# Or use the full command
+cj SAAS-571 --mode release-notes
+```
 
 ## AgentJ - Ticket Monitoring Agent
 
