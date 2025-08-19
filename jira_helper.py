@@ -50,3 +50,17 @@ def add_label(ticket_id, label):
     if response.status_code != 204:
         raise Exception(f"HTTP {response.status_code}: {response.text}")
     return response
+
+def update_field(ticket_id, field_id, value):
+    """Update a custom field in a Jira issue"""
+    url = f"{JIRA_BASE_URL}/rest/api/3/issue/{ticket_id}"
+    payload = {
+        "fields": {
+            field_id: value
+        }
+    }
+    headers = {"Content-Type": "application/json"}
+    response = requests.put(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload, headers=headers)
+    if response.status_code != 204:
+        raise Exception(f"HTTP {response.status_code}: {response.text}")
+    return response

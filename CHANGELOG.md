@@ -1,6 +1,18 @@
 # Changelog
 
-## [Unreleased] - Environment Configuration Consolidation
+## [Unreleased] - Release Notes Feature & Environment Configuration
+
+### Added
+- **Release Notes Feature**: New `release-notes` mode for generating user-facing release notes
+- Interactive workflow with clarifying questions for better release note quality
+- Automatic appending to Instructions/Operational Notes field (customfield_10424)
+- Support for multiple release note formats (New, Fixed, Improved, Breaking)
+- Non-interactive environment detection with intelligent defaults
+- `cj-release` shortcut command for quick access
+- Timestamp tracking for all release note entries
+- Draft review system with editing and regeneration options
+
+## [Previous] - Environment Configuration Consolidation
 
 ### Added
 - Shared environment configuration support for multi-project setups

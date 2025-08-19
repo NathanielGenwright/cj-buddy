@@ -11,6 +11,7 @@ CLI tool to summarize and enhance Jira tickets using Claude AI.
   - `subtasks`: Break down into development tasks
   - `test-notes`: Generate QA test plans
   - `rca`: Generate comprehensive Root Cause Analysis documents
+  - `release-notes`: Generate and append release notes to Instructions/Operational Notes field
 - **AgentJ Monitoring**: Automated ticket quality validation with approval tagging
 - **Enhanced Terminal Experience**: Beautiful, progressive output with icons and status updates
 - **Quick Access**: Simple command shortcuts
@@ -34,6 +35,9 @@ cj-task SAAS-1234
 
 # Generate Root Cause Analysis
 cj-rca SAAS-1234
+
+# Generate release notes
+cj-release SAAS-1234
 
 # Monitor ticket queue for quality
 agentj monitor --dry-run
@@ -114,6 +118,7 @@ cj-tag TICKET-ID      # Apply tags directly
 cj-task TICKET-ID     # Break into subtasks
 cj-test TICKET-ID     # Generate test notes
 cj-rca TICKET-ID      # Generate Root Cause Analysis
+cj-release TICKET-ID  # Generate release notes
 
 # AgentJ monitoring
 agentj monitor        # Start monitoring ticket queue
@@ -142,6 +147,10 @@ cj-tag SAAS-658
 # Generate Root Cause Analysis
 cj-rca SAAS-1761
 # Output: 🔍 ROOT CAUSE ANALYSIS saved as Markdown file with optional Jira posting
+
+# Generate release notes
+cj-release SAAS-1234
+# Output: 📝 RELEASE NOTES with interactive questions and draft review
 ```
 
 ## Root Cause Analysis (RCA) Feature
@@ -161,6 +170,39 @@ RCA documents are:
 - Named with format: `RCA_TICKET-ID_YYYYMMDD_HHMMSS.md`
 - Optionally posted to Jira as a comment
 - Tagged with `rca-completed` label when posted
+
+## Release Notes Feature
+
+The Release Notes mode generates user-facing release notes and appends them to the "Instructions / Operational Notes" field (customfield_10424):
+
+### Interactive Process:
+1. **Issue Analysis**: Extracts key information from the Jira ticket
+2. **Clarifying Questions**: Asks about user impact, business value, and limitations
+3. **AI Generation**: Creates draft release notes using Claude AI
+4. **Review & Edit**: Allows review, manual editing, or regeneration with feedback
+5. **Field Update**: Appends final notes to the Instructions/Operational Notes field
+
+### Release Note Formats:
+- **✨ New**: For new features and capabilities
+- **🐛 Fixed**: For bug fixes and corrections
+- **⚡ Improved**: For enhancements and optimizations
+- **⚠️ Breaking**: For breaking changes requiring attention
+
+### Features:
+- **User-Centric Language**: Focuses on business value and user impact
+- **Interactive Workflow**: Asks clarifying questions for better quality
+- **Draft Review System**: Multiple rounds of review and editing
+- **Automatic Timestamping**: Tracks when release notes were added
+- **Field Preservation**: Appends to existing content rather than overwriting
+
+Usage:
+```bash
+# Generate release notes for a ticket
+cj-release SAAS-571
+
+# Or use the full command
+cj SAAS-571 --mode release-notes
+```
 
 ## AgentJ - Ticket Monitoring Agent
 

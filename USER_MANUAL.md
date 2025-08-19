@@ -200,6 +200,46 @@ cj-tag TRI-2114
 cj-task SAAS-658
 ```
 
+### 5. Release Notes Mode (`cj-release`)
+**Purpose**: Generates user-facing release notes for product updates
+
+**Enhanced Terminal Experience**:
+```bash
+📝 RELEASE NOTES: SAAS-571
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 Fetching ticket data... ✓
+🔍 Analyzing issue for release notes... ✓
+❓ Gathering additional context...
+🤖 Generating release notes (attempt 1)... ✓
+
+📝 DRAFT RELEASE NOTES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚡ **Improved**: Enhanced interface for better usability...
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💾 Saving release notes to Jira... ✓
+✅ Release notes saved successfully!
+```
+
+**Features**:
+- **Interactive Questions**: Asks about user impact and business value
+- **Multiple Formats**: ✨ New, 🐛 Fixed, ⚡ Improved, ⚠️ Breaking
+- **Draft Review**: Edit, approve, or regenerate with feedback
+- **Field Integration**: Appends to Instructions/Operational Notes field
+- **Timestamp Tracking**: Automatic dating of release note entries
+- **Non-Interactive Support**: Works in automated environments
+
+**Output Formats**:
+- **✨ New**: For new features and capabilities
+- **🐛 Fixed**: For bug fixes and corrections  
+- **⚡ Improved**: For enhancements and optimizations
+- **⚠️ Breaking**: For breaking changes requiring attention
+
+**Example**:
+```bash
+cj-release SAAS-571
+```
+
 ## Use Cases & Examples
 
 ### Use Case 1: Sprint Planning
@@ -269,6 +309,18 @@ cj-task STORY-567
 
 **Benefit**: Reviewer has comprehensive context for more effective code review.
 
+### Use Case 6: Release Preparation
+**Scenario**: Product manager needs to document features for release notes
+
+```bash
+# Generate customer-facing release notes
+cj-release FEATURE-123
+cj-release BUGFIX-456
+cj-release IMPROVEMENT-789
+```
+
+**Benefit**: Consistent, professional release notes with user-focused language and proper categorization.
+
 ## Advanced Usage
 
 ### Direct Python Usage
@@ -281,6 +333,7 @@ python main.py TICKET-ID --mode MODE
 - `tag`: Tag suggestions
 - `subtasks`: Task breakdown
 - `test-notes`: QA test plan
+- `release-notes`: Generate user-facing release notes
 
 ### Customizing Prompts
 Edit `main.py` to modify AI prompts:

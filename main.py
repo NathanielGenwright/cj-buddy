@@ -1,6 +1,7 @@
 import click
 from jira_helper import get_issue, post_comment, add_label
 from claude_helper import get_claude_response
+from release_notes_helper import generate_release_notes_for_issue
 # from rca_generator import generate_rca, format_rca_as_markdown, save_rca_to_file, format_rca_for_jira
 
 def extract_text_from_content(content):
@@ -33,7 +34,7 @@ def extract_text_from_content(content):
 
 @click.command()
 @click.argument('ticket_id')
-@click.option('--mode', default='summarize', help='Options: summarize, tag, subtasks, test-notes, rca')
+@click.option('--mode', default='summarize', help='Options: summarize, tag, subtasks, test-notes, rca, release-notes')
 @click.option('--post-rca/--no-post-rca', default=None, help='Post RCA to Jira without prompting (RCA mode only)')
 def run(ticket_id, mode, post_rca):
     # Enhanced visual output
@@ -42,7 +43,8 @@ def run(ticket_id, mode, post_rca):
         'tag': '🏷️',
         'subtasks': '📝',
         'test-notes': '🧪',
-        'rca': '🔍'
+        'rca': '🔍',
+        'release-notes': '📝'
     }
     
     mode_names = {
@@ -50,7 +52,8 @@ def run(ticket_id, mode, post_rca):
         'tag': 'TAGGING',
         'subtasks': 'TASK BREAKDOWN', 
         'test-notes': 'QA TEST PLAN',
-        'rca': 'ROOT CAUSE ANALYSIS'
+        'rca': 'ROOT CAUSE ANALYSIS',
+        'release-notes': 'RELEASE NOTES'
     }
     
     icon = mode_icons.get(mode, '🤖')
@@ -91,8 +94,8 @@ def run(ticket_id, mode, post_rca):
     else:
         description = extract_text_from_content(description_obj)
     
-    # Step 2: AI Analysis (skip for RCA mode)
-    if mode != 'rca':
+    # Step 2: AI Analysis (skip for RCA and release-notes modes - they handle AI internally)
+    if mode not in ['rca', 'release-notes']:
         click.echo("🤖 Analyzing with Claude AI...", nl=False)
         try:
             prompt = generate_prompt(mode, summary, description)
@@ -107,6 +110,8 @@ def run(ticket_id, mode, post_rca):
         handle_tag_mode(ticket_id, response)
     elif mode == 'rca':
         handle_rca_mode(ticket_id, issue, post_rca)
+    elif mode == 'release-notes':
+        handle_release_notes_mode(ticket_id)
     else:
         handle_other_modes(ticket_id, mode, response)
     
@@ -244,6 +249,13 @@ def handle_other_modes(ticket_id, mode, response):
             click.echo(" ✓")
         except Exception as e:
             click.echo(f" ✗\n❌ Error adding label: {e}")
+
+def handle_release_notes_mode(ticket_id):
+    """Handle release-notes mode"""
+    try:
+        generate_release_notes_for_issue(ticket_id)
+    except Exception as e:
+        click.echo(f"❌ Error generating release notes: {e}")
 
 if __name__ == '__main__':
     run()

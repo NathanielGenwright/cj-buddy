@@ -15,6 +15,7 @@ ln -sf "$SCRIPT_DIR/cj-tag" ~/bin/cj-tag
 ln -sf "$SCRIPT_DIR/cj-task" ~/bin/cj-task
 ln -sf "$SCRIPT_DIR/cj-test" ~/bin/cj-test
 ln -sf "$SCRIPT_DIR/cj-rca" ~/bin/cj-rca
+ln -sf "$SCRIPT_DIR/cj-release" ~/bin/cj-release
 ln -sf "$SCRIPT_DIR/agentj" ~/bin/agentj
 
 # Check if ~/bin is in PATH
@@ -38,6 +39,7 @@ echo "  cj-tag <ticket>  - Suggest tags for a ticket"
 echo "  cj-task <ticket> - Break down into subtasks"
 echo "  cj-test <ticket> - Generate test notes"
 echo "  cj-rca <ticket>  - Generate Root Cause Analysis"
+echo "  cj-release <ticket> - Generate release notes"
 echo ""
 echo "AgentJ - Ticket Monitoring:"
 echo "  agentj monitor   - Start monitoring ticket queue"
