@@ -1,0 +1,4 @@
+#!/bin/bash
+# Dry-run mode - check what would happen without posting
+cd /Users/munin8/_myprojects/agentJ
+python3 triage_tix.py --dry-run

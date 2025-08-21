@@ -1,11 +1,9 @@
 import os
 import requests
 from dotenv import load_dotenv
+load_dotenv()
 
-# Load .env from parent directory
-load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
-
-CLAUDE_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
 
 def get_claude_response(prompt):
     url = "https://api.anthropic.com/v1/messages"
@@ -16,12 +14,15 @@ def get_claude_response(prompt):
     }
     data = {
         "model": "claude-3-5-sonnet-20241022",
-        "max_tokens": 2000,
+        "max_tokens": 400,
         "temperature": 0.3,
         "messages": [{"role": "user", "content": prompt}]
     }
     response = requests.post(url, headers=headers, json=data)
     result = response.json()
+    
+    # Debug print
+    print(f"Claude API response: {result}")
     
     if 'error' in result:
         return f"Error: {result['error'].get('message', 'Unknown error')}"

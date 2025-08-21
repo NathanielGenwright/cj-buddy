@@ -1,5 +1,27 @@
-.env
-*.pyc
-__pycache__/
+# OS files
 .DS_Store
+
+# Environment files
+.env
+*.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+
+# Logs
 *.log
+
+# Claude specific
+.claude/

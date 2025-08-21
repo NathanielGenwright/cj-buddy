@@ -1,12 +1,10 @@
 import os
 import requests
 from dotenv import load_dotenv
-
-# Load .env from parent directory
-load_dotenv(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'))
+load_dotenv()
 
 JIRA_EMAIL = os.getenv("JIRA_EMAIL")
-JIRA_TOKEN = os.getenv("JIRA_API_TOKEN")
+JIRA_TOKEN = os.getenv("JIRA_TOKEN")
 JIRA_BASE_URL = os.getenv("JIRA_BASE_URL")
 
 def get_issue(ticket_id):
@@ -35,7 +33,9 @@ def post_comment(ticket_id, body):
     }
     response = requests.post(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload)
     if response.status_code != 201:
-        raise Exception(f"HTTP {response.status_code}: {response.text}")
+        print(f"Error posting comment: {response.status_code} - {response.text}")
+    else:
+        print(f"✓ Comment posted successfully to {ticket_id}")
     return response
 
 def add_label(ticket_id, label):
@@ -48,19 +48,7 @@ def add_label(ticket_id, label):
     headers = {"Content-Type": "application/json"}
     response = requests.put(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload, headers=headers)
     if response.status_code != 204:
-        raise Exception(f"HTTP {response.status_code}: {response.text}")
-    return response
-
-def update_field(ticket_id, field_id, value):
-    """Update a custom field in a Jira issue"""
-    url = f"{JIRA_BASE_URL}/rest/api/3/issue/{ticket_id}"
-    payload = {
-        "fields": {
-            field_id: value
-        }
-    }
-    headers = {"Content-Type": "application/json"}
-    response = requests.put(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload, headers=headers)
-    if response.status_code != 204:
-        raise Exception(f"HTTP {response.status_code}: {response.text}")
+        print(f"Error adding label: {response.status_code} - {response.text}")
+    else:
+        print(f"✓ Label '{label}' added to {ticket_id}")
     return response
