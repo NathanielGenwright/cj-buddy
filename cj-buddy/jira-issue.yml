@@ -1,0 +1,19 @@
+project: SAAS
+issuetype: Task
+summary: Test issue created via CLI
+description: |
+  This is a test issue created using the Jira CLI tool.
+  
+  It demonstrates how to create issues from the command line.
+  
+  Steps to reproduce:
+  1. Configure Jira CLI
+  2. Run jira create command
+  3. Verify issue creation
+
+# Set priority level
+priority: Normal
+
+# Custom fields - adjust as needed
+customfield_10450:
+  value: Normal

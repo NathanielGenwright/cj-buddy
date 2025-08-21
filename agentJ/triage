@@ -1,0 +1,4 @@
+#!/bin/bash
+# Interactive triage - prompts for confirmation before posting
+cd /Users/munin8/_myprojects/agentJ
+python3 triage_tix.py
