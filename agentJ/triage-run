@@ -1,0 +1,4 @@
+#!/bin/bash
+# Execute mode - immediately post comments without prompting
+cd /Users/munin8/_myprojects/agentJ
+python3 triage_tix.py --execute
