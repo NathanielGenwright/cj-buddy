@@ -17,6 +17,7 @@ CLI tool to summarize and enhance Jira tickets using Claude AI.
 - **Quick Access**: Simple command shortcuts
 - **Rich Text Support**: Handles complex Jira descriptions
 - **Smart Error Handling**: Clear error messages and graceful recovery
+- **Dry-Run Mode**: Preview all changes without making modifications to Jira
 
 ## Quick Start
 
@@ -41,6 +42,10 @@ cj-release SAAS-1234
 
 # Monitor ticket queue for quality
 agentj monitor --dry-run
+
+# Use dry-run mode to preview without making changes
+cj SAAS-1234 --dry-run
+cj-tag SAAS-1234 --dry-run
 ```
 
 ## Installation
@@ -120,6 +125,15 @@ cj-test TICKET-ID     # Generate test notes
 cj-rca TICKET-ID      # Generate Root Cause Analysis
 cj-release TICKET-ID  # Generate release notes
 
+# Dry-run mode (preview without making changes)
+cj TICKET-ID --dry-run
+cj-sum TICKET-ID --dry-run
+cj-tag TICKET-ID --dry-run
+cj-task TICKET-ID --dry-run
+cj-test TICKET-ID --dry-run
+cj-rca TICKET-ID --dry-run
+cj-release TICKET-ID --dry-run
+
 # AgentJ monitoring
 agentj monitor        # Start monitoring ticket queue
 agentj validate TICKET-ID # Validate specific ticket
@@ -132,9 +146,17 @@ agentj status         # Show monitoring statistics
 cj SAAS-658
 # Output: 📋 ANALYSIS with preview and progress indicators
 
+# Preview analysis without posting to Jira
+cj SAAS-658 --dry-run
+# Output: 📋 ANALYSIS [DRY RUN] with full output preview
+
 # Generate QA test cases  
 cj-test MI-43
 # Output: 🧪 QA TEST PLAN with structured test scenarios
+
+# Preview test notes without posting
+cj-test MI-43 --dry-run
+# Output: 🧪 QA TEST PLAN [DRY RUN] with full test plan
 
 # Get development subtasks
 cj-task TRI-2114
@@ -144,6 +166,10 @@ cj-task TRI-2114
 cj-tag SAAS-658
 # Output: 🏷️ TAGGING with real-time label application
 
+# Preview tags without applying them
+cj-tag SAAS-658 --dry-run
+# Output: 🏷️ TAGGING [DRY RUN] showing suggested tags
+
 # Generate Root Cause Analysis
 cj-rca SAAS-1761
 # Output: 🔍 ROOT CAUSE ANALYSIS saved as Markdown file with optional Jira posting
@@ -151,6 +177,43 @@ cj-rca SAAS-1761
 # Generate release notes
 cj-release SAAS-1234
 # Output: 📝 RELEASE NOTES with interactive questions and draft review
+```
+
+## Dry-Run Mode
+
+The `--dry-run` flag allows you to preview what any command would do without making actual changes to Jira. This is perfect for:
+
+- **Testing configurations** before applying changes
+- **Reviewing AI suggestions** before posting comments
+- **Previewing tag suggestions** before applying labels
+- **Validating output format** during development
+
+### Dry-Run Features:
+- ✅ **No Jira Changes**: Comments, labels, and field updates are skipped
+- ✅ **Full Preview**: Shows complete AI-generated output
+- ✅ **Clear Indicators**: `[DRY RUN]` markers throughout the output  
+- ✅ **Same Analysis**: Uses identical AI prompts and processing
+- ✅ **Safe Testing**: Perfect for experimentation and validation
+
+### Dry-Run Examples:
+```bash
+# Preview ticket analysis
+cj-sum TRI-2279 --dry-run
+# Shows: 📋 ANALYSIS: TRI-2279 [DRY RUN]
+#        🚨 DRY RUN MODE - No changes will be made to Jira
+#        📝 FULL OUTPUT: [complete analysis text]
+
+# Preview tag suggestions  
+cj-tag SAAS-1234 --dry-run
+# Shows: 🏷️ TAGGING: SAAS-1234 [DRY RUN]
+#        📌 Suggested tags (X): tag1 (would apply), tag2 (would apply)
+#        🎯 [DRY RUN] Would apply tags: tag1, tag2, tag3
+
+# Preview RCA generation
+cj-rca SAAS-1761 --dry-run
+# Shows: 🔍 ROOT CAUSE ANALYSIS: SAAS-1761 [DRY RUN]  
+#        📝 [DRY RUN] Would save RCA to file
+#        💬 [DRY RUN] Would skip posting to Jira
 ```
 
 ## Root Cause Analysis (RCA) Feature

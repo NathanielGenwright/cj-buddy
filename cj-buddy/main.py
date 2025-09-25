@@ -36,7 +36,8 @@ def extract_text_from_content(content):
 @click.argument('ticket_id')
 @click.option('--mode', default='summarize', help='Options: summarize, tag, subtasks, test-notes, rca, release-notes')
 @click.option('--post-rca/--no-post-rca', default=None, help='Post RCA to Jira without prompting (RCA mode only)')
-def run(ticket_id, mode, post_rca):
+@click.option('--dry-run', is_flag=True, help='Show output without posting to Jira or adding labels')
+def run(ticket_id, mode, post_rca, dry_run):
     # Enhanced visual output
     mode_icons = {
         'summarize': '📋',
@@ -60,8 +61,13 @@ def run(ticket_id, mode, post_rca):
     mode_name = mode_names.get(mode, mode.upper())
     
     # Header
-    click.echo(f"\n{icon} {mode_name}: {ticket_id.upper()}")
+    dry_run_suffix = " [DRY RUN]" if dry_run else ""
+    click.echo(f"\n{icon} {mode_name}: {ticket_id.upper()}{dry_run_suffix}")
     click.echo("━" * 50)
+    
+    # Show dry_run status
+    if dry_run:
+        click.echo("🚨 DRY RUN MODE - No changes will be made to Jira")
     
     # Step 1: Fetch ticket
     click.echo("🔍 Fetching ticket data...", nl=False)
@@ -107,13 +113,13 @@ def run(ticket_id, mode, post_rca):
     
     # Step 3: Process response based on mode
     if mode == 'tag':
-        handle_tag_mode(ticket_id, response)
+        handle_tag_mode(ticket_id, response, dry_run)
     elif mode == 'rca':
-        handle_rca_mode(ticket_id, issue, post_rca)
+        handle_rca_mode(ticket_id, issue, post_rca, dry_run)
     elif mode == 'release-notes':
-        handle_release_notes_mode(ticket_id)
+        handle_release_notes_mode(ticket_id, dry_run)
     else:
-        handle_other_modes(ticket_id, mode, response)
+        handle_other_modes(ticket_id, mode, response, dry_run)
     
     click.echo("━" * 50)
     click.echo(f"✅ {mode_name} complete!\n")
@@ -158,29 +164,35 @@ def parse_tags_from_response(response):
     
     return tags
 
-def handle_tag_mode(ticket_id, response):
+def handle_tag_mode(ticket_id, response, dry_run=False):
     """Handle tag mode with enhanced output"""
-    click.echo("🏷️  Parsing and applying tags...", nl=False)
+    click.echo("🏷️  Parsing suggested tags...", nl=False)
     try:
         suggested_tags = parse_tags_from_response(response)
         click.echo(" ✓")
         
-        click.echo(f"📌 Applying {len(suggested_tags)} tags:")
+        click.echo(f"📌 Suggested tags ({len(suggested_tags)}):")
         for tag in suggested_tags:
-            click.echo(f"   • {tag}", nl=False)
-            add_label(ticket_id, tag)
+            if dry_run:
+                click.echo(f"   • {tag} (would apply)")
+            else:
+                click.echo(f"   • {tag}", nl=False)
+                add_label(ticket_id, tag)
+                click.echo(" ✓")
+        
+        if dry_run:
+            click.echo("🔖 Would add audit label: ai-tagged")
+            click.echo(f"\n🎯 [DRY RUN] Would apply tags: {', '.join(suggested_tags)}")
+        else:
+            click.echo("🔖 Adding audit label...", nl=False)
+            add_label(ticket_id, 'ai-tagged')
             click.echo(" ✓")
-        
-        click.echo("🔖 Adding audit label...", nl=False)
-        add_label(ticket_id, 'ai-tagged')
-        click.echo(" ✓")
-        
-        click.echo(f"\n🎯 Applied tags: {', '.join(suggested_tags)}")
+            click.echo(f"\n🎯 Applied tags: {', '.join(suggested_tags)}")
         
     except Exception as e:
-        click.echo(f" ✗\n❌ Error applying tags: {e}")
+        click.echo(f" ✗\n❌ Error processing tags: {e}")
 
-def handle_rca_mode(ticket_id, issue, post_rca=None):
+def handle_rca_mode(ticket_id, issue, post_rca=None, dry_run=False):
     """Handle RCA mode - generate and save RCA as markdown file"""
     click.echo("🔍 Generating Root Cause Analysis...", nl=False)
     try:
@@ -190,70 +202,86 @@ def handle_rca_mode(ticket_id, issue, post_rca=None):
         # Format as markdown
         markdown_content = format_rca_as_markdown(rca_data, issue)
         
-        # Save to file
-        click.echo("📝 Saving RCA to file...", nl=False)
-        filepath = save_rca_to_file(ticket_id, markdown_content)
-        click.echo(" ✓")
-        
-        click.echo(f"\n📄 RCA saved to: {filepath}")
+        # Save to file (unless dry run)
+        if dry_run:
+            click.echo("📝 [DRY RUN] Would save RCA to file")
+            click.echo(f"\n📄 [DRY RUN] Would save to: {ticket_id.upper()}_RCA.md")
+        else:
+            click.echo("📝 Saving RCA to file...", nl=False)
+            filepath = save_rca_to_file(ticket_id, markdown_content)
+            click.echo(" ✓")
+            click.echo(f"\n📄 RCA saved to: {filepath}")
         
         # Handle posting to Jira
         should_post = False
-        if post_rca is not None:
-            # Use command line option if provided
-            should_post = post_rca
+        if dry_run:
+            click.echo("💬 [DRY RUN] Would skip posting to Jira")
+            click.echo("🔖 [DRY RUN] Would add 'rca-completed' label")
         else:
-            # Try interactive prompt
-            try:
-                should_post = click.confirm("\n💬 Would you like to post this RCA to Jira as a comment?", default=False)
-            except:
-                # If interactive prompt fails, default to not posting
-                click.echo("\n💡 Tip: Use --post-rca or --no-post-rca to avoid interactive prompt")
-                should_post = False
-        
-        if should_post:
-            click.echo("💬 Posting to Jira...", nl=False)
-            formatted_rca = format_rca_for_jira(rca_data)
-            post_comment(ticket_id, formatted_rca)
-            click.echo(" ✓")
+            if post_rca is not None:
+                # Use command line option if provided
+                should_post = post_rca
+            else:
+                # Try interactive prompt
+                try:
+                    should_post = click.confirm("\n💬 Would you like to post this RCA to Jira as a comment?", default=False)
+                except:
+                    # If interactive prompt fails, default to not posting
+                    click.echo("\n💡 Tip: Use --post-rca or --no-post-rca to avoid interactive prompt")
+                    should_post = False
             
-            click.echo("🔖 Adding 'rca-completed' label...", nl=False)
-            add_label(ticket_id, 'rca-completed')
-            click.echo(" ✓")
-        else:
-            click.echo("📋 RCA saved locally only.")
+            if should_post:
+                click.echo("💬 Posting to Jira...", nl=False)
+                formatted_rca = format_rca_for_jira(rca_data)
+                post_comment(ticket_id, formatted_rca)
+                click.echo(" ✓")
+                
+                click.echo("🔖 Adding 'rca-completed' label...", nl=False)
+                add_label(ticket_id, 'rca-completed')
+                click.echo(" ✓")
+            else:
+                click.echo("📋 RCA saved locally only.")
             
     except Exception as e:
         click.echo(f" ✗\n❌ Error generating RCA: {e}")
 
-def handle_other_modes(ticket_id, mode, response):
+def handle_other_modes(ticket_id, mode, response, dry_run=False):
     """Handle summarize, subtasks, and test-notes modes with enhanced output"""
     # Show a preview of the analysis
     preview = response[:150] + "..." if len(response) > 150 else response
     click.echo(f"\n📄 PREVIEW:")
     click.echo(f"   {preview}")
     
-    click.echo(f"\n💬 Posting to Jira...", nl=False)
-    try:
-        post_comment(ticket_id, response)
-        click.echo(" ✓")
-    except Exception as e:
-        click.echo(f" ✗\n❌ Error posting comment: {e}")
-        return
-    
-    # Add label for summarize mode
-    if mode == 'summarize':
-        click.echo("🔖 Adding 'ai-reviewed' label...", nl=False)
+    if dry_run:
+        click.echo(f"\n💬 [DRY RUN] Would post to Jira")
+        if mode == 'summarize':
+            click.echo("🔖 [DRY RUN] Would add 'ai-reviewed' label")
+        click.echo(f"\n📝 FULL OUTPUT:\n{response}")
+    else:
+        click.echo(f"\n💬 Posting to Jira...", nl=False)
         try:
-            add_label(ticket_id, 'ai-reviewed')
+            post_comment(ticket_id, response)
             click.echo(" ✓")
         except Exception as e:
-            click.echo(f" ✗\n❌ Error adding label: {e}")
+            click.echo(f" ✗\n❌ Error posting comment: {e}")
+            return
+        
+        # Add label for summarize mode
+        if mode == 'summarize':
+            click.echo("🔖 Adding 'ai-reviewed' label...", nl=False)
+            try:
+                add_label(ticket_id, 'ai-reviewed')
+                click.echo(" ✓")
+            except Exception as e:
+                click.echo(f" ✗\n❌ Error adding label: {e}")
 
-def handle_release_notes_mode(ticket_id):
+def handle_release_notes_mode(ticket_id, dry_run=False):
     """Handle release-notes mode"""
     try:
-        generate_release_notes_for_issue(ticket_id)
+        if dry_run:
+            click.echo("📝 [DRY RUN] Would generate release notes")
+        else:
+            generate_release_notes_for_issue(ticket_id)
     except Exception as e:
         click.echo(f"❌ Error generating release notes: {e}")
 

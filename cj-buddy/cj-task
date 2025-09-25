@@ -1,4 +1,4 @@
 #!/bin/bash
 # CJ-Buddy subtasks mode
 cd /Users/munin8/_myprojects/cj-buddy
-python3 main.py "$1" --mode subtasks
+python3 main.py "$@" --mode subtasks
