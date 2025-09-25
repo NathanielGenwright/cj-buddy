@@ -1,0 +1,436 @@
+# Billing stack docker-compose.yml
+# https://docs.docker.com/compose/compose-file/compose-versioning/
+
+services:
+
+  bdb-dev:
+    profiles: [ "all", "login-only","paylib-only","connect-only","cuport-only","billing-only" ]
+    image: gcr.io/cloud-sql-connectors/cloud-sql-proxy
+    command: >-
+      --address 0.0.0.0
+      --port ${BDBDEV_PORT}
+      --token ${BDBDEV_CSP_TOKEN}
+      ${BDBDEV_INSTANCE}
+    ports:
+      - ${BDBDEV_PORT}:${BDBDEV_PORT}
+
+  bdb-test:
+    profiles: [ "all","login-only","paylib-only","connect-only","cuport-only","billing-only" ]
+    image: ${MYSQL_BASE_IMAGE}
+    command: >-
+      mysqld 
+      --character_set_server=latin1
+      --collation_server=latin1_swedish_ci
+      --default-time-zone='UTC'
+      --innodb-doublewrite=OFF
+      --innodb_file_per_table=ON 
+      --innodb-flush-log-at-trx-commit=0
+      --innodb-flush-method=O_DIRECT_NO_FSYNC
+      --innodb-max-dirty-pages-pct=100
+      --innodb_stats_on_metadata=OFF
+      --skip-log-bin
+      --sync-binlog=0
+      --sql_mode=NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+      --transaction-isolation=REPEATABLE-READ
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_TCP_PORT=${BDBTEST_PORT}
+    ports:
+      - ${BDBTEST_PORT}:${BDBTEST_PORT}
+    volumes:
+      - dev-db-data:/var/lib/mysql
+
+  meta-redis:
+    profiles: [ "all", "login-only","paylib-only","connect-only","cuport-only","billing-only" ]
+    image: ${REDIS_BASE_IMAGE}
+    command: --port ${REDIS_PORT:-6380}
+    ports:
+      - "${REDIS_PORT:-6380}:${REDIS_PORT:-6380}"
+
+  login-service:
+    profiles: [ "all", "login-only", "paylib-only","connect-only","cuport-only","billing-only" ]
+    build:
+      context: login-service
+      dockerfile: Dockerfile
+      args:
+        - BASE_IMAGE=${UBUNTU_BASE_IMAGE}
+        - HOST_UID=${HOST_UID:-0}
+        - HOST_GID=${HOST_GID:-0}
+    environment:
+      # <STANDARD-REFERENCES>
+      - DOCKER_URL=http://login-service:5401
+      - PUBLIC_URL=http://login.munidev.local:5401
+      - HOST_UID
+      - HOST_GID
+      - BDBDEV_HOST=bdb-dev
+      - BDBDEV_PORT=${BDBDEV_PORT:-3307}
+      - BDBDEV_NAME
+      - BDBDEV_USER
+      - BDBDEV_PASS
+      - BDBTEST_HOST=bdb-test
+      - BDBTEST_PORT=${BDBTEST_PORT:-3308}
+      - BDBTEST_NAME
+      - BDBTEST_USER
+      - BDBTEST_PASS
+      - REDIS_HOST=meta-redis
+      - REDIS_PORT=${REDIS_PORT:-6380}
+      - REDIS_NAMESPACE=${REDIS_NAMESPACE:-munidev}
+      - MUNI_SID_COOKIE_NAME
+      - MUNI_API_SECRETS_CSV
+      - RAILS5_ENCRYPTION_KEY #we most likely don't need this unless accessing encrypted fields
+      - REF_TOKEN_SECRET
+      - JWT_SIGNING_KEY=CHANGEME12345678CHANGEME12345678CHANGEME12345678CHANGEME12345678CHANGEME12345678CHANGEME12345678CHANGEME12345678CHANGEME12345678
+      # </STANDARD-REFERENCES>
+      # <MUNIDEV>
+      # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      - MUNIDEV_API_ACCOUNT
+      - MUNIDEV_FORCE_CACHING=TRUE
+      - MUNIDEV_UNIVERSAL_PASSWORD=test
+      # </MUNIDEV>
+    ports:
+      - "5401:5401"
+    volumes:
+      - ./login-service/rails:/usr/src/app
+    links:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+    depends_on:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+
+  core-paylib:
+    profiles: [ "all","paylib-only","cuport-only" ]
+    build:
+      context: muni-core/paylib
+      dockerfile: Dockerfile
+      args:
+        - BASE_IMAGE=${UBUNTU_BASE_IMAGE}
+        - HOST_UID=${HOST_UID:-0}
+        - HOST_GID=${HOST_GID:-0}
+    environment:
+      # <STANDARD-REFERENCES>
+      - DOCKER_URL=http://core-paylib:5404
+      - PUBLIC_URL=http://paylib.munidev.local:5404
+      - HOST_UID
+      - HOST_GID
+      - BDBDEV_HOST=bdb-dev
+      - BDBDEV_PORT=${BDBDEV_PORT:-3307}
+      - BDBDEV_NAME
+      - BDBDEV_USER
+      - BDBDEV_PASS
+      - BDBTEST_HOST=bdb-test
+      - BDBTEST_PORT=${BDBTEST_PORT:-3308}
+      - BDBTEST_NAME
+      - BDBTEST_USER
+      - BDBTEST_PASS
+      - REDIS_HOST=meta-redis
+      - REDIS_PORT=${REDIS_PORT:-6380}
+      - REDIS_NAMESPACE=${REDIS_NAMESPACE:-munidev}
+      - MUNI_API_SECRETS_CSV
+      - RAILS5_ENCRYPTION_KEY #we need this for accessing encrypted fields, ex: payment gateway profiles, etc
+      # </STANDARD-REFERENCES>
+      # <SSO>
+      - MUNI_SID_COOKIE_NAME
+      - REF_TOKEN_SECRET
+      - LOGIN_SERVICE_URL_LIST=http://login.munidev.local:5401,http://login-service:5401
+      - MUNIDEV_API_ACCOUNT  # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      - MUNIDEV_UNIVERSAL_PASSWORD=test # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </SSO>
+      # <MISC>
+      - MUNIDEV_FORCE_CACHING=TRUE # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </MISC>
+    ports:
+      - "5404:5404"
+    volumes:
+      - ./muni-core/paylib/rails:/usr/src/app
+    links:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+    depends_on:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+
+  core-connect:
+    profiles: [ "all","connect-only" ]
+    build:
+      context: muni-core/connect
+      dockerfile: Dockerfile
+      args:
+        - BASE_IMAGE=${UBUNTU_BASE_IMAGE}
+        - HOST_UID=${HOST_UID:-0}
+        - HOST_GID=${HOST_GID:-0}
+    environment:
+      # <STANDARD-REFERENCES>
+      - DOCKER_URL=http://core-connect:5402
+      - PUBLIC_URL=http://connect.munidev.local:5402
+      - HOST_UID
+      - HOST_GID
+      - BDBDEV_HOST=bdb-dev
+      - BDBDEV_PORT=${BDBDEV_PORT:-3307}
+      - BDBDEV_NAME
+      - BDBDEV_USER
+      - BDBDEV_PASS
+      - BDBTEST_HOST=bdb-test
+      - BDBTEST_PORT=${BDBTEST_PORT:-3308}
+      - BDBTEST_NAME
+      - BDBTEST_USER
+      - BDBTEST_PASS
+      - REDIS_HOST=meta-redis
+      - REDIS_PORT=${REDIS_PORT:-6380}
+      - REDIS_NAMESPACE=${REDIS_NAMESPACE:-munidev}
+      - MUNI_API_SECRETS_CSV
+      - RAILS5_ENCRYPTION_KEY #we need this for accessing encrypted fields, ex: payment gateway profiles, etc
+      # </STANDARD-REFERENCES>
+      # <SSO>
+      - MUNI_SID_COOKIE_NAME
+      - REF_TOKEN_SECRET
+      - LOGIN_SERVICE_URL_LIST=http://login.munidev.local:5401,http://login-service:5401
+      - MUNIDEV_API_ACCOUNT  # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      - MUNIDEV_UNIVERSAL_PASSWORD=test # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </SSO>
+      # <MISC>
+      - MUNIDEV_FORCE_CACHING=TRUE # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </MISC>
+    ports:
+      - "5402:5402"
+    volumes:
+      - ./muni-core/connect/rails:/usr/src/app
+    links:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+    depends_on:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+
+  cuport-api:
+    profiles: [ "all","cuport-only" ]
+    build:
+      context: customer-portal/api
+      dockerfile: Dockerfile
+      args:
+        - BASE_IMAGE=${UBUNTU_BASE_IMAGE}
+        - HOST_UID=${HOST_UID:-0}
+        - HOST_GID=${HOST_GID:-0}
+    environment:
+      # <STANDARD-REFERENCES>
+      - DOCKER_URL=http://cuport-api:5421
+      - PUBLIC_URL=http://cuport-api.munidev.local:5421
+      - HOST_UID
+      - HOST_GID
+      - BDBDEV_HOST=bdb-dev
+      - BDBDEV_PORT=${BDBDEV_PORT:-3307}
+      - BDBDEV_NAME
+      - BDBDEV_USER
+      - BDBDEV_PASS
+      - BDBTEST_HOST=bdb-test
+      - BDBTEST_PORT=${BDBTEST_PORT:-3308}
+      - BDBTEST_NAME
+      - BDBTEST_USER
+      - BDBTEST_PASS
+      - REDIS_HOST=meta-redis
+      - REDIS_PORT=${REDIS_PORT:-6380}
+      - REDIS_NAMESPACE=${REDIS_NAMESPACE:-munidev}
+      - MUNI_API_SECRETS_CSV
+      - RAILS5_ENCRYPTION_KEY #we need this for accessing encrypted fields, ex: payment gateway profiles, etc
+      # </STANDARD-REFERENCES>
+      # <SSO>
+      - MUNI_SID_COOKIE_NAME
+      - REF_TOKEN_SECRET
+      - LOGIN_SERVICE_URL_LIST=http://login.munidev.local:5401,http://login-service:5401
+      - MUNIDEV_API_ACCOUNT  # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      - MUNIDEV_UNIVERSAL_PASSWORD=test # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </SSO>
+      # <MISC>
+      - PAYLIB_SERVICE_URL=http://core-paylib:5404
+      - MUNIDEV_FORCE_CACHING=TRUE # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </MISC>
+    ports:
+      - "5421:5421"
+    volumes:
+      - ./customer-portal/api/rails:/usr/src/app
+    links:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+      - core-paylib
+    depends_on:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+      - core-paylib
+
+  billing-web:
+    profiles: [ "all","billing-only" ]
+    build:
+      context: muni-billing
+      dockerfile: Dockerfile
+      target: development
+      args:
+        - BASE_IMAGE=${BILLING_BASE_IMAGE}
+        - BUNDLE_GEMS__CONTRIBSYS__COM=${BUNDLE_GEMS__CONTRIBSYS__COM}
+        - BUNDLE_GEMS__RAILSLTS__COM=${BUNDLE_GEMS__RAILSLTS__COM}
+        - HOST_UID=${HOST_UID:-0}
+        - HOST_GID=${HOST_GID:-0}
+    environment:
+      # <STANDARD-REFERENCES>
+      - DOCKER_URL=http://billing-web:5454
+      - PUBLIC_URL=http://billing.munidev.local:5454
+      - HOST_UID
+      - HOST_GID
+      - BUNDLE_GEMS__CONTRIBSYS__COM
+      - BUNDLE_GEMS__RAILSLTS__COM
+      - GOOGLE_ACCESS_TOKEN
+      - RAILS5_ENCRYPTION_KEY #we need this for accessing encrypted fields, ex: payment gateway profiles, etc
+      - BDBDEV_HOST=bdb-dev
+      - BDBDEV_PORT=${BDBDEV_PORT:-3307}
+      - BDBDEV_NAME
+      - BDBDEV_USER
+      - BDBDEV_PASS
+      - BDBTEST_HOST=bdb-test
+      - BDBTEST_PORT=${BDBTEST_PORT:-3308}
+      - BDBTEST_NAME
+      - BDBTEST_USER
+      - BDBTEST_PASS
+      - REDIS_HOST=meta-redis
+      - REDIS_PORT=${REDIS_PORT:-6380}
+      - REDIS_NAMESPACE=${REDIS_NAMESPACE:-munidev}
+      - REDIS_BASE_URL=redis://meta-redis:${REDIS_PORT:-6380}/
+      - REDIS_CACHE_URL=redis://meta-redis:${REDIS_PORT:-6380}/0
+      - REDIS_SIDEKIQ_URL=redis://meta-redis:${REDIS_PORT:-6380}/1
+      - REDIS_OBJECTS_URL=redis://meta-redis:${REDIS_PORT:-6380}/2
+      - FOG_UPLOADER_PROVIDER=Google
+      - MUNI_BLOB_FOLDER_LOCATION=/tmp/blob
+      - RAILS_SECRET_TOKEN=0df958b9160f322104c5f68e0bb01b55765f3d8c86dbf1bf97e19e3753abab8e8444fe4a68e2954a647775ac89ba1d9102130214ee3a46882cadb04865b1f46c
+      - RAILS_SESSION_SECRET=6f0b2fbce2e8ad769ddb2aef69dcf432e34f4a53a2813abf14442a8ee8d52c797c65618fff21f1655f9dbf3b5f85c6c55380ae40bb93dc7fcf003bf8941b7019
+      # </STANDARD-REFERENCES>
+      # <PAYA-ADAPTER>
+      - PAYA_ADAPTER_API_KEY
+      - PAYA_ADAPTER_API_PASS
+      - PAYA_ADAPTER_BASE_URL
+      - PAYA_BASE_URL
+      - PAYA_MERCHANT_LOCATION_OVERRIDE # only in development
+      - PAYA_MERCHANT_ID_OVERRIDE # only in development
+      - PAYA_MERCHANT_API_KEY_OVERRIDE # only in development
+      - PAYA_MERCHANT_HASH_KEY_OVERRIDE # only in development
+      - PAYA_MERCHANT_CC_AMOUNT_PTID_OVERRIDE # only in development
+      - PAYA_MERCHANT_CC_FEE_PTID_OVERRIDE # only in development
+      - PAYA_MERCHANT_ECHECK_AMOUNT_PTID_OVERRIDE # only in development
+      - PAYA_MERCHANT_ECHECK_FEE_PTID_OVERRIDE # only in development
+      # </PAYA-ADAPTER>
+      # <SSO>
+      - MUNI_SID_COOKIE_NAME
+      - REF_TOKEN_SECRET
+      - LOGIN_SERVICE_URL_LIST=http://login.munidev.local:5401,http://login-service:5401
+      - MUNIDEV_API_ACCOUNT  # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      - MUNIDEV_UNIVERSAL_PASSWORD=test # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </SSO>
+    command: bash -c "source /home/gitdeploy/.profile && dockerize -wait tcp://bdb-dev:${BDBDEV_PORT} -wait tcp://meta-redis:${REDIS_PORT:-6380} -timeout 60s puma -C ./config/puma.rb"
+    ports:
+      - "5454:5454"
+    volumes:
+      - ./muni-billing/legacy:/usr/src/app
+    links:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+    depends_on:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+
+  billing-job:
+    profiles: [ "all","billing-only" ]
+    build:
+      context: muni-billing
+      dockerfile: Dockerfile
+      target: development
+      args:
+        - BASE_IMAGE=${BILLING_BASE_IMAGE}
+        - BUNDLE_GEMS__CONTRIBSYS__COM=${BUNDLE_GEMS__CONTRIBSYS__COM}
+        - BUNDLE_GEMS__RAILSLTS__COM=${BUNDLE_GEMS__RAILSLTS__COM}
+        - HOST_UID=${HOST_UID:-0}
+        - HOST_GID=${HOST_GID:-0}
+    environment:
+      # <STANDARD-REFERENCES>
+      - DOCKER_URL=http://billing-web:5454
+      - PUBLIC_URL=http://billing.munidev.local:5454
+      - HOST_UID
+      - HOST_GID
+      - BUNDLE_GEMS__CONTRIBSYS__COM
+      - BUNDLE_GEMS__RAILSLTS__COM
+      - GOOGLE_ACCESS_TOKEN
+      - RAILS5_ENCRYPTION_KEY #we need this for accessing encrypted fields, ex: payment gateway profiles, etc
+      - BDBDEV_HOST=bdb-dev
+      - BDBDEV_PORT=${BDBDEV_PORT:-3307}
+      - BDBDEV_NAME
+      - BDBDEV_USER
+      - BDBDEV_PASS
+      - BDBTEST_HOST=bdb-test
+      - BDBTEST_PORT=${BDBTEST_PORT:-3308}
+      - BDBTEST_NAME
+      - BDBTEST_USER
+      - BDBTEST_PASS
+      - REDIS_HOST=meta-redis
+      - REDIS_PORT=${REDIS_PORT:-6380}
+      - REDIS_NAMESPACE=${REDIS_NAMESPACE:-munidev}
+      - REDIS_BASE_URL=redis://meta-redis:${REDIS_PORT:-6380}/
+      - REDIS_CACHE_URL=redis://meta-redis:${REDIS_PORT:-6380}/0
+      - REDIS_SIDEKIQ_URL=redis://meta-redis:${REDIS_PORT:-6380}/1
+      - REDIS_OBJECTS_URL=redis://meta-redis:${REDIS_PORT:-6380}/2
+      - FOG_UPLOADER_PROVIDER=Google
+      - MUNI_BLOB_FOLDER_LOCATION=/tmp/blob
+      - MUNI_NO_SCHEDULED_JOBS=${MUNI_NO_SCHEDULED_JOBS:-true}
+      - RAILS_SECRET_TOKEN=0df958b9160f322104c5f68e0bb01b55765f3d8c86dbf1bf97e19e3753abab8e8444fe4a68e2954a647775ac89ba1d9102130214ee3a46882cadb04865b1f46c
+      - RAILS_SESSION_SECRET=6f0b2fbce2e8ad769ddb2aef69dcf432e34f4a53a2813abf14442a8ee8d52c797c65618fff21f1655f9dbf3b5f85c6c55380ae40bb93dc7fcf003bf8941b7019
+      # </STANDARD-REFERENCES>
+      # <PAYA-ADAPTER>
+      - PAYA_ADAPTER_API_KEY
+      - PAYA_ADAPTER_API_PASS
+      - PAYA_ADAPTER_BASE_URL
+      - PAYA_BASE_URL
+      - PAYA_MERCHANT_LOCATION_OVERRIDE # only in development
+      - PAYA_MERCHANT_ID_OVERRIDE # only in development
+      - PAYA_MERCHANT_API_KEY_OVERRIDE # only in development
+      - PAYA_MERCHANT_HASH_KEY_OVERRIDE # only in development
+      - PAYA_MERCHANT_CC_AMOUNT_PTID_OVERRIDE # only in development
+      - PAYA_MERCHANT_CC_FEE_PTID_OVERRIDE # only in development
+      - PAYA_MERCHANT_ECHECK_AMOUNT_PTID_OVERRIDE # only in development
+      - PAYA_MERCHANT_ECHECK_FEE_PTID_OVERRIDE # only in development
+      # </PAYA-ADAPTER>
+      # <SSO>
+      - MUNI_SID_COOKIE_NAME
+      - REF_TOKEN_SECRET
+      - LOGIN_SERVICE_URL_LIST=http://login.munidev.local:5401,http://login-service:5401
+      - MUNIDEV_API_ACCOUNT  # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      - MUNIDEV_UNIVERSAL_PASSWORD=test # !!! NEVER DEFINE "MUNIDEV_*" VARIABLES IN HOSTED ENVIRONMENTS !!!
+      # </SSO>
+    command: bash -c "source /home/gitdeploy/.profile && dockerize -wait tcp://bdb-dev:${BDBDEV_PORT} -wait tcp://meta-redis:${REDIS_PORT:-6380} -timeout 60s bundle exec sidekiq --config ./config/sidekiq.yml"
+    volumes:
+      - ./muni-billing/legacy:/usr/src/app
+    links:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+    depends_on:
+      - bdb-dev
+      - bdb-test
+      - meta-redis
+      - login-service
+
+volumes:
+  dev-db-data:

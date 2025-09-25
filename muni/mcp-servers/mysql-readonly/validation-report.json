@@ -1,0 +1,177 @@
+{
+  "timestamp": "2025-08-29T15:08:11.805Z",
+  "summary": {
+    "total_tests": 17,
+    "passed": 17,
+    "failed": 0,
+    "warnings": 0,
+    "success_rate": 100
+  },
+  "details": {
+    "prerequisites": [
+      {
+        "test": "Node.js Version",
+        "status": "pass",
+        "message": "Node.js v24.6.0 (✓ >= 18)",
+        "details": {
+          "version": "v24.6.0"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "Package.json",
+        "status": "pass",
+        "message": "package.json exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/package.json"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "Dependencies",
+        "status": "pass",
+        "message": "node_modules directory exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/node_modules"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "File: server.js",
+        "status": "pass",
+        "message": "server.js exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/server.js"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "File: test-connection.js",
+        "status": "pass",
+        "message": "test-connection.js exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/test-connection.js"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "File: config.json",
+        "status": "pass",
+        "message": "config.json exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/config.json"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "File: .env.example",
+        "status": "pass",
+        "message": ".env.example exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/.env.example"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      }
+    ],
+    "configuration": [
+      {
+        "test": ".env File",
+        "status": "pass",
+        "message": ".env file exists",
+        "details": {
+          "path": "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/.env"
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "Environment Variables",
+        "status": "pass",
+        "message": "All required environment variables are set",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      },
+      {
+        "test": "config.json",
+        "status": "pass",
+        "message": "config.json is valid JSON",
+        "details": {
+          "keys": [
+            "server",
+            "databases",
+            "security",
+            "performance",
+            "logging",
+            "features"
+          ]
+        },
+        "timestamp": "2025-08-29T15:08:11.358Z"
+      }
+    ],
+    "connections": [
+      {
+        "test": "development Database",
+        "status": "pass",
+        "message": "Connected successfully (443ms)",
+        "details": {
+          "host": "localhost",
+          "port": 3307,
+          "database": "billingdb",
+          "version": "8.0.33-google",
+          "tableCount": 390,
+          "grants": 7,
+          "duration": 443
+        },
+        "timestamp": "2025-08-29T15:08:11.802Z"
+      }
+    ],
+    "functionality": [
+      {
+        "test": "Server Code",
+        "status": "pass",
+        "message": "Server code appears valid",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.805Z"
+      },
+      {
+        "test": "Server Dependencies",
+        "status": "pass",
+        "message": "All required imports present in server code",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.805Z"
+      },
+      {
+        "test": "Script: mcp-start.sh",
+        "status": "pass",
+        "message": "mcp-start.sh exists and is executable",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.805Z"
+      },
+      {
+        "test": "Script: mcp-stop.sh",
+        "status": "pass",
+        "message": "mcp-stop.sh exists and is executable",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.805Z"
+      },
+      {
+        "test": "Script: mcp-status.sh",
+        "status": "pass",
+        "message": "mcp-status.sh exists and is executable",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.805Z"
+      },
+      {
+        "test": "Script: mcp-logs.sh",
+        "status": "pass",
+        "message": "mcp-logs.sh exists and is executable",
+        "details": null,
+        "timestamp": "2025-08-29T15:08:11.805Z"
+      }
+    ],
+    "overall": {
+      "passed": 17,
+      "failed": 0,
+      "warnings": 0
+    }
+  }
+}

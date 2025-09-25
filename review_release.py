@@ -25,13 +25,13 @@ def get_release_issues(fix_version):
         'fields': 'key,summary,status,issuetype,priority,assignee,reporter,created,updated,description'
     }
     
-    response = requests.post(
-        f"{JIRA_URL}/rest/api/latest/search",
+    response = requests.get(
+        f"{JIRA_URL}/rest/api/3/search",
         headers=headers,
-        json={
+        params={
             'jql': jql,
             'maxResults': 100,
-            'fields': ['key', 'summary', 'status', 'issuetype', 'priority', 'assignee', 'reporter', 'created', 'updated', 'description']
+            'fields': 'key,summary,status,issuetype,priority,assignee,reporter,created,updated,description'
         },
         auth=HTTPBasicAuth(JIRA_EMAIL, JIRA_API_TOKEN)
     )

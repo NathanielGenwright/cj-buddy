@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "muni-mysql-dev": {
+      "command": "node",
+      "args": [
+        "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/server.js",
+        "--dev"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "muni-mysql-test": {
+      "command": "node", 
+      "args": [
+        "/Users/munin8/_myprojects/muni/mcp-servers/mysql-readonly/server.js",
+        "--test"
+      ],
+      "env": {
+        "NODE_ENV": "test"
+      }
+    }
+  }
+}
