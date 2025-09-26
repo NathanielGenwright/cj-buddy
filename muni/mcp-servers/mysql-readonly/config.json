@@ -1,0 +1,105 @@
+{
+  "server": {
+    "name": "muni-mysql-readonly",
+    "version": "1.0.0",
+    "description": "Read-only MCP server for Muni project MySQL databases",
+    "port": 3333,
+    "host": "localhost"
+  },
+  "databases": {
+    "development": {
+      "host": "${MYSQL_DEV_HOST}",
+      "port": "${MYSQL_DEV_PORT}",
+      "database": "${MYSQL_DEV_DATABASE}",
+      "user": "${MYSQL_DEV_USER}",
+      "password": "${MYSQL_DEV_PASSWORD}",
+      "ssl": {
+        "mode": "preferred",
+        "rejectUnauthorized": false
+      },
+      "charset": "latin1",
+      "timezone": "UTC",
+      "acquireTimeout": 60000,
+      "reconnect": true,
+      "multipleStatements": true
+    },
+    "test": {
+      "host": "${MYSQL_TEST_HOST}",
+      "port": "${MYSQL_TEST_PORT}",
+      "database": "${MYSQL_TEST_DATABASE}",
+      "user": "${MYSQL_TEST_USER}",
+      "password": "${MYSQL_TEST_PASSWORD}",
+      "ssl": {
+        "mode": "preferred",
+        "rejectUnauthorized": false
+      },
+      "charset": "latin1",
+      "timezone": "UTC",
+      "acquireTimeout": 60000,
+      "reconnect": true,
+      "multipleStatements": false
+    }
+  },
+  "security": {
+    "readOnly": true,
+    "maxConnections": 10,
+    "queryTimeout": 30000,
+    "maxQueryLength": 10000,
+    "allowedOperations": [
+      "SELECT",
+      "SHOW",
+      "DESCRIBE",
+      "EXPLAIN",
+      "DESC"
+    ],
+    "deniedOperations": [
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "DROP",
+      "CREATE",
+      "ALTER",
+      "TRUNCATE",
+      "REPLACE"
+    ],
+    "allowedSchemas": ["*"],
+    "deniedTables": [
+      "admin_users",
+      "api_keys",
+      "secure_identities",
+      "encrypted_*"
+    ]
+  },
+  "performance": {
+    "connectionPool": {
+      "min": 2,
+      "max": 10,
+      "idleTimeoutMillis": 30000,
+      "createTimeoutMillis": 3000,
+      "acquireTimeoutMillis": 60000,
+      "createRetryIntervalMillis": 200
+    },
+    "queryCache": {
+      "enabled": true,
+      "ttl": 300000,
+      "maxSize": 100
+    }
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "logQueries": true,
+    "logConnections": true,
+    "logErrors": true,
+    "logFile": "./logs/mcp-server.log",
+    "maxLogFiles": 7,
+    "maxLogSize": "10MB"
+  },
+  "features": {
+    "schemaInspection": true,
+    "queryExecution": true,
+    "resultFormatting": true,
+    "errorHandling": true,
+    "connectionTesting": true
+  }
+}

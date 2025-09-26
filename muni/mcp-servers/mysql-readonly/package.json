@@ -1,0 +1,44 @@
+{
+  "name": "muni-mcp-mysql-server",
+  "version": "1.0.0",
+  "description": "MCP MySQL server for Muni project database access",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "node server.js --dev",
+    "start:test": "node server.js --test",
+    "dev": "nodemon server.js",
+    "test": "node test-connection.js",
+    "validate": "node validate-setup.js",
+    "install-mcp": "npm install -g @benborla29/mcp-server-mysql",
+    "setup": "npm install && cp .env.example .env",
+    "health-check": "node health-check.js"
+  },
+  "dependencies": {
+    "@benborla29/mcp-server-mysql": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "mcp",
+    "mysql",
+    "database",
+    "ai",
+    "claude",
+    "muni",
+    "billing"
+  ],
+  "author": "Muni Development Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/muni.git",
+    "directory": "mcp-servers/mysql-readonly"
+  }
+}

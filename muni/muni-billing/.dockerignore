@@ -1,0 +1,31 @@
+# ***************************************************
+# TEMPLATE: legacy/soadev/env/dockerignore.txt
+# ***************************************************
+legacy/.circleci
+legacy/.github
+legacy/coverage
+legacy/credit_cards
+legacy/daemons
+legacy/doc
+legacy/docker
+legacy/hl
+legacy/jasper_reports
+legacy/log
+legacy/muni_script
+legacy/old_cap
+legacy/private_exports
+legacy/runners
+legacy/tmp
+legacy/vendor/bundle
+legacy/.dockerignore
+legacy/.gitattributes
+legacy/.gitignore
+legacy/Billing.sublime-project
+legacy/Capfile
+legacy/CHANGELOG.md
+legacy/Dangerfile
+legacy/docker-compose.yml
+legacy/Dockerfile
+legacy/README.md
+
+# created at 2025-09-24_13:08:05 by legacy_setup

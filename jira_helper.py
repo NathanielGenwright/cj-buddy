@@ -51,6 +51,40 @@ def add_label(ticket_id, label):
         raise Exception(f"HTTP {response.status_code}: {response.text}")
     return response
 
+def search_issues(jql, max_results=100):
+    """Search for issues using JQL"""
+    url = f"{JIRA_BASE_URL}/rest/api/3/search"
+    
+    payload = {
+        "jql": jql,
+        "maxResults": max_results,
+        "fields": [
+            "key",
+            "summary", 
+            "status",
+            "priority",
+            "issuetype",
+            "assignee",
+            "reporter",
+            "created",
+            "updated",
+            "fixVersions",
+            "components"
+        ]
+    }
+    
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
+    
+    response = requests.post(url, auth=(JIRA_EMAIL, JIRA_TOKEN), json=payload, headers=headers)
+    
+    if response.status_code == 200:
+        return response.json()
+    else:
+        raise Exception(f"HTTP {response.status_code}: {response.text}")
+
 def update_field(ticket_id, field_id, value):
     """Update a custom field in a Jira issue"""
     url = f"{JIRA_BASE_URL}/rest/api/3/issue/{ticket_id}"
