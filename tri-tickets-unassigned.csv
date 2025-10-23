@@ -1,0 +1,100 @@
+Ticket_Key,Summary,Status,Assignee,Urgency,Priority,JIRA_URL,TriQ_Score,Quality_Issues,Client_CID,Issue_Category,Action_Required,Refined_Category
+TRI-2308,Enhance Billing Calculat...,Waiting for support,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2308,4.0,UNASSIGNED,,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-2307,Support Accurate Tax Cal...,Waiting for support,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2307,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Rate & Pricing
+TRI-2306,Enhance Import Process w...,Waiting for support,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2306,4.0,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-2305,Improve Accuracy and Err...,Waiting for support,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2305,4.0,UNASSIGNED,,Enhancement,ASSIGN TO SPECIALIST,Enhancement
+TRI-2304,The Customer Custom Fiel...,Waiting for support,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2304,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Account Management
+TRI-2302,CID 1760:West Cocalico T...,In Progress,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2302,4.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,1760.0,Other,URGENT: ASSIGN IMMEDIATELY,Uncategorized
+TRI-2294,Enhance Late Charge Temp...,Pending,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2294,4.0,UNASSIGNED,,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-2293,Adjustments for Misappli...,Pending,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2293,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Portal Issues
+TRI-2292,Balance Transfer Functio...,Pending,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2292,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Data Issues
+TRI-2291,Pre-Billing Mass Communi...,Pending,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2291,4.0,UNASSIGNED,,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-2286,CID 1575- Customer Porta...,Waiting for customer,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2286,5.0,UNASSIGNED; WAITING WITHOUT PROPER INVESTIGATION,1575.0,Other,ASSIGN TO SPECIALIST,Account Management
+TRI-2282,Prevent Billing Errors b...,Pending,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2282,4.0,UNASSIGNED,,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-2281,Enhance Flexibility for ...,Pending,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2281,4.0,UNASSIGNED,,Enhancement,ASSIGN TO SPECIALIST,Enhancement
+TRI-2280,Preserve Data Accuracy W...,Pending,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2280,4.0,UNASSIGNED,,Data Management,ASSIGN TO SPECIALIST,Data Management
+TRI-2279,Support for Internationa...,Pending,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2279,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2278,Eliminate the need to ma...,Pending,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2278,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2249,CID 262 Update of Meters,Canceled,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2249,3.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,262.0,Meter Management,URGENT: ASSIGN IMMEDIATELY,Meter Management
+TRI-2245,Arcadia: GLOBAL System S...,Canceled,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2245,2.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,,System Performance,URGENT: ASSIGN IMMEDIATELY,System Performance
+TRI-2235,CID- 1837 - Glen Lake Es...,Waiting for customer,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2235,4.0,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL; WAITING WITHOUT PROPER INVESTIGATION,1837.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-2233,CID 1415: Queen Anne's C...,Closed,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2233,5.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1415.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-2226,CID 1801 - Hope Water: S...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2226,6.5,UNASSIGNED,1801.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2224,Myya Carson - New User R...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2224,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Account Management
+TRI-2218,CID- 1833 - Jim Wells - ...,Resolved,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2218,3.5,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,1833.0,Other,URGENT: ASSIGN IMMEDIATELY,Uncategorized
+TRI-2215,CID 1836 - City of Albio...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2215,5.5,UNASSIGNED,1836.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2209,URGENT - GLOBAL - login ...,Resolved,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2209,2.5,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,,Customer Portal,URGENT: ASSIGN IMMEDIATELY,Customer Portal
+TRI-2201,Fortress Integration - S...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2201,4.5,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-2199,Sahuarita Wells Fargo Lo...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2199,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2198,Important Information fr...,Closed,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2198,4.5,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-2195,CID 1800: Update Autopay...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2195,6.5,UNASSIGNED,1800.0,Autopay System,ASSIGN TO SPECIALIST,Autopay System
+TRI-2183,CID 1634 - St Helena Wat...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2183,5.5,UNASSIGNED,1634.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2174,CID: 1640 Parcel History...,Waiting for customer,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2174,6.0,UNASSIGNED; WAITING WITHOUT PROPER INVESTIGATION,1640.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2147,IVR Upload File Request ...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2147,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,Data Issues
+TRI-2144,E-Bills Bouncing Across...,Closed,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2144,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Billing System,URGENT: ASSIGN SPECIALIST,Billing System
+TRI-2142,CID 1518: Roamingwood: E...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2142,6.5,UNASSIGNED,1518.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2112,CID 1780: Invoices are m...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2112,6.5,UNASSIGNED,1780.0,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-2094,Write Off Export Format,Canceled,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2094,4.0,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-2076,Reporting Authorites,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2076,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Report Issues
+TRI-2075,WhoDunIt - CID 17 - Mor...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2075,5.5,UNASSIGNED,17.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2047,Online Payment Confirmat...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2047,4.5,UNASSIGNED,,Payment Processing,ASSIGN TO SPECIALIST,Payment Processing
+TRI-2043,CID - 1784 - City of Laf...,Canceled,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2043,3.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,1784.0,Other,URGENT: ASSIGN IMMEDIATELY,Uncategorized
+TRI-2022,CID 1443 Logan County: L...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2022,6.5,UNASSIGNED,1443.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2013,CID 1796 Deeson Roundlak...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2013,5.5,UNASSIGNED,1796.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-2009,"CID: 1333, 1341 & 1386 -...",Closed,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2009,5.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1333.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-2005,Arcadia: Log in Issue wi...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2005,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,System Issues
+TRI-2000,Changes to Post to Accou...,Canceled,,High,Normal,https://jiramb.atlassian.net/browse/TRI-2000,3.0,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,Request/Enhancement
+TRI-1999,Munibilling Production A...,Canceled,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1999,4.0,UNASSIGNED,,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-1988,Fake Payment Gateway Cre...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1988,4.5,UNASSIGNED,,Payment Processing,ASSIGN TO SPECIALIST,Payment Processing
+TRI-1984,Unable to create Bills ...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1984,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Billing System,URGENT: ASSIGN SPECIALIST,Billing System
+TRI-1978,Miscellaneous Letter mes...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1978,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1977,CID 1443 Logan County: C...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1977,5.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1443.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1967,Stop Job,Canceled,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1967,3.0,UNASSIGNED; VAGUE SUMMARY,,Other,REQUEST REVISION,Uncategorized
+TRI-1964,Unable to view screen in...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1964,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1938,CID 1793 IVR Code needed...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1938,5.5,UNASSIGNED,1793.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1918,CID 97: Strasburg Boroug...,Canceled,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1918,4.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,97.0,Other,URGENT: ASSIGN IMMEDIATELY,Uncategorized
+TRI-1911,CID 1695 - IMP TRAINING ...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1911,5.5,UNASSIGNED,1695.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1909,Enterprise / Riverwood -...,Canceled,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1909,2.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN IMMEDIATELY,Uncategorized
+TRI-1899,Important Information fr...,Canceled,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1899,4.0,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-1897,Customer Portal Access,Canceled,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1897,2.0,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,,Customer Portal,URGENT: ASSIGN IMMEDIATELY,Customer Portal
+TRI-1891,USER Access to Demo,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1891,2.5,UNASSIGNED HIGH URGENCY; VAGUE SUMMARY; HIGH URGENCY LACKS DETAIL,,Customer Portal,URGENT: ASSIGN SPECIALIST,Customer Portal
+TRI-1883,CID 1303 IVR Code needed,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1883,5.5,UNASSIGNED,1303.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1863,Parkland CID 730 - Clien...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1863,4.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,730.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1862,1634 St Helena customer-...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1862,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,Account Management
+TRI-1858,CID 1769: Durango West M...,Canceled,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1858,5.0,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1769.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1840,DEMO - Unable to access ...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1840,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Account Management
+TRI-1816,CID 436 Gatlinburg - NAC...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1816,4.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,436.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1803,Fw: Import failed,Closed,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1803,2.5,UNASSIGNED HIGH URGENCY; VAGUE SUMMARY; HIGH URGENCY LACKS DETAIL,,Integration,URGENT: ASSIGN SPECIALIST,Integration
+TRI-1799,CLONE - CID 1085 Dropped...,Canceled,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1799,4.0,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1085.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1795,Issue with [describe the...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1795,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,System Issues
+TRI-1772,Important Information fr...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1772,4.5,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-1766,CID 1085 Dropped Emails,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1766,4.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1085.0,Other,URGENT: ASSIGN SPECIALIST,Communication
+TRI-1764,CID:1120: Issue assignin...,Closed,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1764,6.5,UNASSIGNED,1120.0,Other,ASSIGN TO SPECIALIST,System Issues
+TRI-1753,Granville CID 1697- Paym...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1753,4.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1697.0,Payment Processing,URGENT: ASSIGN SPECIALIST,Payment Processing
+TRI-1748,Important Information fr...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1748,4.5,UNASSIGNED,,Integration,ASSIGN TO SPECIALIST,Integration
+TRI-1725,"CID 1087, 1600, 1333, 13...",Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1725,5.5,UNASSIGNED,1087.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1694,CID: 248- Billing Issue,Closed,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1694,6.5,UNASSIGNED,248.0,Billing System,ASSIGN TO SPECIALIST,Billing System
+TRI-1681,CID 1120 - King George -...,Canceled,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1681,5.0,UNASSIGNED,1120.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1676,Enterprise - Payment Iss...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1676,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Payment Processing,URGENT: ASSIGN SPECIALIST,Payment Processing
+TRI-1671,Parkland CID 730 - Custo...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1671,4.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,730.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1668,CID 176: Durango West MD...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1668,6.5,UNASSIGNED,176.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1660,CID 1717: Knob Hill Wate...,Resolved,,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-1660,6.5,UNASSIGNED,1717.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1654,CID 794 Late fees on 0 ...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1654,4.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,794.0,Other,URGENT: ASSIGN SPECIALIST,Rate & Pricing
+TRI-1633,CID 1443 Logan County: I...,Resolved,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1633,6.5,UNASSIGNED,1443.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1624,CID 1640: Mauricevile MU...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1624,5.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1640.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1622,Cedar Hill: Payment on A...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1622,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Payment Processing,URGENT: ASSIGN SPECIALIST,Payment Processing
+TRI-1620,CID: 17 - Morton Borough...,Canceled,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1620,5.0,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,17.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1619,CID 1464: North East Tow...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1619,5.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,1464.0,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1613,Sage Pointe Apartments C...,Resolved,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1613,3.5,UNASSIGNED HIGH URGENCY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1601,CID 1640: Mauricevile MU...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1601,6.5,UNASSIGNED,1640.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1586,CID 1624: CITY Of Big La...,Resolved,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1586,6.5,UNASSIGNED,1624.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1571,Triage testing,Canceled,,High,Normal,https://jiramb.atlassian.net/browse/TRI-1571,2.0,UNASSIGNED HIGH URGENCY; VAGUE SUMMARY; HIGH URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN SPECIALIST,Uncategorized
+TRI-1548,CID 897 - MAP & TAX LOT ...,Resolved,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1548,5.5,UNASSIGNED,897.0,Other,ASSIGN TO SPECIALIST,Rate & Pricing
+TRI-1500,THis is the summary field,Canceled,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1500,4.0,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1493,CID 1624: City of Big La...,Resolved,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1493,6.5,UNASSIGNED,1624.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1478,St Helena 1634- Unable t...,Closed,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1478,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1477,Master Company: NRG - AK...,Resolved,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1477,4.5,UNASSIGNED,,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1459,Emergency: Cedar Hill Do...,Resolved,,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1459,2.5,UNASSIGNED CRITICAL - SLA BREACH RISK; CRITICAL URGENCY LACKS DETAIL,,Other,URGENT: ASSIGN IMMEDIATELY,Uncategorized
+TRI-1449,Account Numbers,Closed,,Low,Normal,https://jiramb.atlassian.net/browse/TRI-1449,3.5,UNASSIGNED; VAGUE SUMMARY,,Other,REQUEST REVISION,Account Management
+TRI-1423,CID 426: Northfield Town...,Closed,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1423,6.5,UNASSIGNED,426.0,Other,ASSIGN TO SPECIALIST,Uncategorized
+TRI-1412,CID 1447: Three Mile Wat...,Closed,,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1412,6.5,UNASSIGNED,1447.0,Other,ASSIGN TO SPECIALIST,Uncategorized

@@ -1,0 +1,32 @@
+{
+  "reference_ticket": "TRI-1858",
+  "summary": "CID 1769: Durango West Metro District: Unpost Meter Reading with end date 03/31/25",
+  "field_confirmation": {
+    "components": {
+      "has_data": false,
+      "error": "Command '['acli', 'jira', 'workitem', 'search', '--jql', 'project = TRI AND key = TRI-1858 AND components is not EMPTY', '--count']' returned non-zero exit status 1."
+    },
+    "company_cf10413": {
+      "has_data": true
+    },
+    "company_cf10542": {
+      "has_data": false
+    },
+    "urgency_cf10450": {
+      "has_data": true,
+      "value": "High"
+    },
+    "urgency_cf11226": {
+      "has_data": false
+    },
+    "impact": {
+      "has_data": true
+    }
+  },
+  "recommended_mappings": {
+    "company": "cf[10413]",
+    "urgency": "cf[10450]",
+    "impact": "cf[10451]"
+  },
+  "status": "confirmed"
+}

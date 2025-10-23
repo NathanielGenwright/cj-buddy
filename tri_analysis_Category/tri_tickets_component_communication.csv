@@ -1,0 +1,15 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2216,tonisha.sellars@munibilling.com,Normal,Resolved,CID- 1833 - Broadcast Notification URGENT,Communication
+[System] Service request,TRI-2144,,Normal,Closed, E-Bills Bouncing Across Multiple Email Providers,Communication
+[System] Service request,TRI-2122,nathaniel@munibilling.com,Normal,Closed,CID 643 - hotmail email domain bounce ,Communication
+[System] Service request,TRI-2121,nathaniel@munibilling.com,Normal,Canceled,CID 1574 - Invalid email address error message,Communication
+[System] Service request,TRI-2009,,Normal,Closed,"CID: 1333, 1341 & 1386 - Unusually High Number of Bounced Emailed Bills",Communication
+[System] Service request,TRI-1978,,Normal,Resolved,Miscellaneous Letter message,Communication
+[System] Service request,TRI-1940,nathaniel@munibilling.com,Normal,Resolved,CID 1763 Cannot email bills ,Communication
+[System] Service request,TRI-1918,,Normal,Canceled,CID 97: Strasburg Borough Authority: Confirmation Email is not being sent and Send confirmation email is not available. ,Communication
+[System] Service request,TRI-1888,drago.todorov@munibilling.com,Normal,Resolved,CID 1779: Royal Gorge: Customers are not receiving confirmation emails after importing emails. ,Communication
+[System] Service request,TRI-1854,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1518: Roamingwood: Question Regarding Autopay failed Email: Account 1185000,Communication
+[System] Service request,TRI-1799,,Normal,Canceled,CLONE - CID 1085 Dropped Emails,Communication
+[System] Service request,TRI-1766,,Normal,Resolved,CID 1085 Dropped Emails,Communication
+[System] Service request,TRI-1725,,Normal,Resolved,"CID 1087, 1600, 1333, 1341, 1386, 737 - Unblock emails with dropped/bounced status",Communication
+[System] Service request,TRI-1693,nathaniel@munibilling.com,Normal,Resolved,CID 1369: Cabinet Mountain: Emails are bouncing ,Communication

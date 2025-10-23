@@ -1,0 +1,77 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2288,nathaniel@munibilling.com,Normal,Waiting for customer,CID: 229- Reads Calculating Incorrect,Uncategorized
+[System] Service request,TRI-2244,nathaniel@munibilling.com,Normal,Closed,CID: 413 - Can't add parcel,Uncategorized
+[System] Service request,TRI-2230,bettina@munibilling.com,Normal,Resolved,CID 436 - Gatlinburg - Posting Concern,Uncategorized
+[System] Service request,TRI-2228,nathaniel@munibilling.com,Normal,Resolved,CID 1801: Hope Water South:Issue Provisioning IVR Phone Number via Merchant Service Provider (Nuvei),Uncategorized
+[System] Service request,TRI-2221,jason.moore@munibilling.com,Normal,Closed,RentManager Uploading Error,Uncategorized
+[System] Service request,TRI-2200,clyde.qasolli@munibilling.com,Normal,Resolved,CId 124- Consolidated - Missing paymnet from 8/1/2025,Uncategorized
+[System] Service request,TRI-2199,,Normal,Resolved,Sahuarita Wells Fargo Lockbox Transmission Credentials,Uncategorized
+[System] Service request,TRI-2174,,Normal,Waiting for customer,CID: 1640 Parcel History Error,Uncategorized
+[System] Service request,TRI-2152,samuel.aubin@munibilling.com,Normal,Resolved,CID 1802 - Hope Water: Valley - Low Reg/Transmitter Field Updates,Uncategorized
+[System] Service request,TRI-2110,samuel.aubin@munibilling.com,Normal,Canceled,CID - 1800 - Portage Sewer Authority - Mass Updating Custom Field ,Uncategorized
+[System] Service request,TRI-2100,bhavana.savaram@munibilling.com,Normal,Resolved,Red Energy CID - 449 Parcel Number Update,Uncategorized
+[System] Service request,TRI-2093,nathaniel@munibilling.com,Normal,Closed,Your one-time code: 578751,Uncategorized
+[System] Service request,TRI-2092,nathaniel@munibilling.com,Normal,Closed,Your one-time code: 134844,Uncategorized
+[System] Service request,TRI-2086,nathaniel@munibilling.com,Normal,Resolved,RentManager Property ID- Ridgebrook Apartments,Uncategorized
+[System] Service request,TRI-2080,bettina@munibilling.com,Normal,Resolved,JOb Failed Unexpectedly Undifined method 'balance_current' for nil,Uncategorized
+[System] Service request,TRI-2079,samuel.aubin@munibilling.com,Normal,Closed,Morton Borough - CID: 17 - Note Needs to be Changed for Batch,Uncategorized
+[System] Service request,TRI-2074,bettina@munibilling.com,Normal,Resolved,City of New Canton posting,Uncategorized
+[System] Service request,TRI-2068,clyde.qasolli@munibilling.com,Normal,Resolved,CID - 1799 - Purgatory Metro District,Uncategorized
+[System] Service request,TRI-2044,samuel.aubin@munibilling.com,Normal,Closed,Purgatory Metro District - CID 1799 Custom Field Update,Uncategorized
+[System] Service request,TRI-2042,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1510: Enable Invoicing for Second Sight - University Commons,Uncategorized
+[System] Service request,TRI-2018,samuel.aubin@munibilling.com,Normal,Closed,Purgatory Metro District - CID 1799 Custom Field Update,Uncategorized
+[System] Service request,TRI-2013,,Normal,Resolved,CID 1796 Deeson Roundlake: Requesting IVR Code,Uncategorized
+[System] Service request,TRI-2012,clyde.qasolli@munibilling.com,Normal,Resolved,CId 124- Missing paymnet from 5/29/2025,Uncategorized
+[System] Service request,TRI-2011,bettina@munibilling.com,Normal,Resolved,City of New Auburn posting,Uncategorized
+[System] Service request,TRI-1990,katilyn.wiggins@munibilling.com,Normal,Resolved,CID: 1483 - Service Call Issues,Uncategorized
+[System] Service request,TRI-1986,samuel.aubin@munibilling.com,Normal,Resolved,CID 1804 - add to Multivision,Uncategorized
+[System] Service request,TRI-1968,nathaniel@munibilling.com,Normal,Canceled,CID: 1701- Unable to add parcel,Uncategorized
+[System] Service request,TRI-1967,,Normal,Canceled,Stop Job,Uncategorized
+[System] Service request,TRI-1960,samuel.aubin@munibilling.com,Normal,Resolved,CID: 1793 - Parcel Number Change,Uncategorized
+[System] Service request,TRI-1959,nathaniel@munibilling.com,Normal,Resolved,CID 1784 - City of Lafayette - IVR Code for City of Lafayette,Uncategorized
+[System] Service request,TRI-1950,nathaniel@munibilling.com,Normal,Resolved,CID 248 Town of Gulf Stream,Uncategorized
+[System] Service request,TRI-1938,,Normal,Resolved,"CID 1793 IVR Code needed - City of New Auburn, MN",Uncategorized
+[System] Service request,TRI-1936,guppy.sivakumar@munibilling.com,Normal,Resolved,CID 738 - Client unable to load images in MSP,Uncategorized
+[System] Service request,TRI-1921,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1793 - New Auburn MN -,Uncategorized
+[System] Service request,TRI-1911,,Normal,Resolved,CID 1695 - IMP TRAINING MF -  ,Uncategorized
+[System] Service request,TRI-1907,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1695 - IMP TRAINING MF -  Unpost Blls,Uncategorized
+[System] Service request,TRI-1905,johan.hultin@munibilling.com,Normal,Resolved,IVR Code for Star Mountain: CID 1536,Uncategorized
+[System] Service request,TRI-1903,johan.hultin@munibilling.com,Normal,Resolved,"CID 1788 IVR Code needed - City of Gibbon, MN",Uncategorized
+[System] Service request,TRI-1883,,Normal,Resolved,CID 1303 IVR Code needed,Uncategorized
+[System] Service request,TRI-1852,samuel.aubin@munibilling.com,Normal,Closed,CID 1805 - Custom Fields to Load,Uncategorized
+[System] Service request,TRI-1842,nathaniel@munibilling.com,Normal,Resolved,No Healthy Upstream error - Production ,Uncategorized
+[System] Service request,TRI-1836,samuel.aubin@munibilling.com,Normal,Closed,CID 1803 - Custom Fields to Load,Uncategorized
+[System] Service request,TRI-1816,,Normal,Resolved,CID 436 Gatlinburg - NACHA not loading,Uncategorized
+[System] Service request,TRI-1802,nathaniel@munibilling.com,Normal,Resolved,CID 215 Lot 388 is not showing on the the route for some reason,Uncategorized
+[System] Service request,TRI-1782,stephanie.williams@munibilling.com,Normal,Resolved,Card Testing Clean Up ,Uncategorized
+[System] Service request,TRI-1776,nathaniel@munibilling.com,Normal,Resolved,Your one-time code: 278864,Uncategorized
+[System] Service request,TRI-1775,nathaniel@munibilling.com,Normal,Resolved,amarriotti@sahuaritaaz.gov secured: Wells Fargo Lockbox Transmission-Update,Uncategorized
+[System] Service request,TRI-1764,,Normal,Closed,CID:1120: Issue assigning Service Orders,Uncategorized
+[System] Service request,TRI-1751,jason.moore@munibilling.com,Normal,Closed,Property ID Request - Signal Hill Apartments,Uncategorized
+[System] Service request,TRI-1740,stephanie.williams@munibilling.com,Normal,Resolved,CID- 1776 - City of Bowdle - Remove Multiplier from Historical Reads,Uncategorized
+[System] Service request,TRI-1720,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 1280 -Balance Rebuild - 10218003,Uncategorized
+[System] Service request,TRI-1718,nathaniel@munibilling.com,Normal,Resolved,CID 1567 Washington County ,Uncategorized
+[System] Service request,TRI-1716,nathaniel@munibilling.com,Normal,Resolved,CID- 1776- City of Bowdle - Letters not saving,Uncategorized
+[System] Service request,TRI-1703,guppy.sivakumar@munibilling.com,Normal,Resolved,Enterprise - MAR Discrepancy - January 2025,Uncategorized
+[System] Service request,TRI-1701,nathaniel@munibilling.com,Normal,Canceled,CID 1082: Cedar Hill - Service Order - Route & Seq,Uncategorized
+[System] Service request,TRI-1649,nathaniel@munibilling.com,Normal,Closed,CID:1640: Client is missing items from Muni Home Page,Uncategorized
+[System] Service request,TRI-1628,bettina@munibilling.com,Normal,Resolved,RentManager Error 429 - Too Many Requests,Uncategorized
+[System] Service request,TRI-1626,nathaniel@munibilling.com,Normal,Resolved,CId 1082 Cedar Hill Adjustments ,Uncategorized
+[System] Service request,TRI-1612,bhavana.savaram@munibilling.com,Normal,Closed,CID 17 Morton Borough - Past due Sewer by Year,Uncategorized
+[System] Service request,TRI-1606,guppy.sivakumar@munibilling.com,Normal,Resolved,MuniRead Pro is not opening,Uncategorized
+[System] Service request,TRI-1601,,Normal,Resolved,CID 1640: Mauricevile MUD:  No Checks IVR,Uncategorized
+[System] Service request,TRI-1600,guppy.sivakumar@munibilling.com,Normal,Closed,CID 897 - MUNIServicePro,Uncategorized
+[System] Service request,TRI-1581,nathaniel@munibilling.com,Normal,Resolved,CID 17 Morton Borought - Late Letters -,Uncategorized
+[System] Service request,TRI-1572,samuel.aubin@munibilling.com,Normal,Resolved,CID: 1483 - Category/Type assistance ,Uncategorized
+[System] Service request,TRI-1571,,Medium,Canceled,Triage testing,Uncategorized
+[System] Service request,TRI-1532,nathaniel@munibilling.com,Normal,Closed,CID 52 -Lakewood Villiage Adjustment Error,Uncategorized
+[System] Service request,TRI-1520,clyde.qasolli@munibilling.com,Normal,Resolved,CID 210 - Job failed unexpectedly. undefined method `balance_current' for nil:NilClass - Event number 11717860,Uncategorized
+[System] Service request,TRI-1514,nathaniel@munibilling.com,Normal,Resolved,CID 1082: Cedar Hill - Deleted Adjustments?,Uncategorized
+[System] Service request,TRI-1500,,TBD,Canceled,THis is the summary field,Uncategorized
+[System] Service request,TRI-1488,bettina@munibilling.com,Normal,Closed,CID: 609 - Please Add Invoicing,Uncategorized
+[System] Service request,TRI-1485,alvaro.escobar@munibilling.com,Normal,Closed,Your one-time code: 854953,Uncategorized
+[System] Service request,TRI-1484,alvaro.escobar@munibilling.com,Normal,Closed,Your one-time code: 664825,Uncategorized
+[System] Service request,TRI-1479,alvaro.escobar@munibilling.com,Normal,Closed,amarriotti@sahuaritaaz.gov secured: Wells Fargo Lockbox Transmission,Uncategorized
+[System] Service request,TRI-1469,clyde.qasolli@munibilling.com,Normal,Resolved,CID 897 Redmond - Balance not showing correctly in UI ,Uncategorized
+[System] Service request,TRI-1461,alvaro.escobar@munibilling.com,Normal,Closed,CID 715: Yadkin County- Auto-Pay did not run for the month of October (Nuvei Client),Uncategorized
+[System] Service request,TRI-1450,nathaniel@munibilling.com,Normal,Closed,CID: 23 - QR Code,Uncategorized

@@ -1,0 +1,40 @@
+{
+  "reference_ticket": "TRI-1858",
+  "confirmed_fields": {
+    "cf[10449]": {
+      "name": "Components",
+      "value": "UNKNOWN",
+      "confidence": "Low"
+    },
+    "cf[10450]": {
+      "name": "Urgency",
+      "value": "High",
+      "confidence": "High"
+    },
+    "cf[10451]": {
+      "name": "Impact",
+      "value": "UNKNOWN",
+      "confidence": "Low"
+    }
+  },
+  "additional_fields": {
+    "cf[10413]": {
+      "status": "potential_company",
+      "investigation": "needed"
+    },
+    "cf[10432]": {
+      "status": "potential_company",
+      "investigation": "needed"
+    },
+    "cf[10433]": {
+      "status": "potential_company",
+      "investigation": "needed"
+    }
+  },
+  "status": {
+    "components_identified": false,
+    "impact_identified": false,
+    "urgency_confirmed": true,
+    "company_field_found": false
+  }
+}

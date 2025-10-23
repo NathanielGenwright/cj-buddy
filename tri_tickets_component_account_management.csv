@@ -1,0 +1,47 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2304,,Normal,Waiting for support,The Customer Custom Fields cannot be imported.,Account Management
+[System] Service request,TRI-2297,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1801 - Hope Water: South - Customer Has Double Billed for Account Type AZML,Account Management
+[System] Service request,TRI-2292,,Normal,Pending,Balance Transfer Functionality for Active Accounts,Account Management
+[System] Service request,TRI-2280,,Normal,Pending,Preserve Data Accuracy When Activating “Customer in Waiting” Records,Account Management
+[System] Service request,TRI-2268,katilyn.wiggins@munibilling.com,Normal,Closed,User Permissions for Demo,Account Management
+[System] Service request,TRI-2267,katilyn.wiggins@munibilling.com,Normal,Closed,Create Admin User for Paul Kelly in Production,Account Management
+[System] Service request,TRI-2266,katilyn.wiggins@munibilling.com,Normal,Closed,Melissa Haney -  New User Request,Account Management
+[System] Service request,TRI-2248,bhavana.savaram@munibilling.com,Normal,In Progress,Multivision Authentication,Account Management
+[System] Service request,TRI-2231,katilyn.wiggins@munibilling.com,Normal,Closed,Austin County WSC Account Number Update,Account Management
+[System] Service request,TRI-2224,,Normal,Resolved,Myya Carson - New User Request,Account Management
+[System] Service request,TRI-2223,bettina@munibilling.com,Normal,Resolved,Samantha Hoffman - New User Request,Account Management
+[System] Service request,TRI-2222,bettina@munibilling.com,Normal,Resolved,Tylee Roberts - New User Request,Account Management
+[System] Service request,TRI-2211,stephanie.williams@munibilling.com,Normal,Resolved,Update Inactive Account Numbers for Portage CID - 1800,Account Management
+[System] Service request,TRI-2167,bettina@munibilling.com,Normal,Resolved,MuniBilling Admin User Access for Ian Summers,Account Management
+[System] Service request,TRI-2153,bettina@munibilling.com,Normal,Resolved,Daphne Davis - Needs an Admin User Account for MuniBilling,Account Management
+[System] Service request,TRI-2146,nathaniel@munibilling.com,Normal,Resolved,CID: 897- IVR Not Recognizing Account Balances,Account Management
+[System] Service request,TRI-2134,clyde.qasolli@munibilling.com,Normal,Resolved,City of Arcadia IVR: Account 0000968227-002906154 not located in IVR: Check File Please 07.30.2025,Account Management
+[System] Service request,TRI-2126,katilyn.wiggins@munibilling.com,Normal,Resolved,Please create an admin account for Mitch Brandon.,Account Management
+[System] Service request,TRI-2107,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill: WaterSmart account file uploaded last night was a duplicate,Account Management
+[System] Service request,TRI-2091,bettina@munibilling.com,Normal,Resolved,Megan Perrine - New User Request,Account Management
+[System] Service request,TRI-2070,nathaniel@munibilling.com,Normal,Resolved,CID: 38- Access Code Missing,Account Management
+[System] Service request,TRI-2069,nathaniel@munibilling.com,Normal,Closed,CID 1780 - Millersville Borough - Move Statement Balances for Accounts in Account Category: Cycle2,Account Management
+[System] Service request,TRI-2015,clyde.qasolli@munibilling.com,Normal,Resolved,Account Not Found error when calling IVR - South Pasadena,Account Management
+[System] Service request,TRI-2005,,Normal,Resolved,Arcadia: Log in Issue with Production Users,Account Management
+[System] Service request,TRI-2003,katilyn.wiggins@munibilling.com,Normal,Resolved,Nora Hobbs - New User Request,Account Management
+[System] Service request,TRI-2000,,Normal,Canceled,Changes to Post to Accounting Screen,Account Management
+[System] Service request,TRI-1941,nathaniel@munibilling.com,Normal,Canceled,CID: 436 - Issue with Ajustment on account 11.0786.00.03,Account Management
+[System] Service request,TRI-1922,julie.byrd@munibilling.com,Normal,Resolved,"CID- 1792- Rural Water District #6, Douglas County, KS -Client Can Not Access JIRA Videos/Issues With Share Point",Account Management
+[System] Service request,TRI-1906,caiden.robinson@munibilling.com,Normal,Resolved,CID-1788 Two Accounts Not Loading,Account Management
+[System] Service request,TRI-1895,samuel.aubin@munibilling.com,Normal,Closed,Update account numbers for Deeson Round Lake CID-1796,Account Management
+[System] Service request,TRI-1891,,Normal,Resolved,USER Access to Demo ,Account Management
+[System] Service request,TRI-1867,bettina@munibilling.com,Normal,Resolved,CID: 865 - Incorrect User Display- Client cannot access Client Dashboard,Account Management
+[System] Service request,TRI-1856,nathaniel@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain: Account 000881 appears on the autopay report with zero balance when the customer has a balance of $136 ,Account Management
+[System] Service request,TRI-1841,nathaniel@munibilling.com,Normal,Resolved,PAYA IVR - CID 145 Name and account information missing from the reconciliation reports,Account Management
+[System] Service request,TRI-1840,,Normal,Resolved,DEMO - Unable to access documents. ,Account Management
+[System] Service request,TRI-1835,caiden.robinson@munibilling.com,Normal,Closed,Demo Access for Chris Morris-King,Account Management
+[System] Service request,TRI-1798,bettina@munibilling.com,Normal,Resolved,Javana Coleman - New User Request,Account Management
+[System] Service request,TRI-1779,clyde.qasolli@munibilling.com,Normal,Resolved,Admin Credentials Not Working,Account Management
+[System] Service request,TRI-1753,,Normal,Resolved,Granville CID 1697- Payment Canceled in Paya Posted to Customers Account,Account Management
+[System] Service request,TRI-1719,nathaniel@munibilling.com,Normal,Resolved,Global - Letters - Account Categories,Account Management
+[System] Service request,TRI-1660,,Normal,Resolved,CID 1717: Knob Hill Water: When client logs in he is on standard view for customer's accounts and not professional view.,Account Management
+[System] Service request,TRI-1651,nathaniel@munibilling.com,Normal,Resolved,South Pasadena CID 1087 - Customer Unable to make online payment - Account 16552,Account Management
+[System] Service request,TRI-1646,alvaro.escobar@munibilling.com,Normal,Resolved,"Global - Search Customers Screen: ""In waiting"" toggle missing ",Account Management
+[System] Service request,TRI-1588,samuel.aubin@munibilling.com,Normal,Closed,CID 457 - Borough of West Chester - Account Category,Account Management
+[System] Service request,TRI-1451,alvaro.escobar@munibilling.com,Normal,Closed,New User Request - Yimaris Rodriguez Rivera ,Account Management
+[System] Service request,TRI-1449,,Normal,Closed,Account Numbers,Account Management

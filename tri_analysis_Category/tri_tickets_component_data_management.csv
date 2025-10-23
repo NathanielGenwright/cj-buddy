@@ -1,0 +1,45 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2323,,Normal,Waiting for support,Data Extraction for Export Borough CID 384,Data Management
+[System] Service request,TRI-2321,stephanie.williams@munibilling.com,Normal,Resolved,Data Request - Loudonville,Data Management
+[System] Service request,TRI-2306,,Normal,Waiting for support,Enhance Import Process with Pre-Validation and Real-Time Error Reporting,Data Management
+[System] Service request,TRI-2303,stephanie.williams@munibilling.com,Normal,Resolved,Client Data Pull ,Data Management
+[System] Service request,TRI-2298,katilyn.wiggins@munibilling.com,Normal,Waiting for customer,Provide file format details for Itron Export (Hardcoded File Format),Data Management
+[System] Service request,TRI-2287,nathaniel@munibilling.com,Normal,Waiting for customer,Snowmass Watersmart File Updates,Data Management
+[System] Service request,TRI-2215,,Normal,Resolved,CID 1836 - City of Albion - Establish Dates formatted incorrectly,Data Management
+[System] Service request,TRI-2198,,Normal,Closed,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-2197,bettina@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-2169,harmon.jenkins@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-2147,,Normal,Resolved,IVR Upload File Request from Heartland   08.04.2025,Data Management
+[System] Service request,TRI-2119,nathaniel@munibilling.com,Normal,Closed,CID:1567 MuniServicePro Issue syncing service requests,Data Management
+[System] Service request,TRI-2094,,Normal,Canceled,Write Off Export Format,Data Management
+[System] Service request,TRI-2082,nathaniel@munibilling.com,Normal,Closed,White List IP Address: I cannot access Filezilla to do the Gatlinburg V-flex import,Data Management
+[System] Service request,TRI-2036,nathaniel@munibilling.com,Normal,Resolved,Need my IP Address white listed in order to upload Gatlinburg V-flex into FileZilla,Data Management
+[System] Service request,TRI-2025,katilyn.wiggins@munibilling.com,Normal,Resolved,Provide file format details for Badger Beacon Export (Hardcoded File Format),Data Management
+[System] Service request,TRI-2020,katilyn.wiggins@munibilling.com,Normal,Resolved,Provide file format details for Itron Meter Import (Hardcoded File Format),Data Management
+[System] Service request,TRI-2019,nathaniel@munibilling.com,Normal,Resolved,CID 436 - Gatlinburg - Error when pulling meter export file. ,Data Management
+[System] Service request,TRI-1994,clyde.qasolli@munibilling.com,Normal,Canceled,CID 1802 Hope Water - Valley New Lockbox Import File Format,Data Management
+[System] Service request,TRI-1979,samuel.aubin@munibilling.com,Normal,Closed,Purgatory Metro District CID-1799 Custom Field Data Load,Data Management
+[System] Service request,TRI-1977,,Normal,Resolved,CID 1443 Logan County: Cannot import dates with new import file format for meter readings,Data Management
+[System] Service request,TRI-1949,clyde.qasolli@munibilling.com,Normal,Closed,CID 1082 Cedar Hill - Watersmart Daily Account Import File,Data Management
+[System] Service request,TRI-1944,katilyn.wiggins@munibilling.com,Normal,Resolved,Provide file format details for Sensus Export - New (Hardcoded File Format),Data Management
+[System] Service request,TRI-1939,clyde.qasolli@munibilling.com,Normal,Closed,Meter export file changed - Missing Header rows,Data Management
+[System] Service request,TRI-1929,stephanie.williams@munibilling.com,Normal,Resolved,South Pasadena - CID 1087 - Data Request ,Data Management
+[System] Service request,TRI-1914,julie.byrd@munibilling.com,Normal,Resolved,CID: 1770 - Error when when updating company information,Data Management
+[System] Service request,TRI-1902,bettina@munibilling.com,Normal,Resolved,CID 262 - Divernon - Gas Badger Export Meter File Error,Data Management
+[System] Service request,TRI-1899,,Normal,Canceled,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1839,stephanie.williams@munibilling.com,Normal,Resolved,CID 203: Database record change request ,Data Management
+[System] Service request,TRI-1821,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 977- lockbox type file import issue- not uploading all records,Data Management
+[System] Service request,TRI-1807,nathaniel@munibilling.com,Normal,Closed,CID 1600 Stinson Water: How to change read resolution on a export meter file for Badger Beacon Export,Data Management
+[System] Service request,TRI-1803,,Normal,Closed,Fw: Import failed,Data Management
+[System] Service request,TRI-1791,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 977- PSN file issue,Data Management
+[System] Service request,TRI-1772,,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1771,bettina@munibilling.com,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1762,bettina@munibilling.com,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1748,,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1678,nathaniel@munibilling.com,Normal,Closed,Meter Auto Read Type does not Export for a txt file,Data Management
+[System] Service request,TRI-1630,jason.moore@munibilling.com,Normal,Resolved,"Add New Clients to Deluxe Positive Files: CID's: 1333, 1341, 1386",Data Management
+[System] Service request,TRI-1577,nathaniel@munibilling.com,Normal,Resolved,CID: 1772 - Newly Added Company - Parcel Import - Custom Field did not import in,Data Management
+[System] Service request,TRI-1481,alvaro.escobar@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1480,alvaro.escobar@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission,Data Management
+[System] Service request,TRI-1455,nathaniel@munibilling.com,Normal,Closed,CID 1165: Indigo at the Park - Sync 2 Error,Data Management
+[System] Service request,TRI-1454,amanda.chavez@munibilling.com,Normal,Resolved,Sync ,Data Management

@@ -1,0 +1,121 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2319,nathaniel@munibilling.com,Normal,Waiting for support,CID: 1136 - Fast Payment Entry Duplicates,Payment Processing
+[System] Service request,TRI-2317,samuel.aubin@munibilling.com,Normal,In Progress,CID 436: City of Gatlinburg-Remove Heartland Autopay Flag,Payment Processing
+[System] Service request,TRI-2315,nathaniel@munibilling.com,Normal,Waiting for support,CID: 52: Autopay Issue,Payment Processing
+[System] Service request,TRI-2314,nathaniel@munibilling.com,Normal,Waiting for support,"CID: 1483 - Removal of ""Automatic Payment"" link",Payment Processing
+[System] Service request,TRI-2313,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 124 - Payment shows as approved in PAYA but not in Muni,Payment Processing
+[System] Service request,TRI-2302,,Normal,In Progress,CID 1760:West Cocalico Township Street Lights: E-CHECK Payment Discrepancy: Client has reported that all e-check payments are depositing $1 less than expected into their bank account.,Payment Processing
+[System] Service request,TRI-2299,clyde.qasolli@munibilling.com,Normal,Waiting for customer,Stinson Water CID 1600 Accounts Not Attempting to Autopay,Payment Processing
+[System] Service request,TRI-2296,katilyn.wiggins@munibilling.com,Normal,Closed,CID- 1823 - City of Buffalo - Deletion of Transactional Data due to duplications ,Payment Processing
+[System] Service request,TRI-2293,,Normal,Pending,Adjustments for Misapplied Payments -UI and Workflow Enhancements i,Payment Processing
+[System] Service request,TRI-2284,drago.todorov@munibilling.com,Normal,In Progress,CID: 1769- Autopay Info Missing From General Screen,Payment Processing
+[System] Service request,TRI-2278,,Normal,Pending,Eliminate the need to manually monitor and update the Autopay status checkbox due to failures,Payment Processing
+[System] Service request,TRI-2250,nathaniel@munibilling.com,Normal,Resolved,CID 1844 - Having Issues Enabling IVR In Payment Gateway Profile,Payment Processing
+[System] Service request,TRI-2241,nathaniel@munibilling.com,Normal,Resolved,CID: 50- Payments not updating in portal,Payment Processing
+[System] Service request,TRI-2240,nathaniel@munibilling.com,Normal,Resolved,CID 1800 Portage - AutoPay Failed - Please run process,Payment Processing
+[System] Service request,TRI-2239,nathaniel@munibilling.com,Normal,Closed,CID 960: Bent Creek Payment Gateway Whodunnit,Payment Processing
+[System] Service request,TRI-2233,,Normal,Closed,CID 1415: Queen Anne's County: Missing IVR Payments from Early August Merchant Services Migration,Payment Processing
+[System] Service request,TRI-2218,,Normal,Resolved,CID- 1833 - Jim Wells - Client is not able to accept payments,Payment Processing
+[System] Service request,TRI-2210,nathaniel@munibilling.com,Normal,Resolved,CID: 1720 - Autopay isn't drafting,Payment Processing
+[System] Service request,TRI-2195,,Normal,Resolved,CID 1800: Update Autopay Draft Date,Payment Processing
+[System] Service request,TRI-2191,jim.martineau@munibilling.com,Normal,Resolved,CID 1793: Customers unable to make Credit card payments through portal,Payment Processing
+[System] Service request,TRI-2187,stephanie.williams@munibilling.com,Normal,Resolved,Error While Processing Payments and Adjustments Portage Area Sewer Authority ,Payment Processing
+[System] Service request,TRI-2155,nathaniel@munibilling.com,Normal,Resolved,CID: 1783 City of Onamia - Payment missing,Payment Processing
+[System] Service request,TRI-2151,katilyn.wiggins@munibilling.com,Normal,Resolved,CID: 29 - Wrong date for reconciled payments. ,Payment Processing
+[System] Service request,TRI-2142,,Normal,Resolved,"CID 1518: Roamingwood: E-Check Payment Returned in Heartland Report, but $1.00 Convenience Fee Was Withdrawn – Account 3314000",Payment Processing
+[System] Service request,TRI-2125,nathaniel@munibilling.com,Normal,Resolved,CID 960: Bent Creek Failed Payment Whodunnit ,Payment Processing
+[System] Service request,TRI-2117,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1821: City of Arlington - Paya IVR Payment Issue,Payment Processing
+[System] Service request,TRI-2083,bhavana.savaram@munibilling.com,Normal,Resolved,CID 662 City of Newnan - Remove Autopay Flags,Payment Processing
+[System] Service request,TRI-2081,nathaniel@munibilling.com,Normal,Resolved,CID: 413- Customer Autopay Issue,Payment Processing
+[System] Service request,TRI-2075,,Normal,Resolved,WhoDunIt - CID 17 -  Morton Borough - Payment mistakenly applied to a Deposit,Payment Processing
+[System] Service request,TRI-2047,,Normal,Resolved,Online Payment Confirmation and/or Receipt,Payment Processing
+[System] Service request,TRI-2045,samuel.aubin@munibilling.com,Normal,Closed,Parkland Utilities - CID: 730 - Note needs to be Changed for Reconciled payments,Payment Processing
+[System] Service request,TRI-2043,,Normal,Canceled,CID - 1784 - City of Lafayette Adding Deposits after Go-Live,Payment Processing
+[System] Service request,TRI-2038,nathaniel@munibilling.com,Normal,Canceled,CID 1624 City of Big Lake Credit Card Payments - error message ,Payment Processing
+[System] Service request,TRI-2032,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill 4 Accounts with Deposit/Balance Corrections needed 06.10.2025,Payment Processing
+[System] Service request,TRI-2026,nathaniel@munibilling.com,Normal,Resolved,CID: 1256- Payment not showing on report,Payment Processing
+[System] Service request,TRI-2010,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1805 Unpost Payments ,Payment Processing
+[System] Service request,TRI-2001,nathaniel@munibilling.com,Normal,Resolved,CID: 1085 City of Arcadia: IVR Customers Unable to Make Payments - POSSIBLE RELEASE ISSUE,Payment Processing
+[System] Service request,TRI-1998,drago.todorov@munibilling.com,Normal,Resolved,Paya Payments Stuck in Processing - Multiple CIDs,Payment Processing
+[System] Service request,TRI-1988,,Normal,Resolved,Fake Payment Gateway Credentials - Demo Instances,Payment Processing
+[System] Service request,TRI-1957,samuel.aubin@munibilling.com,Normal,Resolved,Heartland Autopay Flag Removal CID1303,Payment Processing
+[System] Service request,TRI-1951,nathaniel@munibilling.com,Normal,Resolved,CID 145 Pittsburg County RW & SD #20 - Autopay ,Payment Processing
+[System] Service request,TRI-1946,jason.moore@munibilling.com,Normal,Resolved,GLOBAL - Managed Services - Lockbox payments have not been applied ,Payment Processing
+[System] Service request,TRI-1926,addie@munibilling.com,Normal,Resolved,Arcadia 1085 Unable to locate payment in Heartland - Possibly related to SSO,Payment Processing
+[System] Service request,TRI-1915,jim.martineau@munibilling.com,Normal,Resolved,CID: 151: Payment Issue,Payment Processing
+[System] Service request,TRI-1896,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1720 - Failed Autopay - Unable to update ,Payment Processing
+[System] Service request,TRI-1876,katilyn.wiggins@munibilling.com,Normal,Resolved,"CID: 1120 - Reconcile payments drop down missing ""online payments"" option (Echeck)",Payment Processing
+[System] Service request,TRI-1859,clyde.qasolli@munibilling.com,Normal,Closed,PAYA IVR - CID 145 Payment not attached.,Payment Processing
+[System] Service request,TRI-1849,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1545: City of Daingerfield: Payment correction on payment batch 3/7/25 #4 |611805 for account 1-10-05525-01  ,Payment Processing
+[System] Service request,TRI-1832,nathaniel@munibilling.com,Normal,Resolved,CID 1758 West Cocalico Township: Remove Unapplied Payments for Balance True Up,Payment Processing
+[System] Service request,TRI-1817,nathaniel@munibilling.com,Normal,Resolved,CID: 1120: Request to Terminate All Online Payment Processing,Payment Processing
+[System] Service request,TRI-1808,bettina@munibilling.com,Normal,Resolved,CID 215 Havasu POA - Deposit cannot be unapplied ,Payment Processing
+[System] Service request,TRI-1804,nathaniel@munibilling.com,Normal,Closed,CID: 151 - Missing payment,Payment Processing
+[System] Service request,TRI-1797,stephanie.williams@munibilling.com,Normal,Resolved,Global - Online Payment Deposit Reconciliation for Paya Customers not pulling Batch ID,Payment Processing
+[System] Service request,TRI-1793,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 215: Credit Card Payment Issue,Payment Processing
+[System] Service request,TRI-1790,samuel.aubin@munibilling.com,Normal,Closed,Autopay Checkbox Not Checked for Customers on Autopay,Payment Processing
+[System] Service request,TRI-1788,nathaniel@munibilling.com,Normal,Resolved,CID 1770 City of Ranier Auto Pay Amount on Gen screen ,Payment Processing
+[System] Service request,TRI-1787,clyde.qasolli@munibilling.com,Normal,Resolved,CID 145 Pittsburg County - Online Payment Rec. Rpt - Unable to balance ,Payment Processing
+[System] Service request,TRI-1783,nathaniel@munibilling.com,Normal,Canceled,AutoPay Did not Pull on 03.01.2025 for ECheck Payments in Town of Minturn CID1764,Payment Processing
+[System] Service request,TRI-1778,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1120 King George - unreconciled payments issue,Payment Processing
+[System] Service request,TRI-1763,nathaniel@munibilling.com,Normal,Resolved,CID: 1749 - Close button on payment screen not working.,Payment Processing
+[System] Service request,TRI-1761,clyde.qasolli@munibilling.com,Normal,Resolved,CID 50 Online Payment Deposit Reconciliation has unclosed batch issue ,Payment Processing
+[System] Service request,TRI-1755,nathaniel@munibilling.com,Normal,Resolved,CID 145  Pitt IVR - Test Payments not removed ,Payment Processing
+[System] Service request,TRI-1752,julie.byrd@munibilling.com,Normal,Resolved,CID:1120: Issue Printing Returned Payment Letter,Payment Processing
+[System] Service request,TRI-1737,bhavana.savaram@munibilling.com,Normal,Resolved,CID 465 NEA Cross - Remove Autopay Flags,Payment Processing
+[System] Service request,TRI-1736,nathaniel@munibilling.com,Normal,Resolved,CID: 1518 Auto Pay Button not showing in portal ,Payment Processing
+[System] Service request,TRI-1731,nathaniel@munibilling.com,Normal,Resolved,Deluxe Payments Imported Incorrectly as Check instead of Lockbox-Muni and eLockbox-Muni for 2/19/2025,Payment Processing
+[System] Service request,TRI-1706,alvaro.escobar@munibilling.com,Normal,Resolved,Enterprise / CID 738 - Deposit Error Message 2/6/25 - 1370 KIAWAH ST - 80-13-0229-5-3,Payment Processing
+[System] Service request,TRI-1702,clyde.qasolli@munibilling.com,Normal,Resolved,"CID 124  Consolidated Utilities, Inc - Payment not showing in payment history ",Payment Processing
+[System] Service request,TRI-1690,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 203 Sahuarita Payment Amount error ,Payment Processing
+[System] Service request,TRI-1685,nathaniel@munibilling.com,Normal,Resolved,Stinson Water - Duplicate Payment Rejected - Account 636001,Payment Processing
+[System] Service request,TRI-1679,nathaniel@munibilling.com,Normal,Canceled,CID: 124: Customer Payment not processed,Payment Processing
+[System] Service request,TRI-1677,bhavana.savaram@munibilling.com,Normal,Resolved,CID 1120 - King George - Autopay Flags,Payment Processing
+[System] Service request,TRI-1676,,Normal,Resolved,Enterprise - Payment Issue - 1110 BANKS ROSE CT - 80-07-0473-5-8,Payment Processing
+[System] Service request,TRI-1674,nathaniel@munibilling.com,Normal,Resolved,CID:457 Portal Payment Issue,Payment Processing
+[System] Service request,TRI-1673,clyde.qasolli@munibilling.com,Normal,Closed,CID 897 - $1.56 Payment posting discrepancies. ,Payment Processing
+[System] Service request,TRI-1671,,Normal,Resolved,Parkland CID 730 - Customer unable to make Payment,Payment Processing
+[System] Service request,TRI-1663,nathaniel@munibilling.com,Normal,Resolved,CID: 151 - Error Message When Trying to Make a Payment Received,Payment Processing
+[System] Service request,TRI-1659,nathaniel@munibilling.com,Normal,Resolved,Riverwood Community Development CID 737 - Customer Unable to make online payment - 23-20-3547-3-1 ,Payment Processing
+[System] Service request,TRI-1658,nathaniel@munibilling.com,Normal,Resolved,Parkland CID 730 - Customer unable to make Payment,Payment Processing
+[System] Service request,TRI-1655,alvaro.escobar@munibilling.com,Normal,Resolved,"CID 1720 - Delete Deposit Information For all Accounts For Beach City, OH",Payment Processing
+[System] Service request,TRI-1642,alvaro.escobar@munibilling.com,Normal,Resolved,GLOBAL - Unreconciled Payments Alert Does Not Show on Search Page,Payment Processing
+[System] Service request,TRI-1641,nathaniel@munibilling.com,Normal,Resolved,CID: 1392 - Duplicate Payments in Reconciled Batches,Payment Processing
+[System] Service request,TRI-1640,nathaniel@munibilling.com,Normal,Resolved,South Pasadena CID 1087 - Customer unable to make online payment,Payment Processing
+[System] Service request,TRI-1639,nathaniel@munibilling.com,Normal,Resolved,Parkland CID 730 - Customer unable to make Payment,Payment Processing
+[System] Service request,TRI-1635,nathaniel@munibilling.com,Normal,Resolved,CID: 436 - NACHA AUTOPAY ISSUE,Payment Processing
+[System] Service request,TRI-1623,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill Missing WaterSmart Payments from 12.25.2024 Please Expedite,Payment Processing
+[System] Service request,TRI-1622,,Normal,Resolved,Cedar Hill: Payment on Account but cannot locate Batch. 0000015234-000009670,Payment Processing
+[System] Service request,TRI-1587,clyde.qasolli@munibilling.com,Normal,Resolved,CID 897: Redmond - Payments out of Balance,Payment Processing
+[System] Service request,TRI-1582,alvaro.escobar@munibilling.com,Normal,Closed,CID 59 - City of Mountain Park - Unapplied Payments on Accounts with Past Due Balances,Payment Processing
+[System] Service request,TRI-1580,samuel.aubin@munibilling.com,Normal,Closed,Autopay flags on accounts,Payment Processing
+[System] Service request,TRI-1576,nathaniel@munibilling.com,Normal,Canceled,Lockbox Imports - Payments not applying to Deposit charges 1st,Payment Processing
+[System] Service request,TRI-1561,nathaniel@munibilling.com,Normal,Resolved,CID 59 - City of Mountain Park - Missing Paya Payment ,Payment Processing
+[System] Service request,TRI-1553,alvaro.escobar@munibilling.com,Normal,Resolved,Cedar Hill Missing two WaterSmart Payment Batches for payments on 12/6/2024 and 12/7/2024 12.10.2024,Payment Processing
+[System] Service request,TRI-1546,guppy.sivakumar@munibilling.com,Normal,Closed,CID 1082: Cedar Hill - Customer Security Deposit Transactions,Payment Processing
+[System] Service request,TRI-1545,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 977 - Double payment on accounts - Legacy Lockbox payments,Payment Processing
+[System] Service request,TRI-1542,bettina@munibilling.com,Normal,Resolved,CID: 1749 - Unpost/Unreconcile Payment Batch# 588106,Payment Processing
+[System] Service request,TRI-1522,bettina@munibilling.com,Normal,Closed,Unpost Payments - CID:730 Need Help with Reverting Reconciled Payments in Parkland Utilities,Payment Processing
+[System] Service request,TRI-1506,alvaro.escobar@munibilling.com,Normal,Resolved,Granville- CID 1697- Missing IVR Payment-230 Southern View Dr Acct 5049,Payment Processing
+[System] Service request,TRI-1505,bettina@munibilling.com,Normal,Resolved,CID 1529 Lakewood Village - South Oak Utilities Unpost Payments Batch Request,Payment Processing
+[System] Service request,TRI-1498,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 124 - Credit card payments still available to Golden Isles Water,Payment Processing
+[System] Service request,TRI-1497,clyde.qasolli@munibilling.com,Normal,Closed,Pending Online Payment Status Causing Client and Operations Confusion 11.13.2024,Payment Processing
+[System] Service request,TRI-1496,clyde.qasolli@munibilling.com,Normal,Resolved,CID 124 -  Consolidated - Payments still not on acct ,Payment Processing
+[System] Service request,TRI-1492,bettina@munibilling.com,Normal,Resolved,CID: 228 - Previous balances and payments received are not printing,Payment Processing
+[System] Service request,TRI-1490,clyde.qasolli@munibilling.com,Normal,Resolved,POI- CID 1575- Missing Online Payment- 199 EVENINGSTAR CAY CHERYL & JEROLD RAMPE Acct 90971,Payment Processing
+[System] Service request,TRI-1487,bettina@munibilling.com,Normal,Resolved,Cedar Hill WaterSmart Payments for 11.08.2024 NOT in Muni This Morning 11.11.2024,Payment Processing
+[System] Service request,TRI-1483,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 59 City of Mountain Park Missing Paya Payments ,Payment Processing
+[System] Service request,TRI-1473,clyde.qasolli@munibilling.com,Normal,Resolved,CID 128  Paya - Payment processed but not showing in MUNI,Payment Processing
+[System] Service request,TRI-1471,bhavana.savaram@munibilling.com,Normal,Resolved,Autopay flags on accounts,Payment Processing
+[System] Service request,TRI-1463,clyde.qasolli@munibilling.com,Normal,Resolved,CID 61 - City of Caseville - Pending Heartland Payment,Payment Processing
+[System] Service request,TRI-1458,clyde.qasolli@munibilling.com,Normal,Closed,CID: 413 - Missing payment,Payment Processing
+[System] Service request,TRI-1448,nathaniel@munibilling.com,Normal,Resolved,Aqua Waste- Granville CID 1697 Oxford CID 1702 Warrenton Chase CID 1704- Missing Online Payments & Duplicate Payments Posted to Accounts,Payment Processing
+[System] Service request,TRI-1441,nathaniel@munibilling.com,Normal,Resolved,POI- CID 1575- Missing Online Payments & Duplicate Payments Posted to Accounts,Payment Processing
+[System] Service request,TRI-1439,nathaniel@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain: Account 001062: Customer signed up for AutoPay on the new portal (Nuvei) and they appear as pending on the auto pay report.,Payment Processing
+[System] Service request,TRI-1436,clyde.qasolli@munibilling.com,Normal,Closed,Cannot Reconcile DELUXE Lockbox Payments for 10.21.2024 and 10.22.2024,Payment Processing
+[System] Service request,TRI-1435,nathaniel@munibilling.com,Normal,Closed,CID 1749 - Neskowin Regional Water District - Online Payment for Account 1340-00 Does Not Have a Payment Date,Payment Processing
+[System] Service request,TRI-1426,clyde.qasolli@munibilling.com,Normal,Closed,St Helena CID (1634) : AutoPay Did NOT Run for 10.15.2024 Due Date,Payment Processing
+[System] Service request,TRI-1424,clyde.qasolli@munibilling.com,Normal,Resolved,Oxford CID 1702- Online Payment Not Posted to Account (Pending Transactions Issue),Payment Processing
+[System] Service request,TRI-1422,bettina@munibilling.com,Normal,Resolved,Enterprise - CID 738 - Deposit Posted Twice - Balances Incorrect,Payment Processing
+[System] Service request,TRI-1420,clyde.qasolli@munibilling.com,Normal,Resolved,Enterprise - CID 738 - Heartland Payment Applied Incorrectly,Payment Processing
+[System] Service request,TRI-1417,nathaniel@munibilling.com,Normal,Closed,Heartland - Failed Autopay Notices CID 1633 Pine Brook,Payment Processing

@@ -1,0 +1,55 @@
+{
+  "reference_ticket": "TRI-1858",
+  "summary": "CID 1769: Durango West Metro District: Unpost Meter Reading with end date 03/31/25",
+  "confirmed_fields": {},
+  "probable_fields": {
+    "cf[10449]": {
+      "name": "Components",
+      "likely_values": [
+        "Meter Management",
+        "Meter Reading",
+        "Billing System",
+        "Data Management"
+      ],
+      "confidence": "Low"
+    },
+    "cf[10451]": {
+      "name": "Impact",
+      "likely_values": [
+        "High",
+        "Medium",
+        "2",
+        "3"
+      ],
+      "confidence": "Low"
+    },
+    "cf[10413]": {
+      "name": "Company (candidate 1)",
+      "likely_values": [
+        "1769",
+        "Durango West Metro District",
+        "CID 1769"
+      ],
+      "confidence": "Low"
+    },
+    "cf[10432]": {
+      "name": "Company (candidate 2)",
+      "likely_values": [
+        "1769",
+        "Durango West Metro District",
+        "CID 1769"
+      ],
+      "confidence": "Low"
+    },
+    "cf[10433]": {
+      "name": "Company (candidate 3)",
+      "likely_values": [
+        "1769",
+        "Durango West Metro District",
+        "CID 1769"
+      ],
+      "confidence": "Low"
+    }
+  },
+  "status": "partial_identification"
+}
