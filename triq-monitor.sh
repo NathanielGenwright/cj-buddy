@@ -107,9 +107,10 @@ log "✓ JIRA connectivity confirmed"
 # Function: Check for new tickets
 check_new_tickets() {
     log "Checking for new Engineering Portal tickets..."
-    
+
     # Find ALL tickets that need validation in Initial Review AND Parking Lot statuses
-    NEW_TICKETS=$(acli jira workitem search --jql "project = $PROJECT AND status IN ('Initial Review', 'Parking Lot')" 2>/dev/null || echo "")
+    # EXCLUDE tickets with triq_manual_eval label (need manual intervention)
+    NEW_TICKETS=$(acli jira workitem search --jql "project = $PROJECT AND status IN ('Initial Review', 'Parking Lot') AND labels NOT IN (triq_manual_eval)" 2>/dev/null || echo "")
     
     if [ -n "$NEW_TICKETS" ]; then
         log "Found new tickets requiring validation:"
@@ -498,41 +499,46 @@ track_evaluation_count() {
     fi
 }
 
-# Function: Escalate ticket to project admin
+# Function: Escalate ticket to manual evaluation
 escalate_to_admin() {
     local ticket_key="$1"
     local evaluation_count="$2"
-    
-    log "🚨 ESCALATING TO ADMIN: $ticket_key"
-    
-    # Add admin_review_needed label
-    log "Would add admin_review_needed label to $ticket_key"
-    # acli jira workitem edit "$ticket_key" --labels "admin_review_needed"
-    
+
+    log "🚨 ESCALATING TO MANUAL EVALUATION: $ticket_key"
+
+    # Add triq_manual_eval label to exclude from future automatic evaluations
+    log "Would add triq_manual_eval label to $ticket_key"
+    # acli jira workitem edit "$ticket_key" --labels "triq_manual_eval"
+
     # Create admin notification
     local notification_file="/tmp/admin_notification_${ticket_key}.txt"
     cat > "$notification_file" << EOF
-🚨 ADMIN REVIEW REQUIRED
+🚨 MANUAL EVALUATION REQUIRED
 
 Ticket: $ticket_key
 Evaluation Count: $evaluation_count
 Status: Stuck in triage for multiple evaluation cycles
+Label Applied: triq_manual_eval
 
-This ticket has been evaluated $evaluation_count times while remaining in 
-"Initial Review" or "Parking Lot" status. Manual admin intervention may be required.
+This ticket has been evaluated $evaluation_count times while remaining in
+"Initial Review" or "Parking Lot" status. Manual intervention is required.
+
+AUTOMATIC EVALUATIONS DISABLED: This ticket will be excluded from future
+automatic validation cycles until the "triq_manual_eval" label is removed.
 
 Possible Actions:
 - Review ticket quality requirements
 - Provide submitter training
 - Reassign or close if inappropriate
 - Override triage decision if needed
+- Remove "triq_manual_eval" label to re-enable automatic validation
 
 Generated: $(date '+%Y-%m-%d %H:%M:%S')
 EOF
-    
+
     log "Admin notification created: $notification_file"
-    log "Would notify project admin about $ticket_key requiring review"
-    
+    log "Ticket $ticket_key marked for manual evaluation - excluded from future automatic processing"
+
     # In production, would send notification to project admin
     # This could be email, Slack, or JIRA comment to admin
 }

@@ -1,0 +1,205 @@
+================================================================================
+TriQ Dashboard - POC - QUICK START GUIDE
+================================================================================
+
+✅ Dashboard is ready to use!
+
+================================================================================
+FASTEST WAY TO START
+================================================================================
+
+Option 1: Use the start script (easiest)
+-----------------------------------------
+cd /Users/munin8/_myprojects/triq-dashboard
+./start.sh
+
+This will:
+1. Parse /tmp/triq-monitor.log into database
+2. Start web server at http://localhost:5001
+3. Dashboard auto-refreshes every 180 seconds (3 minutes)
+
+
+Option 2: Manual steps
+----------------------
+# Step 1: Parse logs (run whenever you want fresh data)
+cd /Users/munin8/_myprojects/triq-dashboard
+python3 triq_db.py
+
+# Step 2: Start dashboard
+python3 dashboard.py
+
+# Step 3: Open browser
+# Go to: http://localhost:5001
+
+
+================================================================================
+WHAT YOU'LL SEE
+================================================================================
+
+Dashboard Features:
+-------------------
+✓ Metrics Cards
+  - Total Tickets: 8 unique tickets
+  - Avg Quality Score: 3.79/10
+  - Approved: 0
+  - Needs Clarification: 68
+  - Parking Lot: 170
+
+✓ Tickets Table
+  - Recent validations with color-coded scores
+  - Green (8+), Yellow (5-7.9), Red (<5)
+  - Evaluation counts per ticket
+  - Priority and urgency/impact data
+
+✓ Auto-Refresh
+  - Dashboard refreshes every 3 minutes automatically
+  - Visual indicator shows refresh status
+  - No page reload needed
+
+
+================================================================================
+CURRENT DATABASE STATS
+================================================================================
+
+Based on latest parse:
+- Total log entries:      13,358
+- Unique tickets:         8
+- Scored validations:     238
+- Average quality score:  3.79/10
+- Database size:          2.8 MB
+
+Validation results:
+• PARKING_LOT: 170 tickets
+• NEEDS_CLARIFICATION: 68 tickets
+
+
+================================================================================
+UPDATING DATA
+================================================================================
+
+To refresh with latest logs:
+
+Method 1: Quick refresh (keep dashboard running)
+-------------------------------------------------
+# In a new terminal
+cd /Users/munin8/_myprojects/triq-dashboard
+python3 triq_db.py
+
+# Dashboard will show updated data on next auto-refresh (max 3 min)
+
+
+Method 2: Full restart
+----------------------
+# Stop dashboard (Ctrl+C)
+# Run start script again
+./start.sh
+
+
+================================================================================
+CUSTOMIZATION
+================================================================================
+
+Change auto-refresh interval:
+-----------------------------
+Edit: templates/index.html
+Line: ~360
+Change: const REFRESH_INTERVAL = 180000;  // milliseconds
+
+Examples:
+- 30 seconds:  30000
+- 1 minute:    60000
+- 5 minutes:   300000
+- 10 minutes:  600000
+
+
+Change server port:
+------------------
+Edit: dashboard.py
+Line: ~18
+Change: PORT = 5000
+
+
+Show more tickets:
+-----------------
+Edit: templates/index.html
+Line: ~405
+Change: ?limit=50  to  ?limit=100 (or any number)
+
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: "Database not found"
+Solution: Run python3 triq_db.py
+
+Problem: "No log file found"
+Solution: Run /Users/munin8/_myprojects/triq-monitor.sh first
+
+Problem: "Port already in use"
+Solution: Change PORT in dashboard.py or stop other process
+
+Problem: "ModuleNotFoundError: No module named 'flask'"
+Solution: pip3 install flask (already done!)
+
+
+================================================================================
+FILES CREATED
+================================================================================
+
+/Users/munin8/_myprojects/triq-dashboard/
+├── triq_db.py              ✅ Log parser script
+├── dashboard.py            ✅ Flask web server
+├── templates/
+│   └── index.html          ✅ Dashboard UI (180s auto-refresh)
+├── README.md               ✅ Full documentation
+├── QUICK_START.txt         ✅ This file
+├── start.sh                ✅ Quick start script
+└── triq.db                 ✅ SQLite database (2.8 MB)
+
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Start the dashboard:
+   cd /Users/munin8/_myprojects/triq-dashboard
+   ./start.sh
+
+2. Open browser to: http://localhost:5001
+
+3. Watch your TriQ validation data in a clean, modern interface!
+
+4. To refresh data, re-run: python3 triq_db.py
+
+5. Read README.md for full documentation and API details
+
+
+================================================================================
+FUTURE ENHANCEMENTS (IF YOU LIKE THE POC)
+================================================================================
+
+If this POC works well, we can add:
+- Ticket detail drill-down view
+- Filters (by score, result, date range)
+- Admin escalations queue page
+- Export to CSV functionality
+- Real-time log streaming
+- Full production dashboard (PostgreSQL + Next.js)
+
+
+================================================================================
+SUPPORT
+================================================================================
+
+Questions? Check:
+1. README.md (full documentation)
+2. /Users/munin8/_myprojects/TRIQ-TODO.md (TriQ system guide)
+3. /tmp/triq-monitor.log (TriQ monitoring logs)
+
+
+================================================================================
+Built: 2025-10-23
+Version: 1.0 POC
+Status: ✅ READY TO USE
+================================================================================
