@@ -1,0 +1,9 @@
+TRI Tickets Summary (Past Year)
+================================
+
+Total Tickets Processed: 631
+Urgency Distribution:
+  Critical: 51 (9.8%)
+  High: 200 (38.4%)
+  Low: 70 (13.4%)
+  Medium: 200 (38.4%)

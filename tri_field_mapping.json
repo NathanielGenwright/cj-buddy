@@ -1,0 +1,22 @@
+{
+  "confirmed_fields": {
+    "10449": {
+      "name": "Components",
+      "value": "UNKNOWN",
+      "confidence": "Medium"
+    },
+    "10450": {
+      "name": "Urgency",
+      "value": "High",
+      "confidence": "High"
+    },
+    "10451": {
+      "name": "Impact",
+      "value": "UNKNOWN",
+      "confidence": "Medium"
+    }
+  },
+  "company_field": "NOT_FOUND",
+  "reference_ticket": "TRI-1858",
+  "analysis_date": "2025-10-13T16:00:16.272283"
+}

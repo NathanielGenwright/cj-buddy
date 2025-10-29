@@ -179,6 +179,243 @@ TriQ now incorporates the proven MuniBilling framework for structured priority a
 - **Operational Alignment**: Integrates existing MuniBilling practices into technical validation
 - **Enhanced Business Context**: More comprehensive assessment of business disruption
 
+### TriQ JPD Queue Routing (2025-10-29) [PLANNED]
+
+TriQ will support intelligent routing of Product Enhancement Requests and feature suggestions to the JPD (JIRA Product Direction) queue after validation scoring.
+
+#### Routing Logic
+- **Issue Types Detected**: "Product Enhancement Request", "Suggest a new feature"
+- **Routing Priority**: JPD routing takes precedence over score-based routing
+- **Quality Scoring**: Still calculated for all tickets (provides JPD team quality metrics)
+- **Target Status**: "JPD Queue" (JIRA status transition)
+- **Labels Applied**: `triq_validated`, `quality_score_X.X`, `jpd`
+
+#### Implementation Points
+**Modified Files:**
+- `/Users/munin8/_myprojects/triq/src/structured-monitor-arm.sh`:
+  - Add JPD detection after line 629 (after score calculation)
+  - Add JPD case to apply_routing() around line 685
+  - Add JPD label support in apply_labels() around line 752
+
+**Routing Flow:**
+```
+Ticket Received
+    |
+    v
+Extract Issue Type
+    |
+    +---> [Product Enhancement Request] --> JPD Queue + "jpd" label
+    |
+    +---> [Suggest a new feature] --> JPD Queue + "jpd" label
+    |
+    +---> [Other Issue Types] --> Calculate Quality Score (existing flow)
+                                      |
+                                      +---> [Score >= 8.0] --> Eng Queue
+                                      +---> [Score >= 5.0] --> Eng Queue
+                                      +---> [Score >= 4.0] --> Parking Lot
+                                      +---> [Score < 4.0]  --> Parking Lot
+```
+
+#### Benefits
+1. **Product Alignment**: Feature requests automatically routed to product team
+2. **Clear Separation**: Engineering focuses on bugs/issues, JPD handles enhancements
+3. **Quality Metrics**: Product team still gets quality scores for prioritization
+4. **Feedback Loop**: Validation comments help improve feature request quality
+
+#### Testing Strategy
+1. Create test ticket with issue type "Product Enhancement Request"
+2. Verify TriQ detects feature request before score-based routing
+3. Confirm status transition to "JPD Queue"
+4. Validate "jpd" label applied
+5. Check dashboard shows JPD routing statistics
+
+#### Status
+🚧 **Planned** - Implementation pending in TODO list (8 tasks)
+
+### TriQ Auto-Enhancement System (2025-10-29)
+
+TriQ now includes automatic ticket enhancement capabilities that improve low-quality tickets by adding structure, identifying gaps, and calculating priority while preserving 100% of original content.
+
+#### Enhancement Overview
+
+**Location:** `/Users/munin8/_myprojects/triq/`
+
+**Core Components:**
+- **Enhancement Engine**: `src/ticket_enhancer.py` - Python module for content generation
+- **Enhanced Triage Script**: `scripts/triage_enhanced.py` - Integrated validation + enhancement workflow
+- **Prompt Template**: `prompts/enhancement_prompt.md` - AI prompt guidelines
+- **Documentation**: `docs/enhancement-guide.md` - Complete usage guide
+
+#### Enhancement Workflow
+
+```
+1. VALIDATE → Score ticket quality (0-10 using 5-category framework)
+2. CHECK THRESHOLD → If score < 7.0, proceed to enhancement
+3. GENERATE → Create enhanced summary and description
+4. PRESERVE → Store original content at bottom of description
+5. UPDATE JIRA → Apply enhanced content to ticket
+6. POST COMMENT → Add validation results with priority suggestion
+7. ROUTE → Move to Eng Queue (≥5.0) or Parking Lot (<5.0)
+```
+
+#### What Gets Enhanced
+
+**Summary Enhancement (Option 4 - Minimal Intervention):**
+- Original: `"payment issue"`
+- Enhanced: `"Payment Processing Failure - CID 1234 - Heartland Gateway - High Priority"`
+
+**Description Enhancement (Option 2 + 4 Hybrid - Balanced Gap Filler):**
+```markdown
+⚡ ENHANCED BY TRIQ | Score: 4.5 → 8.0 | 2025-10-29
+
+**Quick Context:**
+• Customer: [Extracted from content]
+• System: [Detected system/integration]
+• Request: [One-line summary]
+• Phase 1/2: [If phased approach detected]
+
+**Priority Assessment:**
+• Urgency: High (ASAP timeline requested)
+• Impact: Medium (Customer communications capability)
+• Suggested Priority: High (P2 per urgency/impact matrix)
+• SLA: 30min response, 1 day initial update
+
+**Technical Details Needed:**
+• [Specific gap 1]
+• [Specific gap 2]
+• [Specific gap 3]
+
+**Business Context Needed:**
+• [Specific gap 1]
+• [Specific gap 2]
+• [Specific gap 3]
+
+**Recommended Actions:**
+1. [Actionable step 1]
+2. [Actionable step 2]
+3. [Actionable step 3]
+
+─────────────────────────────────────────────────────────────────
+📝 ORIGINAL DESCRIPTION (Preserved)
+─────────────────────────────────────────────────────────────────
+
+[100% of original content, completely unmodified]
+```
+
+**Metadata Enhancement:**
+- Adds labels: `triq_enhanced`, `quality_score_X.X`, system tags, category tags
+- Suggests priority (doesn't auto-change - respects engineer judgment)
+- Posts validation comment with score breakdown
+
+#### Content Guidelines
+
+**✅ Included (Necessary):**
+- Customer/system identification
+- Request summary (1 line)
+- Phased approach if evident
+- Priority assessment with matrix reasoning
+- Specific actionable gaps only
+- 3-5 recommended next actions
+- Clear visual separator
+- Original content 100% preserved
+
+**❌ Excluded (Unnecessary Fluff):**
+- "Auto-Generated" explanations
+- "Needs Clarification" headers
+- Checkbox formatting
+- Redundant metadata
+- Over-explaining obvious things
+- Template boilerplate
+- Success celebration language
+
+**Result:** Balanced ~1.9x content growth (not overwhelming 3x)
+
+#### Usage Examples
+
+**Dry-Run Mode** (see what would happen, no changes):
+```bash
+cd /Users/munin8/_myprojects/triq
+./scripts/triage_enhanced.py --dry-run
+```
+
+**Execute Mode** (apply enhancements):
+```bash
+./scripts/triage_enhanced.py --execute
+```
+
+**Specific Ticket:**
+```bash
+./scripts/triage_enhanced.py --jql "key = EP-22" --execute
+```
+
+**Custom Threshold:**
+```bash
+# Only enhance tickets scoring below 8.0
+./scripts/triage_enhanced.py --threshold 8.0 --execute
+```
+
+**Batch Processing:**
+```bash
+# Enhance all new tickets from today
+./scripts/triage_enhanced.py \
+  --jql "project = EP AND status = 'Initial Review' AND created >= -1d" \
+  --execute
+```
+
+#### Quality Thresholds
+
+- **9.0-10.0**: Excellent - No enhancement needed
+- **7.0-8.9**: Good - Minor gaps only
+- **5.0-6.9**: Fair - Enhancement recommended
+- **3.0-4.9**: Poor - Enhancement required
+- **0.0-2.9**: Critical - Major gaps, enhancement essential
+
+**Default Enhancement Threshold: 7.0** (configurable via `--threshold` flag)
+
+#### Enhancement Statistics (Example: EP-22)
+
+**Before:**
+- Summary: `"Enable new features for watersmart process"`
+- Description: 573 characters, minimal structure
+- Score: 4.6/10
+
+**After:**
+- Summary: `"WaterSmart Email Export Enhancement - Snowmass - Customer Integration"`
+- Description: 2,165 characters with structured sections
+- Score: 8.1/10 (+3.5 improvement)
+- Labels: `triq_enhanced`, `quality_score_8.1`, `watersmart`, `data_export`
+- Priority: Suggested High (P2) based on urgency/impact matrix
+
+#### Key Benefits
+
+1. **Faster Triage**: Engineers get structured tickets immediately
+2. **Fewer Clarifications**: Missing details explicitly identified
+3. **Better Prioritization**: Automatic priority calculation using proven matrix
+4. **Complete Preservation**: Original content always maintained
+5. **Training Effect**: Users learn ticket quality standards by seeing enhancements
+
+#### Integration Points
+
+- **Standalone**: Use `triage_enhanced.py` independently for batch processing
+- **Scheduled**: Add to cron for daily morning enhancement of new tickets
+- **On-Demand**: Engineers can request enhancement with `triq_enhance_me` label (future)
+- **Monitor Integration**: Can be integrated into `triq-monitor.sh` workflow (future)
+
+#### Documentation
+
+- **Complete Guide**: `/Users/munin8/_myprojects/triq/docs/enhancement-guide.md`
+- **Validation Rules**: `/Users/munin8/_myprojects/triq/docs/jira-validation-rules.md`
+- **Quality Rubric**: `/Users/munin8/_myprojects/triq/docs/jira-triage-quality-rubric.md`
+- **Test Example**: Run `python3 /Users/munin8/_myprojects/triq/scripts/test_ep22.py` to see enhancement in action
+
+#### Quick Usage Examples
+
+- **Test Enhancement on EP-22**: `cd /Users/munin8/_myprojects/triq && python3 scripts/test_ep22.py`
+- **Dry-Run on Single Ticket**: `./scripts/triage_enhanced.py --jql "key = EP-22" --dry-run`
+- **Enhance Initial Review Queue**: `./scripts/triage_enhanced.py --jql "project = EP AND status = 'Initial Review'" --execute`
+- **Force Enhancement**: `./scripts/triage_enhanced.py --force-enhance --jql "key = EP-22" --execute`
+- **Check Enhanced Tickets**: `acli jira workitem search --jql "labels = triq_enhanced" --limit 50`
+
 ## TRI Project Custom Field Analysis (2025-10-13)
 
 ### CONFIRMED Custom Field Mappings
@@ -337,3 +574,4 @@ The Muni Billing system uses a multi-layered job processing architecture for bac
 
 ### Recommendation
 Consider committing recent TriQ enhancements as they represent significant functional improvements to the triage validation system with proper business operations alignment.
+- memory

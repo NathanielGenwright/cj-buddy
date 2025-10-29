@@ -1,0 +1,22 @@
+TRI TICKETS - TOP 20 ISSUE CATEGORIES ANALYSIS
+==================================================
+Analysis Date: 2025-10-13 14:45:50
+Original Dataset: 631 tickets
+Filtered Dataset: 631 tickets
+Coverage: 100.0%
+
+TOP 20 ISSUE CATEGORIES:
+------------------------------
+ 1. Other                     |  474 tickets ( 75.1%)
+ 2. Billing System            |   50 tickets (  7.9%)
+ 3. Payment Processing        |   31 tickets (  4.9%)
+ 4. Integration               |   24 tickets (  3.8%)
+ 5. Meter Management          |   12 tickets (  1.9%)
+ 6. Autopay System            |   11 tickets (  1.7%)
+ 7. Customer Portal           |   10 tickets (  1.6%)
+ 8. System Performance        |    9 tickets (  1.4%)
+ 9. Data Management           |    8 tickets (  1.3%)
+10. Enhancement               |    2 tickets (  0.3%)
+
+EXCLUDED CATEGORIES:
+--------------------

@@ -1,0 +1,632 @@
+Ticket_Key,Summary,Status,Assignee,Urgency,Priority,JIRA_URL,TriQ_Score,Quality_Issues,Client_CID,Issue_Category,Action_Required,Created_Date
+TRI-2308,support   Enhance Billing Calculat...,for,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2308,5.0,NO DESCRIPTION,N/A,Billing System,STANDARD PROCESSING,2024-2025
+TRI-2307,support   Support Accurate Tax Cal...,for,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2307,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2306,support   Enhance Import Process w...,for,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2306,5.0,NO DESCRIPTION,N/A,Integration,STANDARD PROCESSING,2024-2025
+TRI-2305,support   Improve Accuracy and Err...,for,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2305,5.0,NO DESCRIPTION,N/A,Enhancement,STANDARD PROCESSING,2024-2025
+TRI-2304,support   The Customer Custom Fiel...,for,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2304,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2303,Client Data Pull,Resolved,stephanie.williams@munib@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2303,5.5,NO DESCRIPTION,N/A,Data Management,RESOLVED,2024-2025
+TRI-2302,CID 1760:West Cocalico T...,Progress,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2302,6.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1760,Other,STANDARD PROCESSING,2024-2025
+TRI-2301,Progress           CID 1801 - Hope Water: S...,In,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2301,6.0,NO DESCRIPTION,1801,Other,STANDARD PROCESSING,2024-2025
+TRI-2299,for customer  Stinson Water CID 1600 A...,Waiting,clyde.qasolli@munibillin@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2299,6.0,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1600,Other,STANDARD PROCESSING,2024-2025
+TRI-2298,Progress           Provide file format deta...,In,katilyn.wiggins@munibill@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2298,5.0,NO DESCRIPTION,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-2297,CID 1801 - Hope Water: S...,Resolved,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2297,6.5,NO DESCRIPTION,1801,Other,RESOLVED,2024-2025
+TRI-2296,CID- 1823 - City of Buff...,Closed,katilyn.wiggins@munibill@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2296,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1823,Other,RESOLVED,2024-2025
+TRI-2295,for customer  CID-1788-Global request ...,Waiting,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2295,6.0,NO DESCRIPTION,1788,System Performance,STANDARD PROCESSING,2024-2025
+TRI-2294,Late Charge Temp...,Enhance,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2294,5.0,NO DESCRIPTION,N/A,Billing System,STANDARD PROCESSING,2024-2025
+TRI-2293,for Misappli...,Adjustments,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2293,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2292,Transfer Functio...,Balance,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2292,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2291,Mass Communi...,Pre-Billing,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2291,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2290,CID 1136 Rutland Stateme...,Resolved,clyde.qasolli@munibillin@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2290,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1136,Other,RESOLVED,2024-2025
+TRI-2289,CID 1567: Washington Cou...,Resolved,bhavana.savaram@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2289,6.5,NO DESCRIPTION,1567,Other,RESOLVED,2024-2025
+TRI-2288,for customer  CID: 229- Reads Calculat...,Waiting,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2288,6.0,NO DESCRIPTION,229,Other,STANDARD PROCESSING,2024-2025
+TRI-2287,for customer  Snowmass Watersmart File...,Waiting,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2287,5.0,NO DESCRIPTION,N/A,Integration,STANDARD PROCESSING,2024-2025
+TRI-2286,customer  CID 1575- Customer Porta...,for,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2286,6.0,NO DESCRIPTION,1575,Other,STANDARD PROCESSING,2024-2025
+TRI-2285,CID 1843 - Hope Water - ...,Closed,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2285,6.5,NO DESCRIPTION,1843,Other,RESOLVED,2024-2025
+TRI-2284,Progress           CID: 1769- Autopay Info ...,In,drago.todorov@munibillin@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2284,6.0,NO DESCRIPTION,1769,Autopay System,STANDARD PROCESSING,2024-2025
+TRI-2283,Fortress Integration Sy...,Resolved,jason.moore@munibilling.@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2283,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Integration,RESOLVED,2024-2025
+TRI-2282,Billing Errors b...,Prevent,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2282,5.0,NO DESCRIPTION,N/A,Billing System,STANDARD PROCESSING,2024-2025
+TRI-2281,Flexibility for ...,Enhance,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2281,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2280,Data Accuracy W...,Preserve,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2280,5.0,NO DESCRIPTION,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-2279,for Internationa...,Support,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2279,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2278,the need to ma...,Eliminate,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2278,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2274,CID- 1833- Jim Wells Del...,Closed,katilyn.wiggins@munibill@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2274,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1833,Other,RESOLVED,2024-2025
+TRI-2273,for customer  CID: 41 - Duplicate Late...,Waiting,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2273,6.0,NO DESCRIPTION,41,Other,STANDARD PROCESSING,2024-2025
+TRI-2272,CID -1823 - City of Buff...,Resolved,stephanie.williams@munib@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2272,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1823,Other,RESOLVED,2024-2025
+TRI-2271,Cedar Hill: Remove Billi...,Resolved,clyde.qasolli@munibillin@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2271,5.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Billing System,RESOLVED,2024-2025
+TRI-2270,CID 1802 Hope Water - Va...,Closed,katilyn.wiggins@munibill@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2270,6.5,NO DESCRIPTION,1802,Other,RESOLVED,2024-2025
+TRI-2268,User Permissions for Demo,Closed,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2268,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-2267,Create Admin User for Pa...,Closed,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2267,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-2266,Melissa Haney -  New Use...,Closed,katilyn.wiggins@munibill@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2266,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2265,CID 1779: Create bill er...,Resolved,katilyn.wiggins@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2265,6.5,NO DESCRIPTION,1779,Billing System,RESOLVED,2024-2025
+TRI-2259,CID 1780: Millersville B...,Resolved,bhavana.savaram@munibill@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2259,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1780,Other,RESOLVED,2024-2025
+TRI-2258,CID: 414  Epcor/Harmony ...,Resolved,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2258,6.5,NO DESCRIPTION,414,Other,RESOLVED,2024-2025
+TRI-2251,CID- 1823 - City of Buff...,Closed,samuel.aubin@munibilling@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2251,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1823,Other,RESOLVED,2024-2025
+TRI-2250,CID 1844 - Having Issues...,Resolved,nathaniel@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2250,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1844,Other,RESOLVED,2024-2025
+TRI-2249,262 Update of Meters,CID,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2249,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Meter Management,STANDARD PROCESSING,2024-2025
+TRI-2248,Progress           Multivision Authenticati...,In,bhavana.savaram@munibill@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2248,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2245,GLOBAL System S...,Arcadia:,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2245,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,System Performance,STANDARD PROCESSING,2024-2025
+TRI-2244,CID: 413 - Can't add par...,Closed,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2244,6.5,NO DESCRIPTION,413,Other,RESOLVED,2024-2025
+TRI-2243,CID - 1823 - City of Buf...,Closed,samuel.aubin@munibilling@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2243,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1823,Other,RESOLVED,2024-2025
+TRI-2242,CID 45: Waste Water Solu...,Resolved,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2242,6.5,NO DESCRIPTION,45,Other,RESOLVED,2024-2025
+TRI-2241,CID: 50- Payments not up...,Resolved,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2241,6.5,NO DESCRIPTION,50,Payment Processing,RESOLVED,2024-2025
+TRI-2240,CID 1800 Portage - AutoP...,Resolved,nathaniel@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2240,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1800,Other,RESOLVED,2024-2025
+TRI-2239,CID 960: Bent Creek Paym...,Closed,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2239,6.5,NO DESCRIPTION,960,Other,RESOLVED,2024-2025
+TRI-2238,for support   CID 228: Energy Center P...,Waiting,nathaniel@munibilling.com,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2238,6.0,NO DESCRIPTION,228,Other,STANDARD PROCESSING,2024-2025
+TRI-2235,customer  CID- 1837 - Glen Lake Es...,for,Normal,High,Normal,https://jiramb.atlassian.net/browse/TRI-2235,6.0,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1837,Other,STANDARD PROCESSING,2024-2025
+TRI-2234,CID 262  - Update Meter ...,Resolved,bhavana.savaram@munibill@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2234,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,262,Meter Management,RESOLVED,2024-2025
+TRI-2233,1415: Queen Anne's C...,CID,Normal,High,Normal,https://jiramb.atlassian.net/browse/TRI-2233,5.0,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2232,Watersmart issues with S...,Resolved,clyde.qasolli@munibillin@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2232,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-2231,Austin County WSC Accoun...,Closed,katilyn.wiggins@munibill@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2231,5.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-2230,CID 436 - Gatlinburg - P...,Resolved,bettina@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2230,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,436,Other,RESOLVED,2024-2025
+TRI-2229,CID 1801 - Hope Water: S...,Resolved,katilyn.wiggins@munibill@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2229,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1801,Other,RESOLVED,2024-2025
+TRI-2228,CID 1801: Hope Water Sou...,Resolved,nathaniel@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2228,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1801,Other,RESOLVED,2024-2025
+TRI-2226,1801 - Hope Water: S...,CID,Normal,Medium,Normal,https://jiramb.atlassian.net/browse/TRI-2226,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2224,Carson - New User R...,Myya,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2224,5.0,NO DESCRIPTION,N/A,Customer Portal,STANDARD PROCESSING,2024-2025
+TRI-2223,Samantha Hoffman - New U...,Resolved,bettina@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2223,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2222,Tylee Roberts - New User...,Resolved,bettina@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2222,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-2221,RentManager Uploading Er...,Closed,jason.moore@munibilling.@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2221,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2220,CID:423- Details of barc...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2220,6.5,NO DESCRIPTION,423,Other,RESOLVED,2024-2025
+TRI-2218,1833 - Jim Wells - ...,CID-,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2218,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2217,CID- 1833 - Jim Wells - ...,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2217,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1833,Other,RESOLVED,2024-2025
+TRI-2216,CID- 1833 - Broadcast No...,Resolved,tonisha.sellars@munibill@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2216,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1833,Other,RESOLVED,2024-2025
+TRI-2215,1836 - City of Albio...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2215,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2214,CID - 1833 - Bill Deleti...,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2214,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1833,Billing System,RESOLVED,2024-2025
+TRI-2211,Update Inactive Account ...,Resolved,stephanie.williams@munib@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2211,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-2210,CID: 1720 - Autopay isn'...,Resolved,nathaniel@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2210,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1720,Autopay System,RESOLVED,2024-2025
+TRI-2209,- GLOBAL - login ...,URGENT,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2209,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Customer Portal,STANDARD PROCESSING,2024-2025
+TRI-2207,Bent Creek Utility - Unp...,Closed,katilyn.wiggins@munibill@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2207,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-2201,Integration - S...,Fortress,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2201,5.0,NO DESCRIPTION,N/A,Integration,STANDARD PROCESSING,2024-2025
+TRI-2200,CId 124- Consolidated - ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2200,5.5,NO DESCRIPTION,124,Other,RESOLVED,2024-2025
+TRI-2199,Wells Fargo Lo...,Sahuarita,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2199,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2198,Information fr...,Important,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2198,5.0,NO DESCRIPTION,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-2197,Important Information fr...,Closed,bettina@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2197,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-2196,Bills voided adjustments...,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2196,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Billing System,RESOLVED,2024-2025
+TRI-2195,1800: Update Autopay...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2195,5.0,NO DESCRIPTION,N/A,Autopay System,STANDARD PROCESSING,2024-2025
+TRI-2192,San Juan - Unpost Bills,Resolved,bettina@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2192,5.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Billing System,RESOLVED,2024-2025
+TRI-2191,CID 1793: Customers unab...,Resolved,jim.martineau@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2191,6.5,NO DESCRIPTION,1793,Other,RESOLVED,2024-2025
+TRI-2187,Error While Processing P...,Resolved,stephanie.williams@munib@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2187,5.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-2185,CID- 1833 - Jim Wells - ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2185,6.5,NO DESCRIPTION,1833,Other,RESOLVED,2024-2025
+TRI-2183,1634 - St Helena Wat...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2183,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2181,City of Arcadia: Bill Du...,Closed,katilyn.wiggins@munibill@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2181,5.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Billing System,RESOLVED,2024-2025
+TRI-2180,CID: 1800 Customer Porta...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2180,6.5,NO DESCRIPTION,1800,Other,RESOLVED,2024-2025
+TRI-2178,CID: 1800 - System Erros,Resolved,bettina@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2178,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1800,System Performance,RESOLVED,2024-2025
+TRI-2176,CID 1802 Hope Water Vall...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2176,6.5,NO DESCRIPTION,1802,Other,RESOLVED,2024-2025
+TRI-2174,customer  CID: 1640 Parcel History...,for,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2174,6.0,NO DESCRIPTION,1640,Other,STANDARD PROCESSING,2024-2025
+TRI-2169,Important Information fr...,Closed,harmon.jenkins@munibilli@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2169,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-2168,CID: 1792 E Bills Bounce...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2168,6.5,NO DESCRIPTION,1792,Billing System,RESOLVED,2024-2025
+TRI-2167,MuniBilling Admin User A...,Resolved,bettina@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2167,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-2156,CID: 1802 - Hope Valley:...,Closed,samuel.aubin@munibilling@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2156,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1802,Other,RESOLVED,2024-2025
+TRI-2155,CID: 1783 City of Onamia...,Resolved,nathaniel@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2155,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1783,Other,RESOLVED,2024-2025
+TRI-2154,Training Implementation ...,Resolved,katilyn.wiggins@munibill@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2154,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2153,Daphne Davis - Needs an ...,Resolved,bettina@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2153,5.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-2152,CID 1802 - Hope Water: V...,Resolved,samuel.aubin@munibilling@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2152,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1802,Other,RESOLVED,2024-2025
+TRI-2151,CID: 29 - Wrong date for...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2151,6.5,NO DESCRIPTION,29,Other,RESOLVED,2024-2025
+TRI-2150,CID 1802 - Hope Water: V...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2150,6.5,NO DESCRIPTION,1802,Other,RESOLVED,2024-2025
+TRI-2149,CID: 1802 - Hope Valley:...,Resolved,bettina@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2149,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1802,Other,RESOLVED,2024-2025
+TRI-2148,CID 1280: Cherokee Count...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2148,6.5,NO DESCRIPTION,1280,Other,RESOLVED,2024-2025
+TRI-2147,Upload File Request ...,IVR,Normal,High,Normal,https://jiramb.atlassian.net/browse/TRI-2147,5.0,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-2146,CID: 897- IVR Not Recogn...,Resolved,nathaniel@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2146,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,897,Other,RESOLVED,2024-2025
+TRI-2145,CID 1802 - Hope Water: V...,Resolved,katilyn.wiggins@munibill@munibilling.com,High,Normal,https://jiramb.atlassian.net/browse/TRI-2145,6.5,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,1802,Other,RESOLVED,2024-2025
+TRI-2144,Bouncing Across...,E-Bills,Normal,High,Normal,https://jiramb.atlassian.net/browse/TRI-2144,5.0,NO DESCRIPTION; HIGH URGENCY LACKS DETAIL,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2143,CID: 610- Service Order ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2143,6.5,NO DESCRIPTION,610,Other,RESOLVED,2024-2025
+TRI-2142,1518: Roamingwood: E...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2142,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2141,CID 1802 - Hope Water: V...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2141,6.5,NO DESCRIPTION,1802,Other,RESOLVED,2024-2025
+TRI-2139,Discrepancy in ACH Detai...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2139,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2138,CID - 1827- City of Hans...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2138,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1827,Other,RESOLVED,2024-2025
+TRI-2137,CLONE - Billing Process ...,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2137,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Billing System,RESOLVED,2024-2025
+TRI-2136,CID – 715 – Bill date 8/...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2136,6.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-2135,CID- 1819 -City of Iront...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2135,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1819,Other,RESOLVED,2024-2025
+TRI-2134,City of Arcadia IVR: Acc...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2134,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2126,Please create an admin a...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2126,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2125,CID 960: Bent Creek Fail...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2125,6.5,NO DESCRIPTION,960,Other,RESOLVED,2024-2025
+TRI-2123,CID: 449 - Bounced E-bil...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2123,6.5,NO DESCRIPTION,449,Other,RESOLVED,2024-2025
+TRI-2122,CID 643 - hotmail email ...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2122,6.5,NO DESCRIPTION,643,Other,RESOLVED,2024-2025
+TRI-2121,CID 1574 - Invalid email...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2121,6.0,NO DESCRIPTION,1574,Other,STANDARD PROCESSING,2024-2025
+TRI-2119,CID:1567 MuniServicePro ...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2119,6.5,NO DESCRIPTION,1567,Other,RESOLVED,2024-2025
+TRI-2118,CID- 1837 -Meter Link So...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2118,6.5,NO DESCRIPTION,1837,Meter Management,RESOLVED,2024-2025
+TRI-2117,CID 1821: City of Arling...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2117,6.5,NO DESCRIPTION,1821,Other,RESOLVED,2024-2025
+TRI-2112,1780: Invoices are m...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2112,5.0,NO DESCRIPTION,N/A,Billing System,STANDARD PROCESSING,2024-2025
+TRI-2110,CID - 1800 - Portage Sew...,Canceled,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2110,6.0,NO DESCRIPTION,1800,Other,STANDARD PROCESSING,2024-2025
+TRI-2109,CID- 1800 - Portage Area...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2109,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1800,Other,RESOLVED,2024-2025
+TRI-2107,Cedar Hill: WaterSmart a...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2107,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-2104,CID: 448 - Unpost Meter ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2104,6.5,NO DESCRIPTION,448,Meter Management,RESOLVED,2024-2025
+TRI-2100,Red Energy CID - 449 Par...,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2100,6.5,NO DESCRIPTION,449,Other,RESOLVED,2024-2025
+TRI-2099,CID: 448 - Unpost bills ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2099,6.5,NO DESCRIPTION,448,Billing System,RESOLVED,2024-2025
+TRI-2097,CID 1780 - Millersville ...,Closed,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2097,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2096,Progress  CID: 1120- Due after not...,In,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2096,6.0,NO DESCRIPTION,1120,Other,STANDARD PROCESSING,2024-2025
+TRI-2094,Off Export Format,Write,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2094,5.0,NO DESCRIPTION,N/A,Integration,STANDARD PROCESSING,2024-2025
+TRI-2093,Your one-time code: 5787...,Closed,nathaniel@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2093,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2092,Your one-time code: 1348...,Closed,nathaniel@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2092,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2091,Megan Perrine - New User...,Resolved,bettina@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2091,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-2090,WhoDunIt - CID 1600 - Ch...,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2090,6.5,NO DESCRIPTION,1600,Other,RESOLVED,2024-2025
+TRI-2089,Queen Anne's County 1415...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2089,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2087,Sahuarita Lockbox Passwo...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2087,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2086,RentManager Property ID-...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2086,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2085,Queen Anne's County 1415...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2085,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2083,CID 662 City of Newnan -...,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2083,6.5,NO DESCRIPTION,662,Other,RESOLVED,2024-2025
+TRI-2082,White List IP Address: I...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2082,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2081,CID: 413- Customer Autop...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2081,6.5,NO DESCRIPTION,413,Other,RESOLVED,2024-2025
+TRI-2080,JOb Failed Unexpectedly ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2080,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2079,Morton Borough - CID: 17...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2079,6.5,NO DESCRIPTION,17,Other,RESOLVED,2024-2025
+TRI-2077,CID: 1761- Unpost bills,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2077,6.5,NO DESCRIPTION,1761,Billing System,RESOLVED,2024-2025
+TRI-2076,Authorites,Reporting,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2076,4.5,NO DESCRIPTION,N/A,Other,REQUEST REVISION,2024-2025
+TRI-2075,- CID 17 -  Mor...,WhoDunIt,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2075,5.0,NO DESCRIPTION,17,Other,STANDARD PROCESSING,2024-2025
+TRI-2074,City of New Canton posti...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2074,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2072,CID 1799: Missing Access...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2072,6.5,NO DESCRIPTION,1799,Other,RESOLVED,2024-2025
+TRI-2070,CID: 38- Access Code Mis...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2070,6.5,NO DESCRIPTION,38,Other,RESOLVED,2024-2025
+TRI-2069,CID 1780 - Millersville ...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2069,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2068,CID - 1799 - Purgatory M...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2068,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1799,Other,RESOLVED,2024-2025
+TRI-2066,CID- 1792 -Rural Water D...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2066,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1792,Other,RESOLVED,2024-2025
+TRI-2065,CID 1695 - Unpost Bills,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2065,6.5,NO DESCRIPTION,1695,Billing System,RESOLVED,2024-2025
+TRI-2060,CID- 1821 - Create Dummy...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2060,6.5,NO DESCRIPTION,1821,Other,RESOLVED,2024-2025
+TRI-2058,CID 1780 - Millersville ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2058,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2054,CID- 1798 - North Boliva...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2054,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1798,Other,RESOLVED,2024-2025
+TRI-2052,CID 1780 - Remove Due Da...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2052,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2051,CID- 1791 - Enable Invoi...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2051,6.5,NO DESCRIPTION,1791,Other,RESOLVED,2024-2025
+TRI-2050,CID- 1790 - Enable Invoi...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2050,6.5,NO DESCRIPTION,1790,Other,RESOLVED,2024-2025
+TRI-2049,CID- 1802 - Enable Invoi...,Closed,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2049,6.5,NO DESCRIPTION,1802,Other,RESOLVED,2024-2025
+TRI-2048,CID- 1821 - Enable Invoi...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2048,6.5,NO DESCRIPTION,1821,Other,RESOLVED,2024-2025
+TRI-2047,Payment Confirmat...,Online,Normal,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2047,5.0,NO DESCRIPTION,N/A,Payment Processing,STANDARD PROCESSING,2024-2025
+TRI-2045,Parkland Utilities - CID...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2045,6.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2044,Purgatory Metro District...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2044,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2043,- 1784 - City of Laf...,CID,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2043,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2042,CID 1510: Enable Invoici...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2042,6.5,NO DESCRIPTION,1510,Other,RESOLVED,2024-2025
+TRI-2041,CID 1783 - City of Onami...,Resolved,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2041,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-2038,CID 1624 City of Big Lak...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2038,6.0,NO DESCRIPTION,1624,Other,STANDARD PROCESSING,2024-2025
+TRI-2036,Need my IP Address white...,Resolved,nathaniel@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2036,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-2033,CID 610: Upper Michigan ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2033,6.5,NO DESCRIPTION,610,Other,RESOLVED,2024-2025
+TRI-2032,Cedar Hill 4 Accounts wi...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2032,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2030,CID 1780 - Millersville ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2030,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2029,CID: 215: Customer Porta...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2029,6.5,NO DESCRIPTION,215,Other,RESOLVED,2024-2025
+TRI-2027,CID: 165 - Late Fee temp...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2027,6.5,NO DESCRIPTION,165,Other,RESOLVED,2024-2025
+TRI-2026,CID: 1256- Payment not s...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2026,6.5,NO DESCRIPTION,1256,Payment Processing,RESOLVED,2024-2025
+TRI-2025,Provide file format deta...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2025,5.5,NO DESCRIPTION,N/A,Data Management,RESOLVED,2024-2025
+TRI-2024,CID- 1827 - City of Hans...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2024,6.5,NO DESCRIPTION,1827,Other,RESOLVED,2024-2025
+TRI-2023,CID- 1823 - Buffalo- Ena...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2023,6.5,NO DESCRIPTION,1823,Other,RESOLVED,2024-2025
+TRI-2022,1443 Logan County: L...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2022,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2021,CID 1780 - Millersville ...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2021,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2020,Provide file format deta...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2020,5.5,NO DESCRIPTION,N/A,Data Management,RESOLVED,2024-2025
+TRI-2019,CID 436 - Gatlinburg - E...,Resolved,nathaniel@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2019,6.5,NO DESCRIPTION,436,Other,RESOLVED,2024-2025
+TRI-2018,Purgatory Metro District...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2018,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2016,CID 1780 - Millersville ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2016,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2015,Account Not Found error ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2015,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2014,CID 1780 - Millersville ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2014,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-2013,1796 Deeson Roundlak...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2013,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2012,CId 124- Missing paymnet...,Resolved,clyde.qasolli@munibillin@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2012,5.5,NO DESCRIPTION,124,Other,RESOLVED,2024-2025
+TRI-2011,City of New Auburn posti...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2011,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-2010,CID 1805 Unpost Payments,Resolved,katilyn.wiggins@munibill@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2010,6.5,NO DESCRIPTION,1805,Payment Processing,RESOLVED,2024-2025
+TRI-2009,"1333, 1341 & 1386 -...",CID:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2009,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2007,CID: 130: Portal Passwor...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2007,6.5,NO DESCRIPTION,130,Customer Portal,RESOLVED,2024-2025
+TRI-2005,Log in Issue wi...,Arcadia:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2005,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-2004,CID 248 Town of Gulf Str...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2004,6.5,NO DESCRIPTION,248,Other,RESOLVED,2024-2025
+TRI-2003,Nora Hobbs - New User Re...,Resolved,katilyn.wiggins@munibill@munibilling.com,Low,Normal,https://jiramb.atlassian.net/browse/TRI-2003,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-2002,CID-133 Town of Altha: C...,Resolved,katilyn.wiggins@munibill@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2002,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,133,Other,RESOLVED,2024-2025
+TRI-2001,CID: 1085 City of Arcadi...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2001,6.5,NO DESCRIPTION,1085,Other,RESOLVED,2024-2025
+TRI-2000,to Post to Accou...,Changes,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-2000,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1999,Production A...,Munibilling,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1999,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1998,Paya Payments Stuck in P...,Resolved,drago.todorov@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1998,5.5,NO DESCRIPTION,N/A,Payment Processing,RESOLVED,2024-2025
+TRI-1995,CID 407: Town of Pearl R...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1995,6.0,NO DESCRIPTION,407,Other,STANDARD PROCESSING,2024-2025
+TRI-1994,CID 1802 Hope Water - Va...,Canceled,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1994,6.0,NO DESCRIPTION,1802,Other,STANDARD PROCESSING,2024-2025
+TRI-1993,CID: 1313 - Error when c...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1993,6.5,NO DESCRIPTION,1313,Other,RESOLVED,2024-2025
+TRI-1992,CID-1784 - City of Lafay...,Resolved,clyde.qasolli@munibillin@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1992,6.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,1784,Other,RESOLVED,2024-2025
+TRI-1991,CID: 1770 -Consumption r...,Closed,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1991,6.5,NO DESCRIPTION,1770,Meter Management,RESOLVED,2024-2025
+TRI-1990,CID: 1483 - Service Call...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1990,6.5,NO DESCRIPTION,1483,Other,RESOLVED,2024-2025
+TRI-1988,Payment Gateway Cre...,Fake,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1988,5.0,NO DESCRIPTION,N/A,Payment Processing,STANDARD PROCESSING,2024-2025
+TRI-1986,CID 1804 - add to Multiv...,Resolved,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1986,6.5,NO DESCRIPTION,1804,Other,RESOLVED,2024-2025
+TRI-1985,Global - Bill Creation F...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1985,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1984,to create Bills  ...,Unable,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1984,5.0,NO DESCRIPTION,N/A,Billing System,STANDARD PROCESSING,2024-2025
+TRI-1983,Cedar Hill Sewer Usage R...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1983,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1979,Purgatory Metro District...,Closed,samuel.aubin@munibilling@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1979,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-1978,Letter mes...,Miscellaneous,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1978,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1977,1443 Logan County: C...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1977,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1976,CID 413 Town on Many - B...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1976,6.0,NO DESCRIPTION,413,Other,STANDARD PROCESSING,2024-2025
+TRI-1970,CID: 333 - Error when cr...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1970,6.0,NO DESCRIPTION,333,Other,STANDARD PROCESSING,2024-2025
+TRI-1969,CID: 1783 - Onamia - Met...,Resolved,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1969,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-1968,CID: 1701- Unable to add...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1968,6.0,NO DESCRIPTION,1701,Other,STANDARD PROCESSING,2024-2025
+TRI-1967,Job,Stop,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1967,4.5,NO DESCRIPTION; VAGUE SUMMARY,N/A,Other,REQUEST REVISION,2024-2025
+TRI-1965,CID 1763 Promenade at Tu...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1965,6.5,NO DESCRIPTION,1763,Other,RESOLVED,2024-2025
+TRI-1964,to view screen in...,Unable,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1964,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1963,CID- 1817 - Enable Invoi...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1963,6.5,NO DESCRIPTION,1817,Other,RESOLVED,2024-2025
+TRI-1962,CID- 1819 - Enable Invoi...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1962,6.5,NO DESCRIPTION,1819,Other,RESOLVED,2024-2025
+TRI-1961,Cedar Hill Sewer Usage R...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1961,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1960,CID: 1793 - Parcel Numbe...,Resolved,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1960,6.5,NO DESCRIPTION,1793,Other,RESOLVED,2024-2025
+TRI-1959,CID 1784 - City of Lafay...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1959,6.5,NO DESCRIPTION,1784,Other,RESOLVED,2024-2025
+TRI-1958,CID 423 - Data Query nee...,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1958,6.5,NO DESCRIPTION,423,Data Management,RESOLVED,2024-2025
+TRI-1957,Heartland Autopay Flag R...,Resolved,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1957,5.5,NO DESCRIPTION,N/A,Autopay System,RESOLVED,2024-2025
+TRI-1951,CID 145 Pittsburg County...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1951,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1950,CID 248 Town of Gulf Str...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1950,6.5,NO DESCRIPTION,248,Other,RESOLVED,2024-2025
+TRI-1949,CID 1082 Cedar Hill - Wa...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1949,6.5,NO DESCRIPTION,1082,Other,RESOLVED,2024-2025
+TRI-1948,List of Clients showing ...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1948,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1947,CID 23 City of Farrell S...,Closed,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1947,6.5,NO DESCRIPTION,23,Other,RESOLVED,2024-2025
+TRI-1946,GLOBAL - Managed Service...,Resolved,jason.moore@munibilling.@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1946,5.5,NO DESCRIPTION,N/A,System Performance,RESOLVED,2024-2025
+TRI-1945,CID 1469 Town of Washing...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1945,6.5,NO DESCRIPTION,1469,Other,RESOLVED,2024-2025
+TRI-1944,Provide file format deta...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1944,5.5,NO DESCRIPTION,N/A,Data Management,RESOLVED,2024-2025
+TRI-1942,Bills Not Posting - May,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1942,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1941,CID: 436 - Issue with Aj...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1941,6.0,NO DESCRIPTION,436,Other,STANDARD PROCESSING,2024-2025
+TRI-1940,CID 1763 Cannot email bi...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1940,6.5,NO DESCRIPTION,1763,Other,RESOLVED,2024-2025
+TRI-1939,Meter export file change...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1939,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1938,1793 IVR Code needed...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1938,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1937,CID 1783 - City of Onami...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1937,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-1936,CID 738 - Client unable ...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1936,6.5,NO DESCRIPTION,738,Other,RESOLVED,2024-2025
+TRI-1935,CID: 213 Login Issue,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1935,5.5,NO DESCRIPTION,213,Customer Portal,RESOLVED,2024-2025
+TRI-1934,CID 1634 - St Helena Wat...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1934,6.5,NO DESCRIPTION,1634,Other,RESOLVED,2024-2025
+TRI-1932,CID 41 Northwest Water -...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1932,6.5,NO DESCRIPTION,41,Other,RESOLVED,2024-2025
+TRI-1931,CID- 1779 - Royal Gorge ...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1931,6.5,NO DESCRIPTION,1779,Other,RESOLVED,2024-2025
+TRI-1929,South Pasadena - CID 108...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1929,6.5,NO DESCRIPTION,108,Other,RESOLVED,2024-2025
+TRI-1928,CID: 833 Billing Issue,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1928,6.0,NO DESCRIPTION,833,Billing System,STANDARD PROCESSING,2024-2025
+TRI-1927,CID: 423 -  Master billi...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1927,6.5,NO DESCRIPTION,423,Billing System,RESOLVED,2024-2025
+TRI-1926,Arcadia 1085 Unable to l...,Resolved,addie@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1926,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1924,CID: 1701 - System will ...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1924,6.5,NO DESCRIPTION,1701,System Performance,RESOLVED,2024-2025
+TRI-1923,CID 1783 - City of Onami...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1923,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-1922,CID- 1792- Rural Water D...,Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1922,6.5,NO DESCRIPTION,1792,Other,RESOLVED,2024-2025
+TRI-1921,CID 1793 - New Auburn MN...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1921,6.5,NO DESCRIPTION,1793,Other,RESOLVED,2024-2025
+TRI-1920,Munibilling Access for J...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1920,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1919,AquaWaste - Raymond Farm...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1919,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1918,97: Strasburg Boroug...,CID,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1918,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1917,CID 208: Cannot create b...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1917,6.5,NO DESCRIPTION,208,Other,RESOLVED,2024-2025
+TRI-1916,CID 448: Cannot create b...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1916,6.5,NO DESCRIPTION,448,Other,RESOLVED,2024-2025
+TRI-1915,CID: 151: Payment Issue,Resolved,jim.martineau@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1915,6.5,NO DESCRIPTION,151,Payment Processing,RESOLVED,2024-2025
+TRI-1914,CID: 1770 - Error when w...,Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1914,6.5,NO DESCRIPTION,1770,Other,RESOLVED,2024-2025
+TRI-1913,CID 1519: El Paso WCID 4...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1913,6.5,NO DESCRIPTION,1519,Other,RESOLVED,2024-2025
+TRI-1911,1695 - IMP TRAINING ...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1911,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1910,CIDs 737 & 738 - Custome...,Resolved,drago.todorov@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1910,6.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1909,/ Riverwood -...,Enterprise,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1909,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1908,CID: 932 - Bill creation...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1908,6.5,NO DESCRIPTION,932,Billing System,RESOLVED,2024-2025
+TRI-1907,CID 1695 - IMP TRAINING ...,Closed,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1907,6.5,NO DESCRIPTION,1695,Other,RESOLVED,2024-2025
+TRI-1906,CID-1788 Two Accounts No...,Resolved,caiden.robinson@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1906,6.5,NO DESCRIPTION,1788,Other,RESOLVED,2024-2025
+TRI-1905,IVR Code for Star Mounta...,Resolved,johan.hultin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1905,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1904,CID: 677: Late Charge Is...,Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1904,6.5,NO DESCRIPTION,677,Billing System,RESOLVED,2024-2025
+TRI-1903,CID 1788 IVR Code needed...,Resolved,johan.hultin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1903,6.5,NO DESCRIPTION,1788,Other,RESOLVED,2024-2025
+TRI-1902,CID 262 - Divernon - Gas...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1902,6.5,NO DESCRIPTION,262,Other,RESOLVED,2024-2025
+TRI-1901,CID: 38 - Meter change a...,Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1901,6.5,NO DESCRIPTION,38,Meter Management,RESOLVED,2024-2025
+TRI-1900,CID: 208 - Zwolle Waterw...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1900,6.5,NO DESCRIPTION,208,Other,RESOLVED,2024-2025
+TRI-1899,Information fr...,Important,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1899,5.0,NO DESCRIPTION,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-1898,CID 23 - City of Farrell...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1898,6.5,NO DESCRIPTION,23,Other,RESOLVED,2024-2025
+TRI-1897,Portal Access,Customer,Normal,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1897,5.0,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Customer Portal,STANDARD PROCESSING,2024-2025
+TRI-1896,CID 1720 - Failed Autopa...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1896,6.5,NO DESCRIPTION,1720,Other,RESOLVED,2024-2025
+TRI-1895,Update account numbers f...,Closed,samuel.aubin@munibilling@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-1895,5.5,NO DESCRIPTION; CRITICAL URGENCY LACKS DETAIL,N/A,Other,RESOLVED,2024-2025
+TRI-1894,CID 1783 - City of Onami...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1894,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-1893,CID 1783 - City of Onami...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1893,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-1892,Meter ReRead Report vs. ...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1892,5.5,NO DESCRIPTION,N/A,Meter Management,RESOLVED,2024-2025
+TRI-1891,Access to Demo,USER,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1891,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1890,City Of Gibbon Dummy Inv...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1890,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1889,Deeson Round Lake Dummy ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1889,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1888,CID 1779: Royal Gorge: C...,Resolved,drago.todorov@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1888,6.5,NO DESCRIPTION,1779,Other,RESOLVED,2024-2025
+TRI-1883,1303 IVR Code needed,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1883,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1882,CID:584: Cannot Print Ac...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1882,6.5,NO DESCRIPTION,584,Other,RESOLVED,2024-2025
+TRI-1879,Please reassign correct ...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1879,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1876,CID: 1120 - Reconcile pa...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1876,6.5,NO DESCRIPTION,1120,Other,RESOLVED,2024-2025
+TRI-1873,Impersonate Button No Lo...,Resolved,jim.martineau@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1873,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1871,CID 597 - Please delete ...,Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1871,6.5,NO DESCRIPTION,597,Other,RESOLVED,2024-2025
+TRI-1867,CID: 865 - Incorrect Use...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1867,6.5,NO DESCRIPTION,865,Other,RESOLVED,2024-2025
+TRI-1865,CID: 145 Customer Remote...,Closed,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1865,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1863,CID 730 - Clien...,Parkland,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1863,5.0,NO DESCRIPTION,730,Other,STANDARD PROCESSING,2024-2025
+TRI-1862,St Helena customer-...,1634,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1862,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1861,CID 1518: Roamingwood: C...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1861,6.5,NO DESCRIPTION,1518,Other,RESOLVED,2024-2025
+TRI-1860,"Logan County, A&A Water,...",Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1860,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1859,PAYA IVR - CID 145 Payme...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1859,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1858,1769: Durango West M...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1858,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1857,CID: 203- Error when pos...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1857,6.5,NO DESCRIPTION,203,Other,RESOLVED,2024-2025
+TRI-1856,CID 1369: Cabinet Mounta...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1856,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025
+TRI-1855,CID 1545: City of Dainge...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1855,6.5,NO DESCRIPTION,1545,Other,RESOLVED,2024-2025
+TRI-1854,CID 1518: Roamingwood: Q...,Closed,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1854,6.5,NO DESCRIPTION,1518,Other,RESOLVED,2024-2025
+TRI-1853,CID- 1779- Royal Gorge- ...,Closed,jim.martineau@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1853,6.5,NO DESCRIPTION,1779,Other,RESOLVED,2024-2025
+TRI-1852,CID 1805 - Custom Fields...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1852,6.5,NO DESCRIPTION,1805,Other,RESOLVED,2024-2025
+TRI-1851,Fortress Post Bill Errors,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1851,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1850,CID- 1779 -Royal Gorge W...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1850,6.5,NO DESCRIPTION,1779,Other,RESOLVED,2024-2025
+TRI-1849,CID 1545: City of Dainge...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1849,6.5,NO DESCRIPTION,1545,Other,RESOLVED,2024-2025
+TRI-1842,No Healthy Upstream erro...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1842,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1841,PAYA IVR - CID 145 Name ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1841,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1840,- Unable to access ...,DEMO,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1840,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1839,CID 203: Database record...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1839,6.5,NO DESCRIPTION,203,Data Management,RESOLVED,2024-2025
+TRI-1836,CID 1803 - Custom Fields...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1836,6.5,NO DESCRIPTION,1803,Other,RESOLVED,2024-2025
+TRI-1835,Demo Access for Chris Mo...,Closed,caiden.robinson@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1835,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1833,Logan County CID 1443: C...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1833,6.5,NO DESCRIPTION,1443,Other,RESOLVED,2024-2025
+TRI-1832,CID 1758 West Cocalico T...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1832,6.5,NO DESCRIPTION,1758,Other,RESOLVED,2024-2025
+TRI-1831,CID: 1469-Autopay Button...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1831,6.5,NO DESCRIPTION,1469,Autopay System,RESOLVED,2024-2025
+TRI-1830,CID 1793 - New Auburn MN...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1830,6.5,NO DESCRIPTION,1793,Other,RESOLVED,2024-2025
+TRI-1829,CID 1783 -  City of Onam...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1829,6.5,NO DESCRIPTION,1783,Other,RESOLVED,2024-2025
+TRI-1828,CID 1780 - Millersville ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1828,6.5,NO DESCRIPTION,1780,Other,RESOLVED,2024-2025
+TRI-1827,CID- 1799- Purgatory Met...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1827,6.5,NO DESCRIPTION,1799,Other,RESOLVED,2024-2025
+TRI-1826,CID-1800 - Portage Area ...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1826,6.5,NO DESCRIPTION,1800,Other,RESOLVED,2024-2025
+TRI-1825,CID- 1798 - North Boliva...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1825,6.5,NO DESCRIPTION,1798,Other,RESOLVED,2024-2025
+TRI-1824,CID- 1792- Rural Water D...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1824,6.5,NO DESCRIPTION,1792,Other,RESOLVED,2024-2025
+TRI-1823,CID- 1796 -Deeson Round ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1823,6.5,NO DESCRIPTION,1796,Other,RESOLVED,2024-2025
+TRI-1822,CID 17 Morton - Need Lat...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1822,6.5,NO DESCRIPTION,17,Other,RESOLVED,2024-2025
+TRI-1821,CID: 977- lockbox type f...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1821,6.5,NO DESCRIPTION,977,Other,RESOLVED,2024-2025
+TRI-1820,CID 145 Cannot post bill...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1820,6.5,NO DESCRIPTION,145,Billing System,RESOLVED,2024-2025
+TRI-1818,CID 1136 - Rutland State...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1818,6.5,NO DESCRIPTION,1136,Other,RESOLVED,2024-2025
+TRI-1817,CID: 1120: Request to Te...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1817,6.5,NO DESCRIPTION,1120,Other,RESOLVED,2024-2025
+TRI-1816,436 Gatlinburg - NAC...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1816,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1809,CID 715: Yadkin County -...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1809,6.5,NO DESCRIPTION,715,Other,RESOLVED,2024-2025
+TRI-1808,CID 215 Havasu POA - Dep...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1808,6.5,NO DESCRIPTION,215,Other,RESOLVED,2024-2025
+TRI-1807,CID 1600 Stinson Water: ...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1807,6.5,NO DESCRIPTION,1600,Other,RESOLVED,2024-2025
+TRI-1806,CID: 14- Correct Stateme...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1806,6.5,NO DESCRIPTION,14,Other,RESOLVED,2024-2025
+TRI-1805,South Sunflower CID-1771...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1805,6.5,NO DESCRIPTION,1771,Other,RESOLVED,2024-2025
+TRI-1804,CID: 151 - Missing payme...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1804,6.5,NO DESCRIPTION,151,Other,RESOLVED,2024-2025
+TRI-1803,Import failed,Fw:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1803,5.0,NO DESCRIPTION,N/A,Integration,STANDARD PROCESSING,2024-2025
+TRI-1802,CID 215 Lot 388 is not s...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1802,6.5,NO DESCRIPTION,215,Other,RESOLVED,2024-2025
+TRI-1801,CID 1363 Warm Springs Cu...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1801,6.5,NO DESCRIPTION,1363,Other,RESOLVED,2024-2025
+TRI-1799,- CID 1085 Dropped...,CLONE,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1799,6.0,NO DESCRIPTION,1085,Other,STANDARD PROCESSING,2024-2025
+TRI-1798,Javana Coleman - New Use...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1798,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1797,Global - Online Payment ...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1797,5.5,NO DESCRIPTION,N/A,Payment Processing,RESOLVED,2024-2025
+TRI-1795,with [describe the...,Issue,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1795,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1794,CID: 1483-Password Reset...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1794,6.5,NO DESCRIPTION,1483,Customer Portal,RESOLVED,2024-2025
+TRI-1793,CID: 215: Credit Card Pa...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1793,6.5,NO DESCRIPTION,215,Other,RESOLVED,2024-2025
+TRI-1791,CID: 977- PSN file issue,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1791,6.5,NO DESCRIPTION,977,Data Management,RESOLVED,2024-2025
+TRI-1790,Autopay Checkbox Not Che...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1790,5.5,NO DESCRIPTION,N/A,Autopay System,RESOLVED,2024-2025
+TRI-1789,1770 City of Ranier Remo...,Resolved,katilyn.wiggins@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1789,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1788,CID 1770 City of Ranier ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1788,6.5,NO DESCRIPTION,1770,Other,RESOLVED,2024-2025
+TRI-1787,CID 145 Pittsburg County...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1787,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1786,Update Last Name for Adm...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1786,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1783,AutoPay Did not Pull on ...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1783,5.0,NO DESCRIPTION,N/A,Autopay System,STANDARD PROCESSING,2024-2025
+TRI-1782,Card Testing Clean Up,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1782,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1781,CID- 1776 - City of Bowd...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1781,6.5,NO DESCRIPTION,1776,Other,RESOLVED,2024-2025
+TRI-1780,CID 203 Sahuarita Post b...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1780,6.5,NO DESCRIPTION,203,Other,RESOLVED,2024-2025
+TRI-1779,Admin Credentials Not Wo...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1779,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1778,CID 1120 King George - u...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1778,6.5,NO DESCRIPTION,1120,Other,RESOLVED,2024-2025
+TRI-1776,Your one-time code: 2788...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1776,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1775,amarriotti@sahuaritaaz.g...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1775,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1774,CID- 1788 - Gibbon - Ena...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1774,6.5,NO DESCRIPTION,1788,Other,RESOLVED,2024-2025
+TRI-1773,CID- 1784 - Lafeyette - ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1773,6.5,NO DESCRIPTION,1784,Other,RESOLVED,2024-2025
+TRI-1772,Information fr...,Important,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1772,5.0,NO DESCRIPTION,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-1771,Important Information fr...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1771,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1770,CID 1778 - Printing Post...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1770,6.5,NO DESCRIPTION,1778,Other,RESOLVED,2024-2025
+TRI-1769,CID 1577 Pendleton Water...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1769,6.5,NO DESCRIPTION,1577,Other,RESOLVED,2024-2025
+TRI-1767,CID : 423 - Invoice Dele...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1767,6.5,NO DESCRIPTION,423,Billing System,RESOLVED,2024-2025
+TRI-1766,1085 Dropped Emails,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1766,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1765,CID- 1781- Tropical Gard...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1765,6.5,NO DESCRIPTION,1781,Other,RESOLVED,2024-2025
+TRI-1764,Issue assignin...,CID:1120:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1764,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1763,CID: 1749 - Close button...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1763,6.5,NO DESCRIPTION,1749,Other,RESOLVED,2024-2025
+TRI-1762,Important Information fr...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1762,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1761,CID 50 Online Payment De...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1761,6.5,NO DESCRIPTION,50,Payment Processing,RESOLVED,2024-2025
+TRI-1755,CID 145  Pitt IVR - Test...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1755,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1754,CID 1486: Loudonville Vi...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1754,6.5,NO DESCRIPTION,1486,Other,RESOLVED,2024-2025
+TRI-1753,CID 1697- Paym...,Granville,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1753,5.0,NO DESCRIPTION,1697,Other,STANDARD PROCESSING,2024-2025
+TRI-1752,CID:1120: Issue Printing...,Resolved,julie.byrd@munibilling.c@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1752,6.5,NO DESCRIPTION,1120,Other,RESOLVED,2024-2025
+TRI-1751,Property ID Request - Si...,Closed,jason.moore@munibilling.@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1751,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1750,CID: 12624: Billing Issue,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1750,6.5,NO DESCRIPTION,12624,Billing System,RESOLVED,2024-2025
+TRI-1748,Information fr...,Important,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1748,5.0,NO DESCRIPTION,N/A,Data Management,STANDARD PROCESSING,2024-2025
+TRI-1746,CID 1519: El Paso WCID 4...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1746,6.5,NO DESCRIPTION,1519,Other,RESOLVED,2024-2025
+TRI-1745,CLONE - Possible Fraud C...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1745,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1744,Cedar Hill Duplicate Dep...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1744,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1742,Possible Global Issue: V...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1742,5.5,NO DESCRIPTION,N/A,System Performance,RESOLVED,2024-2025
+TRI-1740,CID- 1776 - City of Bowd...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1740,6.5,NO DESCRIPTION,1776,Other,RESOLVED,2024-2025
+TRI-1739,Town Center Foundation -...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1739,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1737,CID 465 NEA Cross - Remo...,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1737,6.5,NO DESCRIPTION,465,Other,RESOLVED,2024-2025
+TRI-1736,CID: 1518 Auto Pay Butto...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1736,6.5,NO DESCRIPTION,1518,Other,RESOLVED,2024-2025
+TRI-1735,Fortress Sync 2 issues  ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1735,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1734,CID: 38 - Late fee's not...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1734,6.0,NO DESCRIPTION,38,Other,STANDARD PROCESSING,2024-2025
+TRI-1732,CID: 1633 - Please updat...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1732,6.5,NO DESCRIPTION,1633,Other,RESOLVED,2024-2025
+TRI-1731,Deluxe Payments Imported...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1731,5.5,NO DESCRIPTION,N/A,Payment Processing,RESOLVED,2024-2025
+TRI-1728,Possible Web Hosting Err...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1728,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1727,CID- 1781- Tropical Gard...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1727,6.5,NO DESCRIPTION,1781,Other,RESOLVED,2024-2025
+TRI-1725,"1087, 1600, 1333, 13...",CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1725,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1724,Munibilling Access - New...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1724,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1723,CID 1778 -  City of Cour...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1723,6.5,NO DESCRIPTION,1778,Other,RESOLVED,2024-2025
+TRI-1722,CID 1778 -  City of Cour...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1722,6.5,NO DESCRIPTION,1778,Other,RESOLVED,2024-2025
+TRI-1721,CID: 1298 - Late fee's n...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1721,6.5,NO DESCRIPTION,1298,Other,RESOLVED,2024-2025
+TRI-1720,CID: 1280 -Balance Rebui...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1720,6.5,NO DESCRIPTION,1280,Other,RESOLVED,2024-2025
+TRI-1719,Global - Letters - Accou...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1719,5.5,NO DESCRIPTION,N/A,System Performance,RESOLVED,2024-2025
+TRI-1718,CID 1567 Washington Coun...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1718,6.5,NO DESCRIPTION,1567,Other,RESOLVED,2024-2025
+TRI-1717,Global - Meter Screen - ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1717,5.5,NO DESCRIPTION,N/A,Meter Management,RESOLVED,2024-2025
+TRI-1716,CID- 1776- City of Bowdl...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1716,6.5,NO DESCRIPTION,1776,Other,RESOLVED,2024-2025
+TRI-1715,CID- 1779 Royal Gorge Wa...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1715,6.5,NO DESCRIPTION,1779,Other,RESOLVED,2024-2025
+TRI-1713,CID 1652 - Laclede - Rat...,Resolved,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1713,6.5,NO DESCRIPTION,1652,Other,RESOLVED,2024-2025
+TRI-1711,CID 1664 West Chester Ta...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1711,6.5,NO DESCRIPTION,1664,Other,RESOLVED,2024-2025
+TRI-1710,CID 18-PBE WATER SUPPLY-...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1710,6.5,NO DESCRIPTION,18,Other,RESOLVED,2024-2025
+TRI-1709,CID- 1744 - City of Sain...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1709,6.5,NO DESCRIPTION,1744,Other,RESOLVED,2024-2025
+TRI-1708,CID: 145 - Late fee's no...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1708,6.5,NO DESCRIPTION,145,Other,RESOLVED,2024-2025
+TRI-1707,CID: 1758: Customers do ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1707,6.5,NO DESCRIPTION,1758,Other,RESOLVED,2024-2025
+TRI-1706,Enterprise / CID 738 - D...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1706,6.5,NO DESCRIPTION,738,Other,RESOLVED,2024-2025
+TRI-1705,CID: 1120 - Invoice Misc...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1705,6.5,NO DESCRIPTION,1120,Billing System,RESOLVED,2024-2025
+TRI-1703,Enterprise - MAR Discrep...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1703,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1702,CID 124  Consolidated Ut...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1702,6.5,NO DESCRIPTION,124,Other,RESOLVED,2024-2025
+TRI-1701,CID 1082: Cedar Hill - S...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1701,6.0,NO DESCRIPTION,1082,Other,STANDARD PROCESSING,2024-2025
+TRI-1700,CID 1664 - West Chester ...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1700,6.5,NO DESCRIPTION,1664,Other,RESOLVED,2024-2025
+TRI-1699,CID: 248-Please Delete M...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1699,6.5,NO DESCRIPTION,248,Other,RESOLVED,2024-2025
+TRI-1697,CID- 1776 City Of Bowdle...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1697,6.5,NO DESCRIPTION,1776,Other,RESOLVED,2024-2025
+TRI-1696,CID: 248- Please Unpost ...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1696,6.5,NO DESCRIPTION,248,Other,RESOLVED,2024-2025
+TRI-1695,CID: 248- Please Void Bi...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1695,6.5,NO DESCRIPTION,248,Other,RESOLVED,2024-2025
+TRI-1694,248- Billing Issue,CID:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1694,5.0,NO DESCRIPTION,N/A,Billing System,STANDARD PROCESSING,2024-2025
+TRI-1693,CID 1369: Cabinet Mounta...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1693,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025
+TRI-1691,Enterprise CID 738 - Acc...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1691,6.5,NO DESCRIPTION,738,Other,RESOLVED,2024-2025
+TRI-1690,CID: 203 Sahuarita Payme...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1690,6.5,NO DESCRIPTION,203,Other,RESOLVED,2024-2025
+TRI-1689,CID: 124 - Past Due Repo...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1689,6.5,NO DESCRIPTION,124,Other,RESOLVED,2024-2025
+TRI-1688,CID- 1758 West Cocalico ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1688,6.5,NO DESCRIPTION,1758,Other,RESOLVED,2024-2025
+TRI-1687,Riverwood - Emails being...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1687,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1686,Password Change Request,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1686,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-1685,Stinson Water - Duplicat...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1685,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1682,CID- 1760 West Cocalico ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1682,6.5,NO DESCRIPTION,1760,Other,RESOLVED,2024-2025
+TRI-1681,1120 - King George -...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1681,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1679,CID: 124: Customer Payme...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1679,6.0,NO DESCRIPTION,124,Other,STANDARD PROCESSING,2024-2025
+TRI-1678,Meter Auto Read Type doe...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1678,5.5,NO DESCRIPTION,N/A,Meter Management,RESOLVED,2024-2025
+TRI-1677,CID 1120 - King George -...,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1677,6.5,NO DESCRIPTION,1120,Other,RESOLVED,2024-2025
+TRI-1676,- Payment Iss...,Enterprise,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1676,5.0,NO DESCRIPTION,N/A,Payment Processing,STANDARD PROCESSING,2024-2025
+TRI-1675,CID: 861 - Bills have pr...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1675,6.5,NO DESCRIPTION,861,Billing System,RESOLVED,2024-2025
+TRI-1674,CID:457 Portal Payment I...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1674,6.5,NO DESCRIPTION,457,Payment Processing,RESOLVED,2024-2025
+TRI-1673,CID 897 - $1.56 Payment ...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1673,6.5,NO DESCRIPTION,897,Payment Processing,RESOLVED,2024-2025
+TRI-1672,Reset Password Admin Sig...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1672,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-1671,CID 730 - Custo...,Parkland,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1671,5.0,NO DESCRIPTION,730,Other,STANDARD PROCESSING,2024-2025
+TRI-1668,176: Durango West MD...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1668,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1667,CID- 1776 - City of Bowd...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1667,6.5,NO DESCRIPTION,1776,Other,RESOLVED,2024-2025
+TRI-1666,CID: 1483 -  Error in Cu...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1666,6.5,NO DESCRIPTION,1483,Other,RESOLVED,2024-2025
+TRI-1665,CID- 1758 West Cocalico ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1665,6.5,NO DESCRIPTION,1758,Other,RESOLVED,2024-2025
+TRI-1663,CID: 151 - Error Message...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1663,6.5,NO DESCRIPTION,151,Other,RESOLVED,2024-2025
+TRI-1661,Morton Borough CID 17 Ac...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1661,6.5,NO DESCRIPTION,17,Other,RESOLVED,2024-2025
+TRI-1660,1717: Knob Hill Wate...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1660,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1659,Riverwood Community Deve...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1659,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1658,Parkland CID 730 - Custo...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1658,6.5,NO DESCRIPTION,730,Other,RESOLVED,2024-2025
+TRI-1657,CID:226 Search Invoice b...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1657,6.5,NO DESCRIPTION,226,Billing System,RESOLVED,2024-2025
+TRI-1656,CID: 14- Late Fee Removal,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1656,6.5,NO DESCRIPTION,14,Other,RESOLVED,2024-2025
+TRI-1655,CID 1720 - Delete Deposi...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1655,6.5,NO DESCRIPTION,1720,Other,RESOLVED,2024-2025
+TRI-1654,794  Late fees on 0 ...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1654,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1651,South Pasadena CID 1087 ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1651,6.5,NO DESCRIPTION,1087,Other,RESOLVED,2024-2025
+TRI-1650,Multi-client Portal Issue,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1650,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-1649,CID:1640: Client is miss...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1649,6.5,NO DESCRIPTION,1640,Other,RESOLVED,2024-2025
+TRI-1648,CID 1769 - Durango West ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1648,6.5,NO DESCRIPTION,1769,Other,RESOLVED,2024-2025
+TRI-1646,Global - Search Customer...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1646,5.5,NO DESCRIPTION,N/A,System Performance,RESOLVED,2024-2025
+TRI-1643,cid 1540 Sunrise - Unpos...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1643,5.5,NO DESCRIPTION,1540,Other,RESOLVED,2024-2025
+TRI-1642,GLOBAL - Unreconciled Pa...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1642,5.5,NO DESCRIPTION,N/A,System Performance,RESOLVED,2024-2025
+TRI-1641,CID: 1392 - Duplicate Pa...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1641,6.5,NO DESCRIPTION,1392,Other,RESOLVED,2024-2025
+TRI-1640,South Pasadena CID 1087 ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1640,6.5,NO DESCRIPTION,1087,Other,RESOLVED,2024-2025
+TRI-1639,Parkland CID 730 - Custo...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1639,6.5,NO DESCRIPTION,730,Other,RESOLVED,2024-2025
+TRI-1638,CID: 118 - Meter Code 1 ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1638,6.5,NO DESCRIPTION,118,Meter Management,RESOLVED,2024-2025
+TRI-1636,CID- 1773 Glen Allen- Cr...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1636,6.5,NO DESCRIPTION,1773,Other,RESOLVED,2024-2025
+TRI-1635,CID: 436 - NACHA AUTOPAY...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1635,6.5,NO DESCRIPTION,436,Autopay System,RESOLVED,2024-2025
+TRI-1634,CID- 1774 - Delta City D...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1634,6.5,NO DESCRIPTION,1774,Other,RESOLVED,2024-2025
+TRI-1633,1443 Logan County: I...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1633,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1632,CID- 1771 - South Sunflo...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1632,6.5,NO DESCRIPTION,1771,Other,RESOLVED,2024-2025
+TRI-1631,CID 1633 Pine Brook Wate...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1631,6.5,NO DESCRIPTION,1633,Other,RESOLVED,2024-2025
+TRI-1630,Add New Clients to Delux...,Resolved,jason.moore@munibilling.@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1630,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1629,CID 17 Morton - Unpost L...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1629,6.5,NO DESCRIPTION,17,Other,RESOLVED,2024-2025
+TRI-1628,RentManager Error 429 - ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1628,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1627,Riverwood CID 737 - Late...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1627,6.0,NO DESCRIPTION,737,Other,STANDARD PROCESSING,2024-2025
+TRI-1626,CId 1082 Cedar Hill Adju...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1626,5.5,NO DESCRIPTION,1082,Other,RESOLVED,2024-2025
+TRI-1625,CID 1760 & 1758  - West ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1625,6.5,NO DESCRIPTION,1760,Other,RESOLVED,2024-2025
+TRI-1624,1640: Mauricevile MU...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1624,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1623,Cedar Hill Missing Water...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1623,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1622,Hill: Payment on A...,Cedar,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1622,5.0,NO DESCRIPTION,N/A,Payment Processing,STANDARD PROCESSING,2024-2025
+TRI-1621,CID 897- Aquahawk Report...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1621,6.5,NO DESCRIPTION,897,Other,RESOLVED,2024-2025
+TRI-1620,17 - Morton Borough...,CID:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1620,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1619,1464: North East Tow...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1619,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1618,CID 1486: Loudonville Vi...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1618,6.5,NO DESCRIPTION,1486,Other,RESOLVED,2024-2025
+TRI-1616,CID 1136 - Rutland State...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1616,6.5,NO DESCRIPTION,1136,Other,RESOLVED,2024-2025
+TRI-1615,CID: 1220 - Late Fee Inc...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1615,6.5,NO DESCRIPTION,1220,Other,RESOLVED,2024-2025
+TRI-1613,Pointe Apartments C...,Sage,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1613,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1612,CID 17 Morton Borough - ...,Closed,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1612,6.5,NO DESCRIPTION,17,Other,RESOLVED,2024-2025
+TRI-1611,CID 1773 - Glen Allan - ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1611,6.5,NO DESCRIPTION,1773,Other,RESOLVED,2024-2025
+TRI-1610,CID 1774 - Delta City - ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1610,6.5,NO DESCRIPTION,1774,Other,RESOLVED,2024-2025
+TRI-1609,CID 1545 - Unpost Late C...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1609,6.5,NO DESCRIPTION,1545,Other,RESOLVED,2024-2025
+TRI-1608,CLONE - CID 1720 - Villa...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1608,6.5,NO DESCRIPTION,1720,Other,RESOLVED,2024-2025
+TRI-1607,CID 1761 - Town of New C...,Canceled,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1607,6.0,NO DESCRIPTION,1761,Other,STANDARD PROCESSING,2024-2025
+TRI-1606,MuniRead Pro is not open...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1606,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1605,CID 1761 - Town of New C...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1605,6.5,NO DESCRIPTION,1761,Other,RESOLVED,2024-2025
+TRI-1604,CID 1764 - Town of Mintu...,Canceled,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1604,6.0,NO DESCRIPTION,1764,Other,STANDARD PROCESSING,2024-2025
+TRI-1603,CID 1764 - Town of Mintu...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1603,6.5,NO DESCRIPTION,1764,Other,RESOLVED,2024-2025
+TRI-1602,CID 1769 - Durango West ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1602,6.5,NO DESCRIPTION,1769,Other,RESOLVED,2024-2025
+TRI-1601,1640: Mauricevile MU...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1601,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1600,CID 897 - MUNIServicePro,Closed,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1600,6.5,NO DESCRIPTION,897,Other,RESOLVED,2024-2025
+TRI-1599,CID: 249 - Late fee's no...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1599,6.0,NO DESCRIPTION,249,Other,STANDARD PROCESSING,2024-2025
+TRI-1595,CID- 1770 - City of Rain...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1595,6.5,NO DESCRIPTION,1770,Other,RESOLVED,2024-2025
+TRI-1592,Arcadia - OctBills Carry...,Closed,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1592,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1588,CID 457 - Borough of Wes...,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1588,6.5,NO DESCRIPTION,457,Other,RESOLVED,2024-2025
+TRI-1587,CID 897: Redmond - Payme...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1587,6.5,NO DESCRIPTION,897,Other,RESOLVED,2024-2025
+TRI-1586,1624: CITY Of Big La...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1586,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1585,CID: 1333 GSWC - Late Ch...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1585,6.5,NO DESCRIPTION,1333,Other,RESOLVED,2024-2025
+TRI-1584,CID 1770 - City of Raine...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1584,6.5,NO DESCRIPTION,1770,Other,RESOLVED,2024-2025
+TRI-1583,CID 1771 - South Sunflow...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1583,6.5,NO DESCRIPTION,1771,Other,RESOLVED,2024-2025
+TRI-1582,CID 59 - City of Mountai...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1582,6.5,NO DESCRIPTION,59,Other,RESOLVED,2024-2025
+TRI-1581,CID 17 Morton Borought -...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1581,6.5,NO DESCRIPTION,17,Other,RESOLVED,2024-2025
+TRI-1580,Autopay flags on accounts,Closed,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1580,5.5,NO DESCRIPTION,N/A,Autopay System,RESOLVED,2024-2025
+TRI-1579,Unpost Latest Bills for ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1579,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1577,CID: 1772 - Newly Added ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1577,6.5,NO DESCRIPTION,1772,Other,RESOLVED,2024-2025
+TRI-1576,Lockbox Imports - Paymen...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1576,5.0,NO DESCRIPTION,N/A,Integration,STANDARD PROCESSING,2024-2025
+TRI-1573,CID: 152 - Nuvei/Paya - ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1573,6.5,NO DESCRIPTION,152,Other,RESOLVED,2024-2025
+TRI-1572,CID: 1483 - Category/Typ...,Resolved,samuel.aubin@munibilling@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1572,6.5,NO DESCRIPTION,1483,Other,RESOLVED,2024-2025
+TRI-1571,testing,Triage,Medium,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1571,4.5,NO DESCRIPTION; VAGUE SUMMARY,N/A,Other,REQUEST REVISION,2024-2025
+TRI-1570,CID 1536: Star Mountain:...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1570,6.5,NO DESCRIPTION,1536,Other,RESOLVED,2024-2025
+TRI-1565,CID 913 Bevil Oaks - Dis...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1565,6.5,NO DESCRIPTION,913,Other,RESOLVED,2024-2025
+TRI-1561,CID 59 - City of Mountai...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1561,6.5,NO DESCRIPTION,59,Other,RESOLVED,2024-2025
+TRI-1554,Fwd: 911 Late charges: E...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1554,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1553,Cedar Hill Missing two W...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1553,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1552,CID 451 - Late fees not ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1552,6.5,NO DESCRIPTION,451,Other,RESOLVED,2024-2025
+TRI-1550,CID: 130 - Issue with La...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1550,6.5,NO DESCRIPTION,130,Other,RESOLVED,2024-2025
+TRI-1549,CID: 203- Error Message ...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1549,6.5,NO DESCRIPTION,203,Other,RESOLVED,2024-2025
+TRI-1548,897 - MAP & TAX LOT ...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1548,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1547,CID 451 - Unpost bill,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1547,6.5,NO DESCRIPTION,451,Billing System,RESOLVED,2024-2025
+TRI-1546,CID 1082: Cedar Hill - C...,Closed,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1546,6.5,NO DESCRIPTION,1082,Other,RESOLVED,2024-2025
+TRI-1545,CID: 977 - Double paymen...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1545,6.5,NO DESCRIPTION,977,Other,RESOLVED,2024-2025
+TRI-1544,CID 1483: Unpost bills,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1544,6.5,NO DESCRIPTION,1483,Billing System,RESOLVED,2024-2025
+TRI-1542,CID: 1749 - Unpost/Unrec...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1542,6.5,NO DESCRIPTION,1749,Other,RESOLVED,2024-2025
+TRI-1536,CID: 1301 - Master Compa...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1536,6.5,NO DESCRIPTION,1301,Other,RESOLVED,2024-2025
+TRI-1532,CID 52 -Lakewood Villiag...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1532,6.5,NO DESCRIPTION,52,Other,RESOLVED,2024-2025
+TRI-1531,CID 1762 - Town of Fort ...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1531,6.5,NO DESCRIPTION,1762,Other,RESOLVED,2024-2025
+TRI-1530,CID: 74 - Ontwa error wh...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1530,6.0,NO DESCRIPTION,74,Other,STANDARD PROCESSING,2024-2025
+TRI-1529,Arcadia: ERROR when crea...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1529,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1527,CID 246 City of Hammond ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1527,6.5,NO DESCRIPTION,246,Other,RESOLVED,2024-2025
+TRI-1522,Unpost Payments - CID:73...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1522,6.5,NO DESCRIPTION,73,Payment Processing,RESOLVED,2024-2025
+TRI-1520,CID 210 - Job failed une...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1520,6.5,NO DESCRIPTION,210,Other,RESOLVED,2024-2025
+TRI-1519,CID: 1220 - Late Charge ...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1519,6.5,NO DESCRIPTION,1220,Billing System,RESOLVED,2024-2025
+TRI-1516,CID 1720 - Village of Be...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1516,6.5,NO DESCRIPTION,1720,Other,RESOLVED,2024-2025
+TRI-1515,"CID 1762 - Fort Jones, C...",Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1515,6.5,NO DESCRIPTION,1762,Other,RESOLVED,2024-2025
+TRI-1514,CID 1082: Cedar Hill - D...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1514,6.5,NO DESCRIPTION,1082,Other,RESOLVED,2024-2025
+TRI-1513,CID 229 Minimum usage ch...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1513,6.0,NO DESCRIPTION,229,Other,STANDARD PROCESSING,2024-2025
+TRI-1508,CID 1720 - Village of Be...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1508,6.5,NO DESCRIPTION,1720,Other,RESOLVED,2024-2025
+TRI-1507,"CID 1762 - Fort Jones, C...",Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1507,6.5,NO DESCRIPTION,1762,Other,RESOLVED,2024-2025
+TRI-1506,Granville- CID 1697- Mis...,Resolved,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1506,6.5,NO DESCRIPTION,1697,Other,RESOLVED,2024-2025
+TRI-1505,CID 1529 Lakewood Villag...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1505,6.5,NO DESCRIPTION,1529,Other,RESOLVED,2024-2025
+TRI-1504,CID 1369: Cabinet Mounta...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1504,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025
+TRI-1503,Chestnut Hills - CID 172...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1503,6.5,NO DESCRIPTION,172,Other,RESOLVED,2024-2025
+TRI-1502,CID 1447: Three Mile Wat...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1502,6.5,NO DESCRIPTION,1447,Other,RESOLVED,2024-2025
+TRI-1501,CID: 402- Please Unpost ...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1501,6.5,NO DESCRIPTION,402,Other,RESOLVED,2024-2025
+TRI-1500,is the summary field,THis,TBD,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1500,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1499,CID 1483 - Harmony - Add...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1499,6.5,NO DESCRIPTION,1483,Other,RESOLVED,2024-2025
+TRI-1498,CID: 124 - Credit card p...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1498,6.5,NO DESCRIPTION,124,Other,RESOLVED,2024-2025
+TRI-1497,Pending Online Payment S...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1497,5.5,NO DESCRIPTION,N/A,Payment Processing,RESOLVED,2024-2025
+TRI-1496,CID 124 -  Consolidated ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1496,6.5,NO DESCRIPTION,124,Other,RESOLVED,2024-2025
+TRI-1494,CID:262-Delete Meter Rea...,Canceled,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1494,6.0,NO DESCRIPTION,262,Meter Management,STANDARD PROCESSING,2024-2025
+TRI-1493,1624: City of Big La...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1493,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1492,CID: 228 - Previous bala...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1492,6.5,NO DESCRIPTION,228,Other,RESOLVED,2024-2025
+TRI-1490,POI- CID 1575- Missing O...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1490,6.5,NO DESCRIPTION,1575,Other,RESOLVED,2024-2025
+TRI-1489,Lockbox Clients - Import...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1489,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1488,CID: 609 - Please Add In...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1488,6.5,NO DESCRIPTION,609,Other,RESOLVED,2024-2025
+TRI-1487,Cedar Hill WaterSmart Pa...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1487,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1486,Password of support@muni...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1486,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-1485,Your one-time code: 8549...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1485,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1484,Your one-time code: 6648...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1484,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1483,CID: 59 City of Mountain...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1483,6.5,NO DESCRIPTION,59,Other,RESOLVED,2024-2025
+TRI-1482,Enterprise - MAR Out of ...,Resolved,guppy.sivakumar@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1482,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1481,Important Information fr...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1481,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1480,Important Information fr...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1480,5.5,NO DESCRIPTION,N/A,Integration,RESOLVED,2024-2025
+TRI-1479,amarriotti@sahuaritaaz.g...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1479,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1478,Helena 1634- Unable t...,St,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1478,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1477,Company: NRG - AK...,Master,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1477,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1476,CID:262 Add Reading butt...,Closed,addie@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1476,6.5,NO DESCRIPTION,262,Meter Management,RESOLVED,2024-2025
+TRI-1475,CID 1369: Cabinet Mounta...,Closed,jim.martineau@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1475,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025
+TRI-1473,CID 128  Paya - Payment ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1473,6.5,NO DESCRIPTION,128,Payment Processing,RESOLVED,2024-2025
+TRI-1471,Autopay flags on accounts,Resolved,bhavana.savaram@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1471,5.5,NO DESCRIPTION,N/A,Autopay System,RESOLVED,2024-2025
+TRI-1470,CID: 205 - Late fee's ge...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1470,6.5,NO DESCRIPTION,205,Other,RESOLVED,2024-2025
+TRI-1469,CID 897 Redmond - Balanc...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1469,6.5,NO DESCRIPTION,897,Other,RESOLVED,2024-2025
+TRI-1463,CID 61 - City of Casevil...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1463,6.5,NO DESCRIPTION,61,Other,RESOLVED,2024-2025
+TRI-1462,CID 127 : Golden Isles -...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1462,6.5,NO DESCRIPTION,127,Other,RESOLVED,2024-2025
+TRI-1461,CID 715: Yadkin County- ...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1461,6.5,NO DESCRIPTION,715,Other,RESOLVED,2024-2025
+TRI-1460,CID 1483 - Bill Date 11....,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1460,6.5,NO DESCRIPTION,1483,Billing System,RESOLVED,2024-2025
+TRI-1459,Cedar Hill Do...,Emergency:,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1459,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1458,CID: 413 - Missing payme...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1458,6.5,NO DESCRIPTION,413,Other,RESOLVED,2024-2025
+TRI-1456,Riverwood - Bill Posting...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1456,5.5,NO DESCRIPTION,N/A,Billing System,RESOLVED,2024-2025
+TRI-1455,CID 1165: Indigo at the ...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1455,6.5,NO DESCRIPTION,1165,Other,RESOLVED,2024-2025
+TRI-1454,Sync,Resolved,amanda.chavez@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1454,5.0,NO DESCRIPTION; VAGUE SUMMARY,N/A,Integration,RESOLVED,2024-2025
+TRI-1451,New User Request - Yimar...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1451,5.5,NO DESCRIPTION,N/A,Customer Portal,RESOLVED,2024-2025
+TRI-1450,CID: 23 - QR Code,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1450,5.5,NO DESCRIPTION,23,Other,RESOLVED,2024-2025
+TRI-1449,Numbers,Account,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1449,4.5,NO DESCRIPTION; VAGUE SUMMARY,N/A,Other,REQUEST REVISION,2024-2025
+TRI-1448,Aqua Waste- Granville CI...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1448,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1443,CID: 226 - Legacy Mobile...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1443,6.5,NO DESCRIPTION,226,Other,RESOLVED,2024-2025
+TRI-1441,POI- CID 1575- Missing O...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1441,6.5,NO DESCRIPTION,1575,Other,RESOLVED,2024-2025
+TRI-1440,CID: 23 - Invoices not d...,Resolved,caiden.robinson@munibill@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1440,6.5,NO DESCRIPTION,23,Billing System,RESOLVED,2024-2025
+TRI-1439,CID 1369: Cabinet Mounta...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1439,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025
+TRI-1436,Cannot Reconcile DELUXE ...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1436,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1435,CID 1749 - Neskowin Regi...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1435,6.5,NO DESCRIPTION,1749,Other,RESOLVED,2024-2025
+TRI-1433,CID 1544: City of Newbur...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1433,6.5,NO DESCRIPTION,1544,Other,RESOLVED,2024-2025
+TRI-1431,CID 1369: Cabinet Mounta...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1431,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025
+TRI-1426,St Helena CID (1634) : A...,Closed,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1426,6.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1425,CID: 52 - E-bills not de...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1425,6.5,NO DESCRIPTION,52,Billing System,RESOLVED,2024-2025
+TRI-1424,Oxford CID 1702- Online ...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1424,6.5,NO DESCRIPTION,1702,Other,RESOLVED,2024-2025
+TRI-1423,426: Northfield Town...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1423,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1422,Enterprise - CID 738 - D...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1422,6.5,NO DESCRIPTION,738,Other,RESOLVED,2024-2025
+TRI-1421,CID: 861 - Delete Bills ...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1421,6.5,NO DESCRIPTION,861,Billing System,RESOLVED,2024-2025
+TRI-1420,Enterprise - CID 738 - H...,Resolved,clyde.qasolli@munibillin@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1420,6.5,NO DESCRIPTION,738,Other,RESOLVED,2024-2025
+TRI-1418,CID 1664 West Chester Ta...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1418,6.5,NO DESCRIPTION,1664,Other,RESOLVED,2024-2025
+TRI-1417,Heartland - Failed Autop...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1417,5.5,NO DESCRIPTION,N/A,Other,RESOLVED,2024-2025
+TRI-1416,CID: 203- October invoic...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1416,6.5,NO DESCRIPTION,203,Other,RESOLVED,2024-2025
+TRI-1414,CID: 1298 - Please Unpos...,Closed,stephanie.williams@munib@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1414,6.5,NO DESCRIPTION,1298,Other,RESOLVED,2024-2025
+TRI-1413,CID: 977 -Summary Page i...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1413,6.5,NO DESCRIPTION,977,Other,RESOLVED,2024-2025
+TRI-1412,1447: Three Mile Wat...,CID,Normal,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1412,5.0,NO DESCRIPTION,N/A,Other,STANDARD PROCESSING,2024-2025
+TRI-1407,CID: 977 WhoDunnit - Whe...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1407,6.5,NO DESCRIPTION,977,Other,RESOLVED,2024-2025
+TRI-1406,CID: 1136 -Watersmart (P...,Closed,alvaro.escobar@munibilli@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1406,6.5,NO DESCRIPTION,1136,Integration,RESOLVED,2024-2025
+TRI-1405,CID: 1289 - Bills did no...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1405,6.5,NO DESCRIPTION,1289,Billing System,RESOLVED,2024-2025
+TRI-1403,CID: 897 - Past due repo...,Resolved,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1403,6.5,NO DESCRIPTION,897,Other,RESOLVED,2024-2025
+TRI-1402,CID: 203- Bills not post...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1402,6.5,NO DESCRIPTION,203,Billing System,RESOLVED,2024-2025
+TRI-1401,Paya Payments - during d...,Closed,nathaniel@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1401,5.5,NO DESCRIPTION,N/A,Payment Processing,RESOLVED,2024-2025
+TRI-1400,CID 1447: Three Mile Wat...,Closed,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1400,6.5,NO DESCRIPTION,1447,Other,RESOLVED,2024-2025
+TRI-1399,CID 1369: Cabinet Mounta...,Resolved,bettina@munibilling.com,Unknown,Normal,https://jiramb.atlassian.net/browse/TRI-1399,6.5,NO DESCRIPTION,1369,Other,RESOLVED,2024-2025

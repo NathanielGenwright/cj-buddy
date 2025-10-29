@@ -1,0 +1,294 @@
+[
+  {
+    "changelog": null,
+    "editmeta": null,
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "fields": {
+      "assignee": {
+        "accountId": "621d1801a1245000688623d8",
+        "accountType": "atlassian",
+        "active": true,
+        "avatarUrls": {
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/621d1801a1245000688623d8/7252b600-8dac-4ead-84d7-bfea300878e2/16",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/621d1801a1245000688623d8/7252b600-8dac-4ead-84d7-bfea300878e2/24",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/621d1801a1245000688623d8/7252b600-8dac-4ead-84d7-bfea300878e2/32",
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/621d1801a1245000688623d8/7252b600-8dac-4ead-84d7-bfea300878e2/48"
+        },
+        "displayName": "Stephanie Williams",
+        "emailAddress": "stephanie.williams@munibilling.com",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/user?accountId=621d1801a1245000688623d8",
+        "timeZone": "America/New_York"
+      },
+      "issuetype": {
+        "avatarId": 10868,
+        "description": "A request that follows ITSM workflows.",
+        "hierarchyLevel": 0,
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10868?size=medium",
+        "id": "10248",
+        "name": "[System] Service request",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issuetype/10248",
+        "subtask": false
+      },
+      "priority": {
+        "iconUrl": "https://jiramb.atlassian.net/secure/attachment/15932/icons8-medium-priority-64.png",
+        "id": "2",
+        "name": "Normal",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/priority/2"
+      },
+      "status": {
+        "description": "A resolution has been taken, and it's awaiting verification by the reporter. From here work items are either reopened, or are closed.",
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/images/icons/statuses/resolved.png",
+        "id": "5",
+        "name": "Resolved",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/status/5",
+        "statusCategory": {
+          "colorName": "green",
+          "id": 3,
+          "key": "done",
+          "name": "Done",
+          "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/statuscategory/3"
+        }
+      },
+      "summary": "Client Data Pull "
+    },
+    "fieldsToInclude": null,
+    "id": "183069",
+    "key": "TRI-2303",
+    "names": null,
+    "operations": null,
+    "properties": null,
+    "renderedFields": null,
+    "schema": null,
+    "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issue/183069",
+    "transitions": null,
+    "versionedRepresentations": null
+  },
+  {
+    "changelog": null,
+    "editmeta": null,
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "fields": {
+      "assignee": null,
+      "issuetype": {
+        "avatarId": 10868,
+        "description": "A request that follows ITSM workflows.",
+        "hierarchyLevel": 0,
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10868?size=medium",
+        "id": "10248",
+        "name": "[System] Service request",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issuetype/10248",
+        "subtask": false
+      },
+      "priority": {
+        "iconUrl": "https://jiramb.atlassian.net/secure/attachment/15932/icons8-medium-priority-64.png",
+        "id": "2",
+        "name": "Normal",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/priority/2"
+      },
+      "status": {
+        "description": "This work item is being actively worked on at the moment by the assignee.",
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/images/icons/statuses/inprogress.png",
+        "id": "3",
+        "name": "In Progress",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/status/3",
+        "statusCategory": {
+          "colorName": "yellow",
+          "id": 4,
+          "key": "indeterminate",
+          "name": "In Progress",
+          "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/statuscategory/4"
+        }
+      },
+      "summary": "CID 1760:West Cocalico Township Street Lights: E-CHECK Payment Discrepancy: Client has reported that all e-check payments are depositing $1 less than expected into their bank account."
+    },
+    "fieldsToInclude": null,
+    "id": "183056",
+    "key": "TRI-2302",
+    "names": null,
+    "operations": null,
+    "properties": null,
+    "renderedFields": null,
+    "schema": null,
+    "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issue/183056",
+    "transitions": null,
+    "versionedRepresentations": null
+  },
+  {
+    "changelog": null,
+    "editmeta": null,
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "fields": {
+      "assignee": {
+        "accountId": "611a659ce05b7b006ad9162a",
+        "accountType": "atlassian",
+        "active": true,
+        "avatarUrls": {
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/16",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/24",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/32",
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/48"
+        },
+        "displayName": "Katilyn Wiggins",
+        "emailAddress": "katilyn.wiggins@munibilling.com",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/user?accountId=611a659ce05b7b006ad9162a",
+        "timeZone": "America/New_York"
+      },
+      "issuetype": {
+        "avatarId": 10868,
+        "description": "A request that follows ITSM workflows.",
+        "hierarchyLevel": 0,
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10868?size=medium",
+        "id": "10248",
+        "name": "[System] Service request",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issuetype/10248",
+        "subtask": false
+      },
+      "priority": {
+        "iconUrl": "https://jiramb.atlassian.net/secure/attachment/15932/icons8-medium-priority-64.png",
+        "id": "2",
+        "name": "Normal",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/priority/2"
+      },
+      "status": {
+        "description": "This was auto-generated by Jira Service Management during workflow import",
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/images/icons/status_generic.gif",
+        "id": "10270",
+        "name": "Waiting for customer",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/status/10270",
+        "statusCategory": {
+          "colorName": "yellow",
+          "id": 4,
+          "key": "indeterminate",
+          "name": "In Progress",
+          "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/statuscategory/4"
+        }
+      },
+      "summary": "CID 1801 - Hope Water: South - 9/29/2025 AZML Account Type Bills Have No Invoice Number"
+    },
+    "fieldsToInclude": null,
+    "id": "183015",
+    "key": "TRI-2301",
+    "names": null,
+    "operations": null,
+    "properties": null,
+    "renderedFields": null,
+    "schema": null,
+    "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issue/183015",
+    "transitions": null,
+    "versionedRepresentations": null
+  },
+  {
+    "changelog": null,
+    "editmeta": null,
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "fields": {
+      "assignee": {
+        "accountId": "611a659ce05b7b006ad9162a",
+        "accountType": "atlassian",
+        "active": true,
+        "avatarUrls": {
+          "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/16",
+          "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/24",
+          "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/32",
+          "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/611a659ce05b7b006ad9162a/3dea4e8a-ffd3-48a0-a7e9-5322e304c778/48"
+        },
+        "displayName": "Katilyn Wiggins",
+        "emailAddress": "katilyn.wiggins@munibilling.com",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/user?accountId=611a659ce05b7b006ad9162a",
+        "timeZone": "America/New_York"
+      },
+      "issuetype": {
+        "avatarId": 10868,
+        "description": "A request that follows ITSM workflows.",
+        "hierarchyLevel": 0,
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10868?size=medium",
+        "id": "10248",
+        "name": "[System] Service request",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issuetype/10248",
+        "subtask": false
+      },
+      "priority": {
+        "iconUrl": "https://jiramb.atlassian.net/secure/attachment/15932/icons8-medium-priority-64.png",
+        "id": "2",
+        "name": "Normal",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/priority/2"
+      },
+      "status": {
+        "description": "This was auto-generated by Jira Service Management during workflow import",
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/images/icons/status_generic.gif",
+        "id": "10270",
+        "name": "Waiting for customer",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/status/10270",
+        "statusCategory": {
+          "colorName": "yellow",
+          "id": 4,
+          "key": "indeterminate",
+          "name": "In Progress",
+          "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/statuscategory/4"
+        }
+      },
+      "summary": "CID-1788-Global request to show tax description on bill rather than rate print description"
+    },
+    "fieldsToInclude": null,
+    "id": "182621",
+    "key": "TRI-2295",
+    "names": null,
+    "operations": null,
+    "properties": null,
+    "renderedFields": null,
+    "schema": null,
+    "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issue/182621",
+    "transitions": null,
+    "versionedRepresentations": null
+  },
+  {
+    "changelog": null,
+    "editmeta": null,
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "fields": {
+      "assignee": null,
+      "issuetype": {
+        "avatarId": 10868,
+        "description": "A request that follows ITSM workflows.",
+        "hierarchyLevel": 0,
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10868?size=medium",
+        "id": "10248",
+        "name": "[System] Service request",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issuetype/10248",
+        "subtask": false
+      },
+      "priority": {
+        "iconUrl": "https://jiramb.atlassian.net/secure/attachment/15932/icons8-medium-priority-64.png",
+        "id": "2",
+        "name": "Normal",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/priority/2"
+      },
+      "status": {
+        "description": "This was auto-generated by Jira Service Management during workflow import",
+        "iconUrl": "https://jira-prod-us-30-as-2.prod.atl-paas.net/images/icons/status_generic.gif",
+        "id": "10271",
+        "name": "Pending",
+        "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/status/10271",
+        "statusCategory": {
+          "colorName": "yellow",
+          "id": 4,
+          "key": "indeterminate",
+          "name": "In Progress",
+          "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/statuscategory/4"
+        }
+      },
+      "summary": "Enhance Late Charge Template functionality to reduce manual processes, improve communication flexibility,"
+    },
+    "fieldsToInclude": null,
+    "id": "182594",
+    "key": "TRI-2294",
+    "names": null,
+    "operations": null,
+    "properties": null,
+    "renderedFields": null,
+    "schema": null,
+    "self": "https://jira-prod-us-30-as-2.prod.atl-paas.net/rest/api/3/issue/182594",
+    "transitions": null,
+    "versionedRepresentations": null
+  }
+]

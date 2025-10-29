@@ -1,0 +1,21 @@
+Ticket_Key,Summary,Status,Assignee,Urgency,Priority,JIRA_URL,TriQ_Score,Quality_Issues
+TRI-2302,CID 1760:West Cocalico Township Street Lights: E-CHECK Payment Discrepancy,In Progress,UNASSIGNED,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2302,5.9,NO DESCRIPTION - SLA BREACH RISK
+TRI-2296,CID- 1823 - City of Buffalo - Deletion of Transactional Data due to duplications,Closed,katilyn.wiggins@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2296,7.5,Good resolution - data cleanup
+TRI-2283,Fortress Integration Sync Error,Resolved,jason.moore@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2283,6.8,Integration issue - technical resolved
+TRI-2249,CID 262 Update of Meters,Canceled,UNASSIGNED,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2249,4.0,Canceled - minimal description
+TRI-2245,Arcadia: GLOBAL System Slowness 09.12.2025,Canceled,UNASSIGNED,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2245,5.5,System performance - canceled
+TRI-2234,CID 262 - Update Meter Serial Numbers,Resolved,bhavana.savaram@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2234,7.0,Good data update ticket
+TRI-2218,CID- 1833 - Jim Wells - Client is not able to accept payments,Resolved,UNASSIGNED,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2218,6.5,Payment issue resolved
+TRI-2217,CID- 1833 - Jim Wells - Not able to Generate PDF of Bills,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2217,7.2,PDF generation issue
+TRI-2216,CID- 1833 - Broadcast Notification URGENT,Resolved,tonisha.sellars@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2216,6.8,Communication issue
+TRI-2214,CID - 1833 - Bill Deletion Request,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2214,7.0,Billing correction
+TRI-2211,Update Inactive Account Numbers for Portage CID - 1800,Resolved,stephanie.williams@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2211,6.5,Account management
+TRI-2209,URGENT - GLOBAL - login failure for all clients,Resolved,UNASSIGNED,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2209,8.0,Excellent global issue handling
+TRI-2207,Bent Creek Utility - Unapplied Payments Issue,Closed,katilyn.wiggins@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2207,7.5,Payment reconciliation
+TRI-2196,Bills voided adjustments not posting CID 227,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2196,6.8,Billing adjustment issue
+TRI-2138,CID - 1827- City of Hanson - Late Charges Are Not Being Applied,Resolved,clyde.qasolli@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2138,7.2,Late charge system
+TRI-2137,CLONE - Billing Process Failures - No Bills Generated for Billing Date,Resolved,bettina@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2137,7.8,Billing system failure
+TRI-2135,CID- 1819 -City of Ironton - Late Charges not posting to accounts,Resolved,clyde.qasolli@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2135,7.0,Late charge configuration
+TRI-2109,CID- 1800 - Portage Area Water and Sewer Authority - Autopay Errors,Resolved,clyde.qasolli@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2109,7.5,Autopay system issue
+TRI-2068,CID - 1799 - Purgatory Metro District - Bills Missing for Billing Date,Resolved,clyde.qasolli@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2068,7.8,Billing generation issue
+TRI-2066,CID- 1792 -Rural Water District - Bills Missing for Billing Date,Resolved,clyde.qasolli@munibilling.com,Critical,Normal,https://jiramb.atlassian.net/browse/TRI-2066,7.5,Billing system recovery

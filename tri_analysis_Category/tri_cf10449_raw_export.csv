@@ -1,0 +1,632 @@
+Type,Key,Assignee,Priority,Status,Summary
+[System] Service request,TRI-2323,,Normal,Waiting for support,Data Extraction for Export Borough CID 384
+[System] Service request,TRI-2322,nathaniel@munibilling.com,Normal,Waiting for support,Epcor - Meter Read Issue
+[System] Service request,TRI-2321,stephanie.williams@munibilling.com,Normal,Resolved,Data Request - Loudonville
+[System] Service request,TRI-2320,,Normal,Waiting for support,CID- 1823 - Buffalo- Payments need applied to Open Bills
+[System] Service request,TRI-2319,nathaniel@munibilling.com,Normal,Waiting for support,CID: 1136 - Fast Payment Entry Duplicates
+[System] Service request,TRI-2318,,Normal,Waiting for support,CID 1518: Roamingwood: Incorrect Consumption Values (One digit short) for Large Meters (Size 1–2) on Neptune V4 Import
+[System] Service request,TRI-2317,samuel.aubin@munibilling.com,Normal,In Progress,CID 436: City of Gatlinburg-Remove Heartland Autopay Flag
+[System] Service request,TRI-2316,,Normal,Waiting for support,https://login.demo.munibilling.com/secure_sessions/new Cannot find user email or reset password
+[System] Service request,TRI-2315,nathaniel@munibilling.com,Normal,Waiting for support,CID: 52: Autopay Issue
+[System] Service request,TRI-2314,nathaniel@munibilling.com,Normal,Waiting for support,"CID: 1483 - Removal of ""Automatic Payment"" link"
+[System] Service request,TRI-2313,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 124 - Payment shows as approved in PAYA but not in Muni
+[System] Service request,TRI-2311,bettina@munibilling.com,Normal,Resolved,Energy Center Pittsburgh LLC - Unpost Bills
+[System] Service request,TRI-2310,nathaniel@munibilling.com,Normal,Resolved,CID 1836 - City of Albion - Create Dummy Invoices
+[System] Service request,TRI-2309,,Normal,Waiting for support,CID 1801 - Hope Water South Billing - UnPost Bills Dated 9/29/2025 for Account Type AZCS
+[System] Service request,TRI-2308,,Normal,Waiting for support,Enhance Billing Calculator to Reflect Full Rate Code Configurations Accurately
+[System] Service request,TRI-2307,,Normal,Waiting for support,Support Accurate Tax Calculation for Non-Recurring Charges in Manual Bill Creation
+[System] Service request,TRI-2306,,Normal,Waiting for support,Enhance Import Process with Pre-Validation and Real-Time Error Reporting
+[System] Service request,TRI-2305,,Normal,Waiting for support,Improve Accuracy and Error Handling in Meter Reading Import for Two-Digit Year Formats
+[System] Service request,TRI-2304,,Normal,Waiting for support,The Customer Custom Fields cannot be imported.
+[System] Service request,TRI-2303,stephanie.williams@munibilling.com,Normal,Resolved,Client Data Pull 
+[System] Service request,TRI-2302,,Normal,In Progress,CID 1760:West Cocalico Township Street Lights: E-CHECK Payment Discrepancy: Client has reported that all e-check payments are depositing $1 less than expected into their bank account.
+[System] Service request,TRI-2301,katilyn.wiggins@munibilling.com,Normal,Waiting for customer,CID 1801 - Hope Water: South - 9/29/2025 AZML Account Type Bills Have No Invoice Number
+[System] Service request,TRI-2299,clyde.qasolli@munibilling.com,Normal,Waiting for customer,Stinson Water CID 1600 Accounts Not Attempting to Autopay
+[System] Service request,TRI-2298,katilyn.wiggins@munibilling.com,Normal,Waiting for customer,Provide file format details for Itron Export (Hardcoded File Format)
+[System] Service request,TRI-2297,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1801 - Hope Water: South - Customer Has Double Billed for Account Type AZML
+[System] Service request,TRI-2296,katilyn.wiggins@munibilling.com,Normal,Closed,CID- 1823 - City of Buffalo - Deletion of Transactional Data due to duplications 
+[System] Service request,TRI-2295,katilyn.wiggins@munibilling.com,Normal,Waiting for customer,CID-1788-Global request to show tax description on bill rather than rate print description
+[System] Service request,TRI-2294,,Normal,Pending,"Enhance Late Charge Template functionality to reduce manual processes, improve communication flexibility,"
+[System] Service request,TRI-2293,,Normal,Pending,Adjustments for Misapplied Payments -UI and Workflow Enhancements i
+[System] Service request,TRI-2292,,Normal,Pending,Balance Transfer Functionality for Active Accounts
+[System] Service request,TRI-2291,,Normal,Pending,Pre-Billing Mass Communication to Support Broadcast Notifications
+[System] Service request,TRI-2290,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1136 Rutland Statements to WaterSmart Sept 2025
+[System] Service request,TRI-2289,bhavana.savaram@munibilling.com,Normal,Resolved,CID 1567: Washington County: Incorrect Late Fee Date: 10/20/2025
+[System] Service request,TRI-2288,nathaniel@munibilling.com,Normal,Waiting for customer,CID: 229- Reads Calculating Incorrect
+[System] Service request,TRI-2287,nathaniel@munibilling.com,Normal,Waiting for customer,Snowmass Watersmart File Updates
+[System] Service request,TRI-2286,,Normal,Waiting for customer,CID 1575- Customer Portal Auto-Pay – Checking Account Option Missing- Acct 10087
+[System] Service request,TRI-2285,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1843 - Hope Water - Sunland - Create Dummy Invoices
+[System] Service request,TRI-2284,drago.todorov@munibilling.com,Normal,In Progress,CID: 1769- Autopay Info Missing From General Screen
+[System] Service request,TRI-2283,jason.moore@munibilling.com,Normal,Resolved, Fortress Integration Sync Error
+[System] Service request,TRI-2282,,Normal,Pending,Prevent Billing Errors by Enforcing Metered Rate Code Configuration Validations
+[System] Service request,TRI-2281,,Normal,Pending,Enhance Flexibility for Managing and Deleting Meter Readings in Billing Workflow
+[System] Service request,TRI-2280,,Normal,Pending,Preserve Data Accuracy When Activating “Customer in Waiting” Records
+[System] Service request,TRI-2279,,Normal,Pending,Support for International Billing Addresses
+[System] Service request,TRI-2278,,Normal,Pending,Eliminate the need to manually monitor and update the Autopay status checkbox due to failures
+[System] Service request,TRI-2274,katilyn.wiggins@munibilling.com,Normal,Closed,CID- 1833- Jim Wells Delete Late Charges
+[System] Service request,TRI-2273,katilyn.wiggins@munibilling.com,Normal,Closed,CID: 41 - Duplicate Late Fee's
+[System] Service request,TRI-2272,stephanie.williams@munibilling.com,Normal,Resolved,CID -1823 - City of Buffalo - Delete Bills and Payments for Balance True Up Billing Type
+[System] Service request,TRI-2271,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill: Remove Billing Items from Customer Account 0300009996-000018380
+[System] Service request,TRI-2270,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1802 Hope Water - Valley Final Bill Indicator Not Present
+[System] Service request,TRI-2268,katilyn.wiggins@munibilling.com,Normal,Closed,User Permissions for Demo
+[System] Service request,TRI-2267,katilyn.wiggins@munibilling.com,Normal,Closed,Create Admin User for Paul Kelly in Production
+[System] Service request,TRI-2266,katilyn.wiggins@munibilling.com,Normal,Closed,Melissa Haney -  New User Request
+[System] Service request,TRI-2265,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1779: Create bill error 
+[System] Service request,TRI-2259,bhavana.savaram@munibilling.com,Normal,Resolved,CID 1780: Millersville Borough: Incorrect Bill Date of 09/05/25 for Cycle 1 Account Category
+[System] Service request,TRI-2258,nathaniel@munibilling.com,Normal,Resolved,CID: 414  Epcor/Harmony - Customer portal error 
+[System] Service request,TRI-2251,samuel.aubin@munibilling.com,Normal,Closed,CID- 1823 - City of Buffalo - Add Consumption Source - East or West to all ELEC Meters
+[System] Service request,TRI-2250,nathaniel@munibilling.com,Normal,Resolved,CID 1844 - Having Issues Enabling IVR In Payment Gateway Profile
+[System] Service request,TRI-2249,,Normal,Canceled,CID 262 Update of Meters 
+[System] Service request,TRI-2248,bhavana.savaram@munibilling.com,Normal,In Progress,Multivision Authentication
+[System] Service request,TRI-2245,,Normal,Canceled,Arcadia: GLOBAL System Slowness 09.12.2025
+[System] Service request,TRI-2244,nathaniel@munibilling.com,Normal,Closed,CID: 413 - Can't add parcel
+[System] Service request,TRI-2243,samuel.aubin@munibilling.com,Normal,Closed,"CID - 1823 - City of Buffalo - Add Consumpiton Sources to WAT, MASTER, and DEDUCT Meters"
+[System] Service request,TRI-2242,nathaniel@munibilling.com,Normal,Resolved,CID 45: Waste Water Solutions - Missing bills in system
+[System] Service request,TRI-2241,nathaniel@munibilling.com,Normal,Resolved,CID: 50- Payments not updating in portal
+[System] Service request,TRI-2240,nathaniel@munibilling.com,Normal,Resolved,CID 1800 Portage - AutoPay Failed - Please run process
+[System] Service request,TRI-2239,nathaniel@munibilling.com,Normal,Closed,CID 960: Bent Creek Payment Gateway Whodunnit
+[System] Service request,TRI-2238,nathaniel@munibilling.com,Normal,Waiting for support,CID 228: Energy Center Pittsburgh LLC Invoice Issue 
+[System] Service request,TRI-2235,,Normal,Waiting for customer,CID- 1837 - Glen Lake Estates - Invoices Not Showing Charges
+[System] Service request,TRI-2234,bhavana.savaram@munibilling.com,Normal,Resolved,CID 262  - Update Meter Serial Numbers
+[System] Service request,TRI-2233,,Normal,Closed,CID 1415: Queen Anne's County: Missing IVR Payments from Early August Merchant Services Migration
+[System] Service request,TRI-2232,clyde.qasolli@munibilling.com,Normal,Resolved,Watersmart issues with SnowMass
+[System] Service request,TRI-2231,katilyn.wiggins@munibilling.com,Normal,Closed,Austin County WSC Account Number Update
+[System] Service request,TRI-2230,bettina@munibilling.com,Normal,Resolved,CID 436 - Gatlinburg - Posting Concern
+[System] Service request,TRI-2229,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1801 - Hope Water: South - Reports Not Reflecting Correct Values
+[System] Service request,TRI-2228,nathaniel@munibilling.com,Normal,Resolved,CID 1801: Hope Water South:Issue Provisioning IVR Phone Number via Merchant Service Provider (Nuvei)
+[System] Service request,TRI-2226,,Normal,Resolved,CID 1801 - Hope Water: South - Create Dummy Invoices
+[System] Service request,TRI-2224,,Normal,Resolved,Myya Carson - New User Request
+[System] Service request,TRI-2223,bettina@munibilling.com,Normal,Resolved,Samantha Hoffman - New User Request
+[System] Service request,TRI-2222,bettina@munibilling.com,Normal,Resolved,Tylee Roberts - New User Request
+[System] Service request,TRI-2221,jason.moore@munibilling.com,Normal,Closed,RentManager Uploading Error
+[System] Service request,TRI-2220,nathaniel@munibilling.com,Normal,Resolved,CID:423- Details of barcode scanner parameters.  
+[System] Service request,TRI-2218,,Normal,Resolved,CID- 1833 - Jim Wells - Client is not able to accept payments
+[System] Service request,TRI-2217,bettina@munibilling.com,Normal,Resolved,CID- 1833 - Jim Wells - Not able to Generate PDF of Bills
+[System] Service request,TRI-2216,tonisha.sellars@munibilling.com,Normal,Resolved,CID- 1833 - Broadcast Notification URGENT
+[System] Service request,TRI-2215,,Normal,Resolved,CID 1836 - City of Albion - Establish Dates formatted incorrectly
+[System] Service request,TRI-2214,bettina@munibilling.com,Normal,Resolved,CID - 1833 - Bill Deletion Request
+[System] Service request,TRI-2211,stephanie.williams@munibilling.com,Normal,Resolved,Update Inactive Account Numbers for Portage CID - 1800
+[System] Service request,TRI-2210,nathaniel@munibilling.com,Normal,Resolved,CID: 1720 - Autopay isn't drafting
+[System] Service request,TRI-2209,,Normal,Resolved,URGENT - GLOBAL - login button missing from customer portal
+[System] Service request,TRI-2207,katilyn.wiggins@munibilling.com,Normal,Closed,Bent Creek Utility - Unpost Bills
+[System] Service request,TRI-2201,,Normal,Resolved,Fortress Integration - Sync Bill Data 
+[System] Service request,TRI-2200,clyde.qasolli@munibilling.com,Normal,Resolved,CId 124- Consolidated - Missing paymnet from 8/1/2025
+[System] Service request,TRI-2199,,Normal,Resolved,Sahuarita Wells Fargo Lockbox Transmission Credentials
+[System] Service request,TRI-2198,,Normal,Closed,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-2197,bettina@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-2196,bettina@munibilling.com,Normal,Resolved,Bills voided adjustments unable to be deleted
+[System] Service request,TRI-2195,,Normal,Resolved,CID 1800: Update Autopay Draft Date
+[System] Service request,TRI-2192,bettina@munibilling.com,Normal,Resolved,San Juan - Unpost Bills
+[System] Service request,TRI-2191,jim.martineau@munibilling.com,Normal,Resolved,CID 1793: Customers unable to make Credit card payments through portal
+[System] Service request,TRI-2187,stephanie.williams@munibilling.com,Normal,Resolved,Error While Processing Payments and Adjustments Portage Area Sewer Authority 
+[System] Service request,TRI-2185,bettina@munibilling.com,Normal,Resolved,CID- 1833 - Jim Wells - Late Charge Template Not Running in live
+[System] Service request,TRI-2183,,Normal,In Progress,CID 1634 - St Helena Water - MuniRead Pro App Not Downloading All Service Locations for Specific Route
+[System] Service request,TRI-2181,katilyn.wiggins@munibilling.com,Normal,Closed,City of Arcadia: Bill Due Date Incorrect after Posting 0000967448-002862014
+[System] Service request,TRI-2180,nathaniel@munibilling.com,Normal,Resolved,CID: 1800 Customer Portal Issue
+[System] Service request,TRI-2178,bettina@munibilling.com,Normal,Resolved,CID: 1800 - System Erros
+[System] Service request,TRI-2176,stephanie.williams@munibilling.com,Normal,Resolved,CID 1802 Hope Water Valley - SuperTx Rate was Billed with Wrong Billing Type Assigned
+[System] Service request,TRI-2174,,Normal,Waiting for customer,CID: 1640 Parcel History Error
+[System] Service request,TRI-2169,harmon.jenkins@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-2168,nathaniel@munibilling.com,Normal,Closed,CID: 1792 E Bills Bounced Back
+[System] Service request,TRI-2167,bettina@munibilling.com,Normal,Resolved,MuniBilling Admin User Access for Ian Summers
+[System] Service request,TRI-2156,samuel.aubin@munibilling.com,Normal,Closed,CID: 1802 - Hope Valley: Water - Readings Import
+[System] Service request,TRI-2155,nathaniel@munibilling.com,Normal,Resolved,CID: 1783 City of Onamia - Payment missing
+[System] Service request,TRI-2154,katilyn.wiggins@munibilling.com,Normal,Resolved,Training Implementation PU and MF PDFize and Dummy invoicing
+[System] Service request,TRI-2153,bettina@munibilling.com,Normal,Resolved,Daphne Davis - Needs an Admin User Account for MuniBilling
+[System] Service request,TRI-2152,samuel.aubin@munibilling.com,Normal,Resolved,CID 1802 - Hope Water: Valley - Low Reg/Transmitter Field Updates
+[System] Service request,TRI-2151,katilyn.wiggins@munibilling.com,Normal,Resolved,CID: 29 - Wrong date for reconciled payments. 
+[System] Service request,TRI-2150,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1802 - Hope Water: Valley - Create Dummy Invoices
+[System] Service request,TRI-2149,bettina@munibilling.com,Normal,Resolved,CID: 1802 - Hope Valley: Water - Dummy Invoice Request
+[System] Service request,TRI-2148,nathaniel@munibilling.com,Normal,Closed,CID 1280: Cherokee County RWD - Post late charge job twice at same time 
+[System] Service request,TRI-2147,,Normal,Resolved,IVR Upload File Request from Heartland   08.04.2025
+[System] Service request,TRI-2146,nathaniel@munibilling.com,Normal,Resolved,CID: 897- IVR Not Recognizing Account Balances
+[System] Service request,TRI-2145,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1802 - Hope Water: Valley - Dupe Bill Removal
+[System] Service request,TRI-2144,,Normal,Closed, E-Bills Bouncing Across Multiple Email Providers
+[System] Service request,TRI-2143,nathaniel@munibilling.com,Normal,Resolved,CID: 610- Service Order not printing correct
+[System] Service request,TRI-2142,,Normal,Resolved,"CID 1518: Roamingwood: E-Check Payment Returned in Heartland Report, but $1.00 Convenience Fee Was Withdrawn – Account 3314000"
+[System] Service request,TRI-2141,bettina@munibilling.com,High,Resolved,CID 1802 - Hope Water: Valley - Readings Removal
+[System] Service request,TRI-2139,clyde.qasolli@munibilling.com,Normal,Closed,Discrepancy in ACH Details Leading to Chargeback – Royal Gorge - CID 1779
+[System] Service request,TRI-2138,clyde.qasolli@munibilling.com,Normal,Resolved,CID - 1827- City of Hanska - Dummy Invoices
+[System] Service request,TRI-2137,bettina@munibilling.com,Normal,Resolved,CLONE - Billing Process Help - Unpost Meter readings
+[System] Service request,TRI-2136,katilyn.wiggins@munibilling.com,Normal,Resolved,CID – 715 – Bill date 8/1/2025 – Bill Count 365 – Total $52701.01 
+[System] Service request,TRI-2135,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1819 -City of Ironton - dummy invoices
+[System] Service request,TRI-2134,clyde.qasolli@munibilling.com,Normal,Resolved,City of Arcadia IVR: Account 0000968227-002906154 not located in IVR: Check File Please 07.30.2025
+[System] Service request,TRI-2126,katilyn.wiggins@munibilling.com,Normal,Resolved,Please create an admin account for Mitch Brandon.
+[System] Service request,TRI-2125,nathaniel@munibilling.com,Normal,Resolved,CID 960: Bent Creek Failed Payment Whodunnit 
+[System] Service request,TRI-2123,nathaniel@munibilling.com,Normal,Closed,CID: 449 - Bounced E-bills
+[System] Service request,TRI-2122,nathaniel@munibilling.com,Normal,Closed,CID 643 - hotmail email domain bounce 
+[System] Service request,TRI-2121,nathaniel@munibilling.com,Normal,Canceled,CID 1574 - Invalid email address error message
+[System] Service request,TRI-2119,nathaniel@munibilling.com,Normal,Closed,CID:1567 MuniServicePro Issue syncing service requests
+[System] Service request,TRI-2118,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1837 -Meter Link Solutions C/O - Glen Lakes Estates - Dummy Invoices
+[System] Service request,TRI-2117,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1821: City of Arlington - Paya IVR Payment Issue
+[System] Service request,TRI-2112,,Normal,Resolved,CID 1780: Invoices are missing from the Invoice Tab
+[System] Service request,TRI-2110,samuel.aubin@munibilling.com,Normal,Canceled,CID - 1800 - Portage Sewer Authority - Mass Updating Custom Field 
+[System] Service request,TRI-2109,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1800 - Portage Area Sewer Authority Create Dummy Invoices
+[System] Service request,TRI-2107,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill: WaterSmart account file uploaded last night was a duplicate
+[System] Service request,TRI-2104,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 448 - Unpost Meter Readings request
+[System] Service request,TRI-2100,bhavana.savaram@munibilling.com,Normal,Resolved,Red Energy CID - 449 Parcel Number Update
+[System] Service request,TRI-2099,bettina@munibilling.com,Normal,Resolved,CID: 448 - Unpost bills and Meter Readings
+[System] Service request,TRI-2097,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1780 - Millersville - Imported adjustment Transactions showing as activity on 1st invoice
+[System] Service request,TRI-2096,nathaniel@munibilling.com,Normal,In Progress,CID: 1120- Due after not calculating as 10% for late fee
+[System] Service request,TRI-2094,,Normal,Canceled,Write Off Export Format
+[System] Service request,TRI-2093,nathaniel@munibilling.com,Normal,Closed,Your one-time code: 578751
+[System] Service request,TRI-2092,nathaniel@munibilling.com,Normal,Closed,Your one-time code: 134844
+[System] Service request,TRI-2091,bettina@munibilling.com,Normal,Resolved,Megan Perrine - New User Request
+[System] Service request,TRI-2090,bhavana.savaram@munibilling.com,Normal,Resolved,WhoDunIt - CID 1600 - Change to Meter Sizes
+[System] Service request,TRI-2089,bettina@munibilling.com,Normal,Resolved,Queen Anne's County 1415 (formerly Sudlersville): Delete Late Fees Again 07.07.2025 on 07.09.2025
+[System] Service request,TRI-2087,bettina@munibilling.com,Normal,Resolved,Sahuarita Lockbox Password: Wells Fargo Lockbox Transmission Credentials
+[System] Service request,TRI-2086,nathaniel@munibilling.com,Normal,Resolved,RentManager Property ID- Ridgebrook Apartments
+[System] Service request,TRI-2085,bettina@munibilling.com,Normal,Resolved,Queen Anne's County 1415 (formerly Sudlersville): Delete Late Fees 07.07.2025
+[System] Service request,TRI-2083,bhavana.savaram@munibilling.com,Normal,Resolved,CID 662 City of Newnan - Remove Autopay Flags
+[System] Service request,TRI-2082,nathaniel@munibilling.com,Normal,Closed,White List IP Address: I cannot access Filezilla to do the Gatlinburg V-flex import
+[System] Service request,TRI-2081,nathaniel@munibilling.com,Normal,Resolved,CID: 413- Customer Autopay Issue
+[System] Service request,TRI-2080,bettina@munibilling.com,Normal,Resolved,JOb Failed Unexpectedly Undifined method 'balance_current' for nil
+[System] Service request,TRI-2079,samuel.aubin@munibilling.com,Normal,Closed,Morton Borough - CID: 17 - Note Needs to be Changed for Batch
+[System] Service request,TRI-2077,bettina@munibilling.com,Normal,Resolved,CID: 1761- Unpost bills
+[System] Service request,TRI-2076,,Normal,Resolved,Reporting Authorites 
+[System] Service request,TRI-2075,,Normal,Resolved,WhoDunIt - CID 17 -  Morton Borough - Payment mistakenly applied to a Deposit
+[System] Service request,TRI-2074,bettina@munibilling.com,Normal,Resolved,City of New Canton posting
+[System] Service request,TRI-2072,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1799: Missing Access Code on E-Bills 
+[System] Service request,TRI-2070,nathaniel@munibilling.com,Normal,Resolved,CID: 38- Access Code Missing
+[System] Service request,TRI-2069,nathaniel@munibilling.com,Normal,Closed,CID 1780 - Millersville Borough - Move Statement Balances for Accounts in Account Category: Cycle2
+[System] Service request,TRI-2068,clyde.qasolli@munibilling.com,Normal,Resolved,CID - 1799 - Purgatory Metro District
+[System] Service request,TRI-2066,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1792 -Rural Water District #6 Dummy Invoices
+[System] Service request,TRI-2065,bettina@munibilling.com,Normal,Resolved,CID 1695 - Unpost Bills 
+[System] Service request,TRI-2060,bettina@munibilling.com,Normal,Resolved,CID- 1821 - Create Dummy Invoices
+[System] Service request,TRI-2058,bettina@munibilling.com,Normal,Resolved,CID 1780 - Millersville - 05/31/25 Bills to be Deleted
+[System] Service request,TRI-2054,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1798 - North Bolivar Water Association-  Dummy Invoices
+[System] Service request,TRI-2052,bettina@munibilling.com,Normal,Resolved,CID 1780 - Remove Due Date 6/10/2025 from Billings without an Invoice 
+[System] Service request,TRI-2051,bettina@munibilling.com,Normal,Resolved,CID- 1791 - Enable Invoicing through PDFize Process
+[System] Service request,TRI-2050,bettina@munibilling.com,Normal,Resolved,CID- 1790 - Enable Invoicing through PDFize Process
+[System] Service request,TRI-2049,katilyn.wiggins@munibilling.com,Normal,Closed,CID- 1802 - Enable Invoicing through PDFize Process
+[System] Service request,TRI-2048,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1821 - Enable Invoicing through PDFize Process
+[System] Service request,TRI-2047,,Normal,Resolved,Online Payment Confirmation and/or Receipt
+[System] Service request,TRI-2045,samuel.aubin@munibilling.com,Normal,Closed,Parkland Utilities - CID: 730 - Note needs to be Changed for Reconciled payments
+[System] Service request,TRI-2044,samuel.aubin@munibilling.com,Normal,Closed,Purgatory Metro District - CID 1799 Custom Field Update
+[System] Service request,TRI-2043,,Normal,Canceled,CID - 1784 - City of Lafayette Adding Deposits after Go-Live
+[System] Service request,TRI-2042,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1510: Enable Invoicing for Second Sight - University Commons
+[System] Service request,TRI-2041,samuel.aubin@munibilling.com,Normal,Resolved,CID 1783 - City of Onamia - Meter Readings Swap
+[System] Service request,TRI-2038,nathaniel@munibilling.com,Normal,Canceled,CID 1624 City of Big Lake Credit Card Payments - error message 
+[System] Service request,TRI-2036,nathaniel@munibilling.com,Normal,Resolved,Need my IP Address white listed in order to upload Gatlinburg V-flex into FileZilla
+[System] Service request,TRI-2033,nathaniel@munibilling.com,Normal,Resolved,CID 610: Upper Michigan Water Company - Remove the Deferred billing Alert from a customer account 
+[System] Service request,TRI-2032,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill 4 Accounts with Deposit/Balance Corrections needed 06.10.2025
+[System] Service request,TRI-2030,bettina@munibilling.com,Normal,Resolved,CID 1780 - Millersville PA - Create Dummy Invoices 2nd Request
+[System] Service request,TRI-2029,nathaniel@munibilling.com,Normal,Resolved,CID: 215: Customer Portal Log In Issue
+[System] Service request,TRI-2027,nathaniel@munibilling.com,Normal,Resolved,CID: 165 - Late Fee template not calculating correctly.
+[System] Service request,TRI-2026,nathaniel@munibilling.com,Normal,Resolved,CID: 1256- Payment not showing on report
+[System] Service request,TRI-2025,katilyn.wiggins@munibilling.com,Normal,Resolved,Provide file format details for Badger Beacon Export (Hardcoded File Format)
+[System] Service request,TRI-2024,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1827 - City of Hanska - Enable Invoicing through the PDFize Process
+[System] Service request,TRI-2023,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1823 - Buffalo- Enable Invoicing through PDFize Process
+[System] Service request,TRI-2022,,Normal,Resolved,CID 1443 Logan County: Late Charge Configuration 
+[System] Service request,TRI-2021,stephanie.williams@munibilling.com,Normal,Resolved,CID 1780 - Millersville - No Report or Spreadsheet to Show Billing Type Breakdown
+[System] Service request,TRI-2020,katilyn.wiggins@munibilling.com,Normal,Resolved,Provide file format details for Itron Meter Import (Hardcoded File Format)
+[System] Service request,TRI-2019,nathaniel@munibilling.com,Normal,Resolved,CID 436 - Gatlinburg - Error when pulling meter export file. 
+[System] Service request,TRI-2018,samuel.aubin@munibilling.com,Normal,Closed,Purgatory Metro District - CID 1799 Custom Field Update
+[System] Service request,TRI-2016,bettina@munibilling.com,Normal,Resolved,CID 1780 - Millersville PA - Create Dummy Invoices
+[System] Service request,TRI-2015,clyde.qasolli@munibilling.com,Normal,Resolved,Account Not Found error when calling IVR - South Pasadena
+[System] Service request,TRI-2014,bettina@munibilling.com,Normal,Resolved,CID 1780 - Millersville - Balance True-Up Removal - Delete Bills and Payments
+[System] Service request,TRI-2013,,Normal,Resolved,CID 1796 Deeson Roundlake: Requesting IVR Code
+[System] Service request,TRI-2012,clyde.qasolli@munibilling.com,Normal,Resolved,CId 124- Missing paymnet from 5/29/2025
+[System] Service request,TRI-2011,bettina@munibilling.com,Normal,Resolved,City of New Auburn posting
+[System] Service request,TRI-2010,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1805 Unpost Payments 
+[System] Service request,TRI-2009,,Normal,Closed,"CID: 1333, 1341 & 1386 - Unusually High Number of Bounced Emailed Bills"
+[System] Service request,TRI-2007,nathaniel@munibilling.com,Normal,Closed,CID: 130: Portal Password Issue
+[System] Service request,TRI-2005,,Normal,Resolved,Arcadia: Log in Issue with Production Users
+[System] Service request,TRI-2004,nathaniel@munibilling.com,Normal,Resolved,CID 248 Town of Gulf Stream / cannot create bills 
+[System] Service request,TRI-2003,katilyn.wiggins@munibilling.com,Normal,Resolved,Nora Hobbs - New User Request
+[System] Service request,TRI-2002,katilyn.wiggins@munibilling.com,Normal,Resolved,CID-133 Town of Altha: Cannot create bills from the Bill Customers Screen
+[System] Service request,TRI-2001,nathaniel@munibilling.com,Normal,Resolved,CID: 1085 City of Arcadia: IVR Customers Unable to Make Payments - POSSIBLE RELEASE ISSUE
+[System] Service request,TRI-2000,,Normal,Canceled,Changes to Post to Accounting Screen
+[System] Service request,TRI-1999,,Normal,Canceled,Munibilling Production Admin Login Error
+[System] Service request,TRI-1998,drago.todorov@munibilling.com,Normal,Resolved,Paya Payments Stuck in Processing - Multiple CIDs
+[System] Service request,TRI-1995,nathaniel@munibilling.com,Normal,Canceled,CID 407: Town of Pearl River - cannot create bills 
+[System] Service request,TRI-1994,clyde.qasolli@munibilling.com,Normal,Canceled,CID 1802 Hope Water - Valley New Lockbox Import File Format
+[System] Service request,TRI-1993,nathaniel@munibilling.com,Normal,Resolved,CID: 1313 - Error when creating bills
+[System] Service request,TRI-1992,clyde.qasolli@munibilling.com,Normal,Resolved,CID-1784 - City of Lafayette Dummy Invoices
+[System] Service request,TRI-1991,stephanie.williams@munibilling.com,Normal,Closed,CID: 1770 -Consumption reports not operating correctly.
+[System] Service request,TRI-1990,katilyn.wiggins@munibilling.com,Normal,Resolved,CID: 1483 - Service Call Issues
+[System] Service request,TRI-1988,,Normal,Resolved,Fake Payment Gateway Credentials - Demo Instances
+[System] Service request,TRI-1986,samuel.aubin@munibilling.com,Normal,Resolved,CID 1804 - add to Multivision
+[System] Service request,TRI-1985,katilyn.wiggins@munibilling.com,Normal,Resolved,"Global - Bill Creation Fails in Production – ""Open balance amount cannot be less than 0 on unposted bill"""
+[System] Service request,TRI-1984,,Normal,Resolved,Unable to create Bills  (CID 1803)
+[System] Service request,TRI-1983,stephanie.williams@munibilling.com,Normal,Resolved,Cedar Hill Sewer Usage Rates and Multipliers Request 05.22.2025
+[System] Service request,TRI-1979,samuel.aubin@munibilling.com,Normal,Closed,Purgatory Metro District CID-1799 Custom Field Data Load
+[System] Service request,TRI-1978,,Normal,Resolved,Miscellaneous Letter message
+[System] Service request,TRI-1977,,Normal,Resolved,CID 1443 Logan County: Cannot import dates with new import file format for meter readings
+[System] Service request,TRI-1976,nathaniel@munibilling.com,Normal,Canceled,CID 413 Town on Many - Bill Customer error
+[System] Service request,TRI-1970,nathaniel@munibilling.com,Normal,Canceled,CID: 333 - Error when creating bills.
+[System] Service request,TRI-1969,samuel.aubin@munibilling.com,Normal,Resolved,CID: 1783 - Onamia - Meter Size and Read Type swap
+[System] Service request,TRI-1968,nathaniel@munibilling.com,Normal,Canceled,CID: 1701- Unable to add parcel
+[System] Service request,TRI-1967,,Normal,Canceled,Stop Job
+[System] Service request,TRI-1965,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1763 Promenade at Tuskawilla - Add Invoice Numbers 
+[System] Service request,TRI-1964,,Normal,Resolved,Unable to view screen in Portal 
+[System] Service request,TRI-1963,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1817 - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1962,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1819 - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1961,stephanie.williams@munibilling.com,Normal,Resolved,Cedar Hill Sewer Usage Rates Absent 05.16.2025
+[System] Service request,TRI-1960,samuel.aubin@munibilling.com,Normal,Resolved,CID: 1793 - Parcel Number Change
+[System] Service request,TRI-1959,nathaniel@munibilling.com,Normal,Resolved,CID 1784 - City of Lafayette - IVR Code for City of Lafayette
+[System] Service request,TRI-1958,bhavana.savaram@munibilling.com,Normal,Resolved,CID 423 - Data Query needed - Billed Consumption on Wells
+[System] Service request,TRI-1957,samuel.aubin@munibilling.com,Normal,Resolved,Heartland Autopay Flag Removal CID1303
+[System] Service request,TRI-1951,nathaniel@munibilling.com,Normal,Resolved,CID 145 Pittsburg County RW & SD #20 - Autopay 
+[System] Service request,TRI-1950,nathaniel@munibilling.com,Normal,Resolved,CID 248 Town of Gulf Stream
+[System] Service request,TRI-1949,clyde.qasolli@munibilling.com,Normal,Closed,CID 1082 Cedar Hill - Watersmart Daily Account Import File
+[System] Service request,TRI-1948,stephanie.williams@munibilling.com,Normal,Resolved,List of Clients showing customer portal use
+[System] Service request,TRI-1947,katilyn.wiggins@munibilling.com,Normal,Closed,CID 23 City of Farrell Sewage Login issue
+[System] Service request,TRI-1946,jason.moore@munibilling.com,Normal,Resolved,GLOBAL - Managed Services - Lockbox payments have not been applied 
+[System] Service request,TRI-1945,nathaniel@munibilling.com,Normal,Resolved,CID 1469 Town of Washington Login error 
+[System] Service request,TRI-1944,katilyn.wiggins@munibilling.com,Normal,Resolved,Provide file format details for Sensus Export - New (Hardcoded File Format)
+[System] Service request,TRI-1942,bettina@munibilling.com,Normal,Resolved,Bills Not Posting - May
+[System] Service request,TRI-1941,nathaniel@munibilling.com,Normal,Canceled,CID: 436 - Issue with Ajustment on account 11.0786.00.03
+[System] Service request,TRI-1940,nathaniel@munibilling.com,Normal,Resolved,CID 1763 Cannot email bills 
+[System] Service request,TRI-1939,clyde.qasolli@munibilling.com,Normal,Closed,Meter export file changed - Missing Header rows
+[System] Service request,TRI-1938,,Normal,Resolved,"CID 1793 IVR Code needed - City of New Auburn, MN"
+[System] Service request,TRI-1937,katilyn.wiggins@munibilling.com,Normal,Resolved,"CID 1783 - City of Onamia, MN - Create Dummy Invoices - 3rd Request"
+[System] Service request,TRI-1936,guppy.sivakumar@munibilling.com,Normal,Resolved,CID 738 - Client unable to load images in MSP
+[System] Service request,TRI-1935,bettina@munibilling.com,Normal,Resolved,CID: 213 Login Issue
+[System] Service request,TRI-1934,guppy.sivakumar@munibilling.com,Normal,Resolved,CID 1634 - St Helena Water System - MuniRead Pro app is not Downloading Their 2 Routes
+[System] Service request,TRI-1932,bettina@munibilling.com,Normal,Resolved,CID 41 Northwest Water - Bill creation error 
+[System] Service request,TRI-1931,stephanie.williams@munibilling.com,Normal,Resolved,CID- 1779 - Royal Gorge Meters Billing with wrong usage
+[System] Service request,TRI-1929,stephanie.williams@munibilling.com,Normal,Resolved,South Pasadena - CID 1087 - Data Request 
+[System] Service request,TRI-1928,nathaniel@munibilling.com,Normal,Canceled,CID: 833 Billing Issue
+[System] Service request,TRI-1927,bettina@munibilling.com,Normal,Resolved,CID: 423 -  Master billing type journal entries missing
+[System] Service request,TRI-1926,addie@munibilling.com,Normal,Resolved,Arcadia 1085 Unable to locate payment in Heartland - Possibly related to SSO
+[System] Service request,TRI-1924,katilyn.wiggins@munibilling.com,Normal,Resolved,CID: 1701 - System will not generate a bill after bill creation.
+[System] Service request,TRI-1923,katilyn.wiggins@munibilling.com,Normal,Resolved,"CID 1783 - City of Onamia, MN - Create Dummy Invoices - 2nd Request"
+[System] Service request,TRI-1922,julie.byrd@munibilling.com,Normal,Resolved,"CID- 1792- Rural Water District #6, Douglas County, KS -Client Can Not Access JIRA Videos/Issues With Share Point"
+[System] Service request,TRI-1921,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1793 - New Auburn MN -
+[System] Service request,TRI-1920,katilyn.wiggins@munibilling.com,Normal,Resolved,Munibilling Access for Julie Byrd
+[System] Service request,TRI-1919,stephanie.williams@munibilling.com,Normal,Resolved,AquaWaste - Raymond Farms/Jerdone Island CID 1705 - Need a list of incorrect billing types
+[System] Service request,TRI-1918,,Normal,Canceled,CID 97: Strasburg Borough Authority: Confirmation Email is not being sent and Send confirmation email is not available. 
+[System] Service request,TRI-1917,bettina@munibilling.com,Normal,Resolved,CID 208: Cannot create bills
+[System] Service request,TRI-1916,bettina@munibilling.com,Normal,Resolved,CID 448: Cannot create bills 
+[System] Service request,TRI-1915,jim.martineau@munibilling.com,Normal,Resolved,CID: 151: Payment Issue
+[System] Service request,TRI-1914,julie.byrd@munibilling.com,Normal,Resolved,CID: 1770 - Error when when updating company information
+[System] Service request,TRI-1913,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1519: El Paso WCID 4: Client is getting logged off and receiving an error when they go to reports. 
+[System] Service request,TRI-1911,,Normal,Resolved,CID 1695 - IMP TRAINING MF -  
+[System] Service request,TRI-1910,drago.todorov@munibilling.com,Normal,Resolved,CIDs 737 & 738 - Customer Portal Pages Going to Generic Login Pages
+[System] Service request,TRI-1909,,Normal,Canceled,Enterprise / Riverwood - Customer Portal Issues
+[System] Service request,TRI-1908,bettina@munibilling.com,Normal,Resolved,CID: 932 - Bill creation Error
+[System] Service request,TRI-1907,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1695 - IMP TRAINING MF -  Unpost Blls
+[System] Service request,TRI-1906,caiden.robinson@munibilling.com,Normal,Resolved,CID-1788 Two Accounts Not Loading
+[System] Service request,TRI-1905,johan.hultin@munibilling.com,Normal,Resolved,IVR Code for Star Mountain: CID 1536
+[System] Service request,TRI-1904,julie.byrd@munibilling.com,Normal,Resolved,CID: 677: Late Charge Issue
+[System] Service request,TRI-1903,johan.hultin@munibilling.com,Normal,Resolved,"CID 1788 IVR Code needed - City of Gibbon, MN"
+[System] Service request,TRI-1902,bettina@munibilling.com,Normal,Resolved,CID 262 - Divernon - Gas Badger Export Meter File Error
+[System] Service request,TRI-1901,julie.byrd@munibilling.com,Normal,Resolved,CID: 38 - Meter change accounts not billing properly
+[System] Service request,TRI-1900,bettina@munibilling.com,Normal,Resolved,CID: 208 - Zwolle Waterworks creating bills error 
+[System] Service request,TRI-1899,,Normal,Canceled,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1898,bettina@munibilling.com,Normal,Resolved,CID 23 - City of Farrell Login Issues 
+[System] Service request,TRI-1897,,Normal,Canceled,Customer Portal Access 
+[System] Service request,TRI-1896,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1720 - Failed Autopay - Unable to update 
+[System] Service request,TRI-1895,samuel.aubin@munibilling.com,Normal,Closed,Update account numbers for Deeson Round Lake CID-1796
+[System] Service request,TRI-1894,stephanie.williams@munibilling.com,Normal,Resolved,"CID 1783 - City of Onamia, MN - Itron Export Not Working"
+[System] Service request,TRI-1893,clyde.qasolli@munibilling.com,Normal,Resolved,"CID 1783 - City of Onamia, MN - Create Dummy Invoices"
+[System] Service request,TRI-1892,stephanie.williams@munibilling.com,Normal,Resolved,Meter ReRead Report vs. Meter Unread Metes
+[System] Service request,TRI-1891,,Normal,Resolved,USER Access to Demo 
+[System] Service request,TRI-1890,clyde.qasolli@munibilling.com,Normal,Resolved,City Of Gibbon Dummy Invoices
+[System] Service request,TRI-1889,clyde.qasolli@munibilling.com,Normal,Resolved,Deeson Round Lake Dummy Invoices
+[System] Service request,TRI-1888,drago.todorov@munibilling.com,Normal,Resolved,CID 1779: Royal Gorge: Customers are not receiving confirmation emails after importing emails. 
+[System] Service request,TRI-1883,,Normal,Resolved,CID 1303 IVR Code needed
+[System] Service request,TRI-1882,katilyn.wiggins@munibilling.com,Normal,Resolved,CID:584: Cannot Print Account bills - undefined method 'abbreviation' for nil:NilClass
+[System] Service request,TRI-1879,stephanie.williams@munibilling.com,Normal,Resolved,Please reassign correct serial numbers to meters - CID: 1720 - Beach City Utilities
+[System] Service request,TRI-1876,katilyn.wiggins@munibilling.com,Normal,Resolved,"CID: 1120 - Reconcile payments drop down missing ""online payments"" option (Echeck)"
+[System] Service request,TRI-1873,jim.martineau@munibilling.com,Normal,Resolved,Impersonate Button No Longer Appearing for some Clients 
+[System] Service request,TRI-1871,julie.byrd@munibilling.com,Normal,Resolved,CID 597 - Please delete bills 
+[System] Service request,TRI-1867,bettina@munibilling.com,Normal,Resolved,CID: 865 - Incorrect User Display- Client cannot access Client Dashboard
+[System] Service request,TRI-1865,katilyn.wiggins@munibilling.com,Normal,Closed,CID: 145 Customer Remote CC Charge in Nuvei not Completely Applied in MB ($66.00 left unapplied with no open bills)
+[System] Service request,TRI-1863,,Normal,Resolved,Parkland CID 730 - Clients cannot Login - Master Company Users
+[System] Service request,TRI-1862,,Normal,Resolved,1634 St Helena customer- issue with balances on customer portal
+[System] Service request,TRI-1861,nathaniel@munibilling.com,Normal,Resolved,CID 1518: Roamingwood: Customer accoung 3182000 are not able to make payments from the customer portal.
+[System] Service request,TRI-1860,julie.byrd@munibilling.com,Normal,Resolved,"Logan County, A&A Water, Gun Lake, Possibly more clients: Issues with Late charge not being charged to the correct customers. "
+[System] Service request,TRI-1859,clyde.qasolli@munibilling.com,Normal,Closed,PAYA IVR - CID 145 Payment not attached.
+[System] Service request,TRI-1858,,Normal,Canceled,CID 1769: Durango West Metro District: Unpost Meter Reading with end date 03/31/25
+[System] Service request,TRI-1857,bettina@munibilling.com,Normal,Closed,CID: 203- Error when posting bills - Readings and Payments did not post properly
+[System] Service request,TRI-1856,nathaniel@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain: Account 000881 appears on the autopay report with zero balance when the customer has a balance of $136 
+[System] Service request,TRI-1855,bettina@munibilling.com,Normal,Resolved,CID 1545: City of Daingerfield: Delete Late Charges Posted on 04/10/25
+[System] Service request,TRI-1854,katilyn.wiggins@munibilling.com,Normal,Closed,CID 1518: Roamingwood: Question Regarding Autopay failed Email: Account 1185000
+[System] Service request,TRI-1853,jim.martineau@munibilling.com,Normal,Closed,CID- 1779- Royal Gorge- BUG- Billing Delivery Format Not Updating in Portal from MuniBilling Possibly Global
+[System] Service request,TRI-1852,samuel.aubin@munibilling.com,Normal,Closed,CID 1805 - Custom Fields to Load
+[System] Service request,TRI-1851,bettina@munibilling.com,Normal,Resolved,Fortress Post Bill Errors
+[System] Service request,TRI-1850,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1779 -Royal Gorge Water Utility-Dummy Invoices
+[System] Service request,TRI-1849,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1545: City of Daingerfield: Payment correction on payment batch 3/7/25 #4 |611805 for account 1-10-05525-01  
+[System] Service request,TRI-1842,nathaniel@munibilling.com,Normal,Resolved,No Healthy Upstream error - Production 
+[System] Service request,TRI-1841,nathaniel@munibilling.com,Normal,Resolved,PAYA IVR - CID 145 Name and account information missing from the reconciliation reports
+[System] Service request,TRI-1840,,Normal,Resolved,DEMO - Unable to access documents. 
+[System] Service request,TRI-1839,stephanie.williams@munibilling.com,Normal,Resolved,CID 203: Database record change request 
+[System] Service request,TRI-1836,samuel.aubin@munibilling.com,Normal,Closed,CID 1803 - Custom Fields to Load
+[System] Service request,TRI-1835,caiden.robinson@munibilling.com,Normal,Closed,Demo Access for Chris Morris-King
+[System] Service request,TRI-1833,nathaniel@munibilling.com,Normal,Closed,Logan County CID 1443: Client ran late charges and many accounts that were late did not get charged a late fee
+[System] Service request,TRI-1832,nathaniel@munibilling.com,Normal,Resolved,CID 1758 West Cocalico Township: Remove Unapplied Payments for Balance True Up
+[System] Service request,TRI-1831,nathaniel@munibilling.com,Normal,Resolved,CID: 1469-Autopay Button missing on the customer portal
+[System] Service request,TRI-1830,bettina@munibilling.com,Normal,Resolved,CID 1793 - New Auburn MN - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1829,bettina@munibilling.com,Normal,Resolved,"CID 1783 -  City of Onamia, MN - Enable Invoicing through PDFize Process"
+[System] Service request,TRI-1828,bettina@munibilling.com,Normal,Resolved,CID 1780 - Millersville Borough PA - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1827,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1799- Purgatory Metro District Enable Invoicing through PDFize Process
+[System] Service request,TRI-1826,katilyn.wiggins@munibilling.com,Normal,Resolved,CID-1800 - Portage Area Sewer Authority Enable Invoicing through PDFize Process
+[System] Service request,TRI-1825,katilyn.wiggins@munibilling.com,Normal,Resolved,CID- 1798 - North Bolivar Water Association-  Enable Invoicing through PDFize Process
+[System] Service request,TRI-1824,bettina@munibilling.com,Normal,Resolved,"CID- 1792- Rural Water District #6, Douglas County, KS -Enable Invoicing through PDFize Process"
+[System] Service request,TRI-1823,bettina@munibilling.com,Normal,Resolved,CID- 1796 -Deeson Round Lake Water Corp-Enable Invoicing through PDFize Process
+[System] Service request,TRI-1822,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 17 Morton - Need Late Fees Unposted
+[System] Service request,TRI-1821,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 977- lockbox type file import issue- not uploading all records
+[System] Service request,TRI-1820,clyde.qasolli@munibilling.com,Normal,Resolved,CID 145 Cannot post bills while there are unposted payments
+[System] Service request,TRI-1818,katilyn.wiggins@munibilling.com,Normal,Resolved,CID 1136 - Rutland Statements to WaterSmart Mar 2025
+[System] Service request,TRI-1817,nathaniel@munibilling.com,Normal,Resolved,CID: 1120: Request to Terminate All Online Payment Processing
+[System] Service request,TRI-1816,,Normal,Resolved,CID 436 Gatlinburg - NACHA not loading
+[System] Service request,TRI-1809,bettina@munibilling.com,Normal,Resolved,CID 715: Yadkin County - Bill Date is overwritten by late charge date
+[System] Service request,TRI-1808,bettina@munibilling.com,Normal,Resolved,CID 215 Havasu POA - Deposit cannot be unapplied 
+[System] Service request,TRI-1807,nathaniel@munibilling.com,Normal,Closed,CID 1600 Stinson Water: How to change read resolution on a export meter file for Badger Beacon Export
+[System] Service request,TRI-1806,bettina@munibilling.com,Normal,Resolved,CID: 14- Correct Statement Due Date
+[System] Service request,TRI-1805,stephanie.williams@munibilling.com,Normal,Resolved,South Sunflower CID-1771 Meter Read Rework
+[System] Service request,TRI-1804,nathaniel@munibilling.com,Normal,Closed,CID: 151 - Missing payment
+[System] Service request,TRI-1803,,Normal,Closed,Fw: Import failed
+[System] Service request,TRI-1802,nathaniel@munibilling.com,Normal,Resolved,CID 215 Lot 388 is not showing on the the route for some reason
+[System] Service request,TRI-1801,nathaniel@munibilling.com,Normal,Resolved,CID 1363 Warm Springs Custom Report - Reads
+[System] Service request,TRI-1799,,Normal,Canceled,CLONE - CID 1085 Dropped Emails
+[System] Service request,TRI-1798,bettina@munibilling.com,Normal,Resolved,Javana Coleman - New User Request
+[System] Service request,TRI-1797,stephanie.williams@munibilling.com,Normal,Resolved,Global - Online Payment Deposit Reconciliation for Paya Customers not pulling Batch ID
+[System] Service request,TRI-1795,,Normal,Resolved,"Issue with [describe the affected system, module, or feature] causing unexpected behavior."
+[System] Service request,TRI-1794,nathaniel@munibilling.com,Normal,Resolved,CID: 1483-Password Reset Not Working
+[System] Service request,TRI-1793,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 215: Credit Card Payment Issue
+[System] Service request,TRI-1791,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 977- PSN file issue
+[System] Service request,TRI-1790,samuel.aubin@munibilling.com,Normal,Closed,Autopay Checkbox Not Checked for Customers on Autopay
+[System] Service request,TRI-1789,katilyn.wiggins@munibilling.com,Normal,Resolved,1770 City of Ranier Remove access code on printed invoices 
+[System] Service request,TRI-1788,nathaniel@munibilling.com,Normal,Resolved,CID 1770 City of Ranier Auto Pay Amount on Gen screen 
+[System] Service request,TRI-1787,clyde.qasolli@munibilling.com,Normal,Resolved,CID 145 Pittsburg County - Online Payment Rec. Rpt - Unable to balance 
+[System] Service request,TRI-1786,stephanie.williams@munibilling.com,Normal,Resolved,Update Last Name for Admin User in MuniBilling: Stephanie Hermanowski to Stephanie Bratt
+[System] Service request,TRI-1783,nathaniel@munibilling.com,Normal,Canceled,AutoPay Did not Pull on 03.01.2025 for ECheck Payments in Town of Minturn CID1764
+[System] Service request,TRI-1782,stephanie.williams@munibilling.com,Normal,Resolved,Card Testing Clean Up 
+[System] Service request,TRI-1781,bettina@munibilling.com,Normal,Resolved,CID- 1776 - City of Bowdle Deleting Historical Records off of Current Bills
+[System] Service request,TRI-1779,clyde.qasolli@munibilling.com,Normal,Resolved,Admin Credentials Not Working
+[System] Service request,TRI-1778,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1120 King George - unreconciled payments issue
+[System] Service request,TRI-1776,nathaniel@munibilling.com,Normal,Resolved,Your one-time code: 278864
+[System] Service request,TRI-1775,nathaniel@munibilling.com,Normal,Resolved,amarriotti@sahuaritaaz.gov secured: Wells Fargo Lockbox Transmission-Update
+[System] Service request,TRI-1774,bettina@munibilling.com,Normal,Resolved,CID- 1788 - Gibbon - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1773,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1784 - Lafeyette - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1772,,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1771,bettina@munibilling.com,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1770,bettina@munibilling.com,Normal,Resolved,CID 1778 - Printing Postcards Statement not working
+[System] Service request,TRI-1769,guppy.sivakumar@munibilling.com,Normal,Resolved,CID 1577 Pendleton Water Association Inc. reports not matching 
+[System] Service request,TRI-1767,stephanie.williams@munibilling.com,Normal,Resolved,CID : 423 - Invoice Deletion
+[System] Service request,TRI-1766,,Normal,Resolved,CID 1085 Dropped Emails
+[System] Service request,TRI-1765,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1781- Tropical Gardens Dummy Invoices
+[System] Service request,TRI-1764,,Normal,Closed,CID:1120: Issue assigning Service Orders
+[System] Service request,TRI-1763,nathaniel@munibilling.com,Normal,Resolved,CID: 1749 - Close button on payment screen not working.
+[System] Service request,TRI-1762,bettina@munibilling.com,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1761,clyde.qasolli@munibilling.com,Normal,Resolved,CID 50 Online Payment Deposit Reconciliation has unclosed batch issue 
+[System] Service request,TRI-1755,nathaniel@munibilling.com,Normal,Resolved,CID 145  Pitt IVR - Test Payments not removed 
+[System] Service request,TRI-1754,bettina@munibilling.com,Normal,Resolved,CID 1486: Loudonville Village: Issues with late charge dated 2/26/25. Please delete late charges. 
+[System] Service request,TRI-1753,,Normal,Resolved,Granville CID 1697- Payment Canceled in Paya Posted to Customers Account
+[System] Service request,TRI-1752,julie.byrd@munibilling.com,Normal,Resolved,CID:1120: Issue Printing Returned Payment Letter
+[System] Service request,TRI-1751,jason.moore@munibilling.com,Normal,Closed,Property ID Request - Signal Hill Apartments
+[System] Service request,TRI-1750,nathaniel@munibilling.com,Normal,Resolved,CID: 12624: Billing Issue
+[System] Service request,TRI-1748,,Normal,Resolved,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1746,guppy.sivakumar@munibilling.com,Normal,Resolved,CID 1519: El Paso WCID 4: Report Question: Why does the G/L by billing type report show water charge as a negative? 
+[System] Service request,TRI-1745,nathaniel@munibilling.com,Normal,Resolved,CLONE - Possible Fraud Charges - CID 1341 -SUNRISE VISTAS UTILITIES COMPANY
+[System] Service request,TRI-1744,bettina@munibilling.com,Normal,Resolved,Cedar Hill Duplicate Deposit Charge and Deposit Transfer causing incorrect Open Deposit Amount. 
+[System] Service request,TRI-1742,nathaniel@munibilling.com,Normal,Resolved,Possible Global Issue: Version 2 of the customer portal is not allowing customers to sign up for autopay. 
+[System] Service request,TRI-1740,stephanie.williams@munibilling.com,Normal,Resolved,CID- 1776 - City of Bowdle - Remove Multiplier from Historical Reads
+[System] Service request,TRI-1739,nathaniel@munibilling.com,Normal,Resolved,Town Center Foundation - CID: 843 - Single Statement Issue for Acct 79-07-0250-1-6
+[System] Service request,TRI-1737,bhavana.savaram@munibilling.com,Normal,Resolved,CID 465 NEA Cross - Remove Autopay Flags
+[System] Service request,TRI-1736,nathaniel@munibilling.com,Normal,Resolved,CID: 1518 Auto Pay Button not showing in portal 
+[System] Service request,TRI-1735,bettina@munibilling.com,Normal,Resolved,Fortress Sync 2 issues  - Parke West Apartments 
+[System] Service request,TRI-1734,nathaniel@munibilling.com,Normal,Canceled,CID: 38 - Late fee's not pulling correctly
+[System] Service request,TRI-1732,samuel.aubin@munibilling.com,Normal,Closed,CID: 1633 - Please update the bill date and the due date
+[System] Service request,TRI-1731,nathaniel@munibilling.com,Normal,Resolved,Deluxe Payments Imported Incorrectly as Check instead of Lockbox-Muni and eLockbox-Muni for 2/19/2025
+[System] Service request,TRI-1728,nathaniel@munibilling.com,Normal,Resolved,Possible Web Hosting Error for multi-billing.com
+[System] Service request,TRI-1727,bettina@munibilling.com,Normal,Resolved,CID- 1781- Tropical Gardens - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1725,,Normal,Resolved,"CID 1087, 1600, 1333, 1341, 1386, 737 - Unblock emails with dropped/bounced status"
+[System] Service request,TRI-1724,bettina@munibilling.com,Normal,Resolved,Munibilling Access - New Hires
+[System] Service request,TRI-1723,bettina@munibilling.com,Normal,Resolved,CID 1778 -  City of Courtland KS - Create Dummy Invoices
+[System] Service request,TRI-1722,bettina@munibilling.com,Normal,Resolved,CID 1778 -  City of Courtland KS - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1721,nathaniel@munibilling.com,Normal,Resolved,CID: 1298 - Late fee's not posting correctly
+[System] Service request,TRI-1720,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 1280 -Balance Rebuild - 10218003
+[System] Service request,TRI-1719,nathaniel@munibilling.com,Normal,Resolved,Global - Letters - Account Categories
+[System] Service request,TRI-1718,nathaniel@munibilling.com,Normal,Resolved,CID 1567 Washington County 
+[System] Service request,TRI-1717,bettina@munibilling.com,Normal,Resolved,"Global - Meter Screen - ""Replace Serial Number""  What is this? "
+[System] Service request,TRI-1716,nathaniel@munibilling.com,Normal,Resolved,CID- 1776- City of Bowdle - Letters not saving
+[System] Service request,TRI-1715,bettina@munibilling.com,Normal,Resolved,CID- 1779 Royal Gorge Water Utility- Enable Invoicing through PDFize Process
+[System] Service request,TRI-1713,stephanie.williams@munibilling.com,Normal,Resolved,CID 1652 - Laclede - Rate UPdate - Hours needed for quote
+[System] Service request,TRI-1711,bettina@munibilling.com,Normal,Resolved,CID 1664 West Chester Tax - Error when attempting to Print Account bills 
+[System] Service request,TRI-1710,nathaniel@munibilling.com,Normal,Resolved,"CID 18-PBE WATER SUPPLY-Customer Portal is allowing bill delivery format, account information, and edit billing address to be changed. "
+[System] Service request,TRI-1709,bettina@munibilling.com,Normal,Resolved,"CID- 1744 - City of Saint Paul, AK- Enable Invoicing through PDFize Process"
+[System] Service request,TRI-1708,nathaniel@munibilling.com,Normal,Resolved,CID: 145 - Late fee's not posting correctly
+[System] Service request,TRI-1707,nathaniel@munibilling.com,Normal,Resolved,CID: 1758: Customers do not have the option to pay by eCheck when using the Pay Now feature of the Customer Portal
+[System] Service request,TRI-1706,alvaro.escobar@munibilling.com,Normal,Resolved,Enterprise / CID 738 - Deposit Error Message 2/6/25 - 1370 KIAWAH ST - 80-13-0229-5-3
+[System] Service request,TRI-1705,nathaniel@munibilling.com,Normal,Resolved,CID: 1120 - Invoice Miscalculation – Late Fee and Deposit Issue 
+[System] Service request,TRI-1703,guppy.sivakumar@munibilling.com,Normal,Resolved,Enterprise - MAR Discrepancy - January 2025
+[System] Service request,TRI-1702,clyde.qasolli@munibilling.com,Normal,Resolved,"CID 124  Consolidated Utilities, Inc - Payment not showing in payment history "
+[System] Service request,TRI-1701,nathaniel@munibilling.com,Normal,Canceled,CID 1082: Cedar Hill - Service Order - Route & Seq
+[System] Service request,TRI-1700,samuel.aubin@munibilling.com,Normal,Closed,CID 1664 - West Chester Tax - Unable to import to Custom Fields
+[System] Service request,TRI-1699,bettina@munibilling.com,Normal,Resolved,CID: 248-Please Delete Meter Reads - End Read Date 1/31/25
+[System] Service request,TRI-1697,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1776 City Of Bowdle Dummy Invoices
+[System] Service request,TRI-1696,alvaro.escobar@munibilling.com,Normal,Closed,CID: 248- Please Unpost Meter Reads - End Read Date 1/31/25
+[System] Service request,TRI-1695,alvaro.escobar@munibilling.com,Normal,Closed,CID: 248- Please Void Bills - Bill Date 1/31/25
+[System] Service request,TRI-1694,,Normal,Closed,CID: 248- Billing Issue
+[System] Service request,TRI-1693,nathaniel@munibilling.com,Normal,Resolved,CID 1369: Cabinet Mountain: Emails are bouncing 
+[System] Service request,TRI-1691,alvaro.escobar@munibilling.com,Normal,Resolved,Enterprise CID 738 - Account showing Credit Open Deposit Charge
+[System] Service request,TRI-1690,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 203 Sahuarita Payment Amount error 
+[System] Service request,TRI-1689,bettina@munibilling.com,Normal,Resolved,CID: 124 - Past Due Report Error
+[System] Service request,TRI-1688,bettina@munibilling.com,Normal,Resolved,CID- 1758 West Cocalico Delete Bills
+[System] Service request,TRI-1687,nathaniel@munibilling.com,Normal,Resolved,Riverwood - Emails being Dropped In Munibilling when sent out for ebills 
+[System] Service request,TRI-1685,nathaniel@munibilling.com,Normal,Resolved,Stinson Water - Duplicate Payment Rejected - Account 636001
+[System] Service request,TRI-1682,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1760 West Cocalico Dummy Invoices (Street Lighting Instance) 
+[System] Service request,TRI-1681,,Normal,Canceled,CID 1120 - King George - Consumption Count
+[System] Service request,TRI-1679,nathaniel@munibilling.com,Normal,Canceled,CID: 124: Customer Payment not processed
+[System] Service request,TRI-1678,nathaniel@munibilling.com,Normal,Closed,Meter Auto Read Type does not Export for a txt file
+[System] Service request,TRI-1677,bhavana.savaram@munibilling.com,Normal,Resolved,CID 1120 - King George - Autopay Flags
+[System] Service request,TRI-1676,,Normal,Resolved,Enterprise - Payment Issue - 1110 BANKS ROSE CT - 80-07-0473-5-8
+[System] Service request,TRI-1675,nathaniel@munibilling.com,Normal,Resolved,CID: 861 - Bills have previous months charge on them even though previous months bills were posted
+[System] Service request,TRI-1674,nathaniel@munibilling.com,Normal,Resolved,CID:457 Portal Payment Issue
+[System] Service request,TRI-1673,clyde.qasolli@munibilling.com,Normal,Closed,CID 897 - $1.56 Payment posting discrepancies. 
+[System] Service request,TRI-1672,alvaro.escobar@munibilling.com,Normal,Resolved,Reset Password Admin Sign In
+[System] Service request,TRI-1671,,Normal,Resolved,Parkland CID 730 - Customer unable to make Payment
+[System] Service request,TRI-1668,,Normal,Resolved,CID 176: Durango West MD#1: Pay Online button is not appearing for client when Impersonating
+[System] Service request,TRI-1667,bettina@munibilling.com,Normal,Resolved,CID- 1776 - City of Bowdle - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1666,nathaniel@munibilling.com,Normal,Resolved,CID: 1483 -  Error in Customer Portal for Payment and Impersonation
+[System] Service request,TRI-1665,bettina@munibilling.com,Normal,Resolved,CID- 1758 West Cocalico Dummy Invoices
+[System] Service request,TRI-1663,nathaniel@munibilling.com,Normal,Resolved,CID: 151 - Error Message When Trying to Make a Payment Received
+[System] Service request,TRI-1661,nathaniel@munibilling.com,Normal,Resolved,Morton Borough CID 17 Account Balances not Accurate
+[System] Service request,TRI-1660,,Normal,Resolved,CID 1717: Knob Hill Water: When client logs in he is on standard view for customer's accounts and not professional view.
+[System] Service request,TRI-1659,nathaniel@munibilling.com,Normal,Resolved,Riverwood Community Development CID 737 - Customer Unable to make online payment - 23-20-3547-3-1 
+[System] Service request,TRI-1658,nathaniel@munibilling.com,Normal,Resolved,Parkland CID 730 - Customer unable to make Payment
+[System] Service request,TRI-1657,alvaro.escobar@munibilling.com,Normal,Closed,CID:226 Search Invoice button not working
+[System] Service request,TRI-1656,alvaro.escobar@munibilling.com,Normal,Closed,CID: 14- Late Fee Removal
+[System] Service request,TRI-1655,alvaro.escobar@munibilling.com,Normal,Resolved,"CID 1720 - Delete Deposit Information For all Accounts For Beach City, OH"
+[System] Service request,TRI-1654,,Normal,Resolved,CID 794  Late fees on 0 balance 
+[System] Service request,TRI-1651,nathaniel@munibilling.com,Normal,Resolved,South Pasadena CID 1087 - Customer Unable to make online payment - Account 16552
+[System] Service request,TRI-1650,nathaniel@munibilling.com,Normal,Resolved,Multi-client Portal Issue
+[System] Service request,TRI-1649,nathaniel@munibilling.com,Normal,Closed,CID:1640: Client is missing items from Muni Home Page
+[System] Service request,TRI-1648,nathaniel@munibilling.com,Normal,Resolved,CID 1769 - Durango West Metro Dist #1 - Error Message When Exporting Meter Read List
+[System] Service request,TRI-1646,alvaro.escobar@munibilling.com,Normal,Resolved,"Global - Search Customers Screen: ""In waiting"" toggle missing "
+[System] Service request,TRI-1643,bettina@munibilling.com,Normal,Resolved,cid 1540 Sunrise - Unpost Bills 
+[System] Service request,TRI-1642,alvaro.escobar@munibilling.com,Normal,Resolved,GLOBAL - Unreconciled Payments Alert Does Not Show on Search Page
+[System] Service request,TRI-1641,nathaniel@munibilling.com,Normal,Resolved,CID: 1392 - Duplicate Payments in Reconciled Batches
+[System] Service request,TRI-1640,nathaniel@munibilling.com,Normal,Resolved,South Pasadena CID 1087 - Customer unable to make online payment
+[System] Service request,TRI-1639,nathaniel@munibilling.com,Normal,Resolved,Parkland CID 730 - Customer unable to make Payment
+[System] Service request,TRI-1638,nathaniel@munibilling.com,Normal,Resolved,CID: 118 - Meter Code 1 and Meter Code 2 Not Pulling Correctly in Custom Meter Readings Export
+[System] Service request,TRI-1636,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1773 Glen Allen- Create dummy invoices
+[System] Service request,TRI-1635,nathaniel@munibilling.com,Normal,Resolved,CID: 436 - NACHA AUTOPAY ISSUE
+[System] Service request,TRI-1634,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1774 - Delta City Dummy Invoices
+[System] Service request,TRI-1633,,Normal,Resolved,CID 1443 Logan County: Issues with late charges
+[System] Service request,TRI-1632,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1771 - South Sunflower Dummy Invoices
+[System] Service request,TRI-1631,nathaniel@munibilling.com,Normal,Resolved,CID 1633 Pine Brook Water - Late fee error 
+[System] Service request,TRI-1630,jason.moore@munibilling.com,Normal,Resolved,"Add New Clients to Deluxe Positive Files: CID's: 1333, 1341, 1386"
+[System] Service request,TRI-1629,clyde.qasolli@munibilling.com,Normal,Resolved,CID 17 Morton - Unpost Late fees 
+[System] Service request,TRI-1628,bettina@munibilling.com,Normal,Resolved,RentManager Error 429 - Too Many Requests
+[System] Service request,TRI-1627,nathaniel@munibilling.com,Normal,Canceled,Riverwood CID 737 - Late Charge Template Did not Process Correctly/unable to fix template
+[System] Service request,TRI-1626,nathaniel@munibilling.com,Normal,Resolved,CId 1082 Cedar Hill Adjustments 
+[System] Service request,TRI-1625,bettina@munibilling.com,Normal,Resolved,CID 1760 & 1758  - West Cocalico- Enable Invoicing through PDFize Process
+[System] Service request,TRI-1624,,Normal,Resolved,CID 1640: Mauricevile MUD AR by Account and Billing Type - Detail 
+[System] Service request,TRI-1623,clyde.qasolli@munibilling.com,Normal,Resolved,Cedar Hill Missing WaterSmart Payments from 12.25.2024 Please Expedite
+[System] Service request,TRI-1622,,Normal,Resolved,Cedar Hill: Payment on Account but cannot locate Batch. 0000015234-000009670
+[System] Service request,TRI-1621,nathaniel@munibilling.com,Normal,Resolved,CID 897- Aquahawk Report Issues 
+[System] Service request,TRI-1620,,Normal,Canceled,CID: 17 - Morton Borough - Late Charges Not Generating
+[System] Service request,TRI-1619,,Normal,Resolved,CID 1464: North East Township: Error message when importing meter reads with Neptune V4 import type
+[System] Service request,TRI-1618,bettina@munibilling.com,Normal,Resolved,CID 1486: Loudonville Village: Issues with late charge: Unpost Late Charges
+[System] Service request,TRI-1616,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1136 - Rutland Statements to WaterSmart De 2024
+[System] Service request,TRI-1615,bettina@munibilling.com,Normal,Resolved,CID: 1220 - Late Fee Incorrectly Applied to Service Fees During Delinquent Processing
+[System] Service request,TRI-1613,,Normal,Resolved,Sage Pointe Apartments CID: 1284 Credit Balances Incorrect - Related to Unpost Bills TRI-1579
+[System] Service request,TRI-1612,bhavana.savaram@munibilling.com,Normal,Closed,CID 17 Morton Borough - Past due Sewer by Year
+[System] Service request,TRI-1611,bettina@munibilling.com,Normal,Resolved,CID 1773 - Glen Allan - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1610,bettina@munibilling.com,Normal,Resolved,CID 1774 - Delta City - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1609,bettina@munibilling.com,Normal,Resolved,CID 1545 - Unpost Late Charges Created on 12/26/24
+[System] Service request,TRI-1608,bettina@munibilling.com,Normal,Resolved,"CLONE - CID 1720 - Village of Beach City, OH - Create Dummy Invoices"
+[System] Service request,TRI-1607,clyde.qasolli@munibilling.com,Normal,Canceled,"CID 1761 - Town of New Canton, IL - Create Dummy Invoices"
+[System] Service request,TRI-1606,guppy.sivakumar@munibilling.com,Normal,Resolved,MuniRead Pro is not opening
+[System] Service request,TRI-1605,bettina@munibilling.com,Normal,Resolved,"CID 1761 - Town of New Canton, IL - Enable Invoicing Through PDFize Process"
+[System] Service request,TRI-1604,clyde.qasolli@munibilling.com,Normal,Canceled,"CID 1764 - Town of Minturn, CO - Create Dummy Invoices"
+[System] Service request,TRI-1603,bettina@munibilling.com,Normal,Resolved,CID 1764 - Town of Minturn - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1602,clyde.qasolli@munibilling.com,Normal,Resolved,CID 1769 - Durango West Metro Dist #1 - PDFize and Dummy Invoicing
+[System] Service request,TRI-1601,,Normal,Resolved,CID 1640: Mauricevile MUD:  No Checks IVR
+[System] Service request,TRI-1600,guppy.sivakumar@munibilling.com,Normal,Closed,CID 897 - MUNIServicePro
+[System] Service request,TRI-1599,nathaniel@munibilling.com,Normal,Canceled,CID: 249 - Late fee's not posting
+[System] Service request,TRI-1595,clyde.qasolli@munibilling.com,Normal,Resolved,CID- 1770 - City of Rainer Dummy Invoices 
+[System] Service request,TRI-1592,bhavana.savaram@munibilling.com,Normal,Closed,Arcadia - OctBills Carry-over
+[System] Service request,TRI-1588,samuel.aubin@munibilling.com,Normal,Closed,CID 457 - Borough of West Chester - Account Category
+[System] Service request,TRI-1587,clyde.qasolli@munibilling.com,Normal,Resolved,CID 897: Redmond - Payments out of Balance
+[System] Service request,TRI-1586,,Normal,Resolved,CID 1624: CITY Of Big Lake: Cannot download printed file out of View Printed Bills Page
+[System] Service request,TRI-1585,nathaniel@munibilling.com,Normal,Resolved,CID: 1333 GSWC - Late Charge Error
+[System] Service request,TRI-1584,bettina@munibilling.com,Normal,Resolved,CID 1770 - City of Rainer - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1583,bettina@munibilling.com,Normal,Resolved,CID 1771 - South Sunflower - Enable Invoicing through PDFize Process
+[System] Service request,TRI-1582,alvaro.escobar@munibilling.com,Normal,Closed,CID 59 - City of Mountain Park - Unapplied Payments on Accounts with Past Due Balances
+[System] Service request,TRI-1581,nathaniel@munibilling.com,Normal,Resolved,CID 17 Morton Borought - Late Letters -
+[System] Service request,TRI-1580,samuel.aubin@munibilling.com,Normal,Closed,Autopay flags on accounts
+[System] Service request,TRI-1579,bettina@munibilling.com,Normal,Resolved,Unpost Latest Bills for Sage Pointe Apts (CID 1284)
+[System] Service request,TRI-1577,nathaniel@munibilling.com,Normal,Resolved,CID: 1772 - Newly Added Company - Parcel Import - Custom Field did not import in
+[System] Service request,TRI-1576,nathaniel@munibilling.com,Normal,Canceled,Lockbox Imports - Payments not applying to Deposit charges 1st
+[System] Service request,TRI-1573,nathaniel@munibilling.com,Normal,Resolved,CID: 152 - Nuvei/Paya - Back-to-Back Payment Issue Due to Base Charge Success and Fee Fail
+[System] Service request,TRI-1572,samuel.aubin@munibilling.com,Normal,Resolved,CID: 1483 - Category/Type assistance 
+[System] Service request,TRI-1571,,Medium,Canceled,Triage testing
+[System] Service request,TRI-1570,bettina@munibilling.com,Normal,Resolved,CID 1536: Star Mountain: Unpost bills created on 12/3/24
+[System] Service request,TRI-1565,nathaniel@munibilling.com,Normal,Resolved,CID 913 Bevil Oaks - Disconnect notice issue 
+[System] Service request,TRI-1561,nathaniel@munibilling.com,Normal,Resolved,CID 59 - City of Mountain Park - Missing Paya Payment 
+[System] Service request,TRI-1554,nathaniel@munibilling.com,Normal,Resolved,Fwd: 911 Late charges: El Paso WCID #4: Late charges are incorrectly charged.
+[System] Service request,TRI-1553,alvaro.escobar@munibilling.com,Normal,Resolved,Cedar Hill Missing two WaterSmart Payment Batches for payments on 12/6/2024 and 12/7/2024 12.10.2024
+[System] Service request,TRI-1552,clyde.qasolli@munibilling.com,Normal,Resolved,CID 451 - Late fees not Calculating as Expected
+[System] Service request,TRI-1550,alvaro.escobar@munibilling.com,Normal,Resolved,CID: 130 - Issue with Late Fee Processing when comparing to Overdue Accounts feature
+[System] Service request,TRI-1549,nathaniel@munibilling.com,Normal,Resolved,CID: 203- Error Message When Attempting to Open Bill Print File
+[System] Service request,TRI-1548,,Normal,Resolved,CID 897 - MAP & TAX LOT not functional 
+[System] Service request,TRI-1547,bettina@munibilling.com,Normal,Resolved,CID 451 - Unpost bill 
+[System] Service request,TRI-1546,guppy.sivakumar@munibilling.com,Normal,Closed,CID 1082: Cedar Hill - Customer Security Deposit Transactions
+[System] Service request,TRI-1545,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 977 - Double payment on accounts - Legacy Lockbox payments
+[System] Service request,TRI-1544,bettina@munibilling.com,Normal,Resolved,CID 1483: Unpost bills 
+[System] Service request,TRI-1542,bettina@munibilling.com,Normal,Resolved,CID: 1749 - Unpost/Unreconcile Payment Batch# 588106
+[System] Service request,TRI-1536,nathaniel@munibilling.com,Normal,Closed,CID: 1301 - Master Company: Group Six - Possibly Global - Custom Field Search is not working on Search screen
+[System] Service request,TRI-1532,nathaniel@munibilling.com,Normal,Closed,CID 52 -Lakewood Villiage Adjustment Error
+[System] Service request,TRI-1531,alvaro.escobar@munibilling.com,Normal,Resolved,"CID 1762 - Town of Fort Jones, CA - Add Consumption Source To All Meters"
+[System] Service request,TRI-1530,nathaniel@munibilling.com,Normal,Canceled,CID: 74 - Ontwa error when creating bills
+[System] Service request,TRI-1529,alvaro.escobar@munibilling.com,Normal,Resolved,Arcadia: ERROR when creating bills. 
+[System] Service request,TRI-1527,bettina@munibilling.com,Normal,Resolved,CID 246 City of Hammond double billing 
+[System] Service request,TRI-1522,bettina@munibilling.com,Normal,Closed,Unpost Payments - CID:730 Need Help with Reverting Reconciled Payments in Parkland Utilities
+[System] Service request,TRI-1520,clyde.qasolli@munibilling.com,Normal,Resolved,CID 210 - Job failed unexpectedly. undefined method `balance_current' for nil:NilClass - Event number 11717860
+[System] Service request,TRI-1519,alvaro.escobar@munibilling.com,Normal,Resolved,CID: 1220 - Late Charge is calculating a penny less on printed statement than what is being posted on the account
+[System] Service request,TRI-1516,nathaniel@munibilling.com,Normal,Resolved,"CID 1720 - Village of Beach City, OH - Create Dummy Invoices"
+[System] Service request,TRI-1515,nathaniel@munibilling.com,Normal,Resolved,"CID 1762 - Fort Jones, CA - Create ""Dummy Invoices"" for Historical Bills"
+[System] Service request,TRI-1514,nathaniel@munibilling.com,Normal,Resolved,CID 1082: Cedar Hill - Deleted Adjustments?
+[System] Service request,TRI-1513,nathaniel@munibilling.com,Normal,Canceled,CID 229 Minimum usage charge isn't being applied
+[System] Service request,TRI-1508,bettina@munibilling.com,Normal,Resolved,"CID 1720 - Village of Beach City, OH - Enable Invoicing through PDFize Process"
+[System] Service request,TRI-1507,bettina@munibilling.com,Normal,Resolved,"CID 1762 - Fort Jones, CA  - Enable Invoicing through PDFize Process"
+[System] Service request,TRI-1506,alvaro.escobar@munibilling.com,Normal,Resolved,Granville- CID 1697- Missing IVR Payment-230 Southern View Dr Acct 5049
+[System] Service request,TRI-1505,bettina@munibilling.com,Normal,Resolved,CID 1529 Lakewood Village - South Oak Utilities Unpost Payments Batch Request
+[System] Service request,TRI-1504,nathaniel@munibilling.com,Normal,Resolved,CID 1369: Cabinet Mountain: Account 000460: Payment on Paya shows $90.56 but in MuniBilling it appears as $181.12. 
+[System] Service request,TRI-1503,nathaniel@munibilling.com,Normal,Closed,Chestnut Hills - CID 1727 - Tiered Usage Printing Twice on Statements
+[System] Service request,TRI-1502,alvaro.escobar@munibilling.com,Normal,Closed,"CID 1447: Three Mile Water District: Account M627, account only made a payment of $92.14 but In MuniBilling it appears as $184.28.  "
+[System] Service request,TRI-1501,bettina@munibilling.com,Normal,Closed,CID: 402- Please Unpost  Yesterday's Bills
+[System] Service request,TRI-1500,,TBD,Canceled,THis is the summary field
+[System] Service request,TRI-1499,bettina@munibilling.com,Normal,Closed,CID 1483 - Harmony - Add Invoices 
+[System] Service request,TRI-1498,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 124 - Credit card payments still available to Golden Isles Water
+[System] Service request,TRI-1497,clyde.qasolli@munibilling.com,Normal,Closed,Pending Online Payment Status Causing Client and Operations Confusion 11.13.2024
+[System] Service request,TRI-1496,clyde.qasolli@munibilling.com,Normal,Resolved,CID 124 -  Consolidated - Payments still not on acct 
+[System] Service request,TRI-1494,nathaniel@munibilling.com,Normal,Canceled,CID:262-Delete Meter Readings
+[System] Service request,TRI-1493,,Normal,Resolved,CID 1624: City of Big Lake: Routes Report is not producing 
+[System] Service request,TRI-1492,bettina@munibilling.com,Normal,Resolved,CID: 228 - Previous balances and payments received are not printing
+[System] Service request,TRI-1490,clyde.qasolli@munibilling.com,Normal,Resolved,POI- CID 1575- Missing Online Payment- 199 EVENINGSTAR CAY CHERYL & JEROLD RAMPE Acct 90971
+[System] Service request,TRI-1489,clyde.qasolli@munibilling.com,Normal,Resolved,Lockbox Clients - Importing to Incorrect Initial Billing Type
+[System] Service request,TRI-1488,bettina@munibilling.com,Normal,Closed,CID: 609 - Please Add Invoicing
+[System] Service request,TRI-1487,bettina@munibilling.com,Normal,Resolved,Cedar Hill WaterSmart Payments for 11.08.2024 NOT in Muni This Morning 11.11.2024
+[System] Service request,TRI-1486,alvaro.escobar@munibilling.com,Normal,Closed,Password of support@munibilling.com has been created on the website https://ncm4.neocertifiedmail.com
+[System] Service request,TRI-1485,alvaro.escobar@munibilling.com,Normal,Closed,Your one-time code: 854953
+[System] Service request,TRI-1484,alvaro.escobar@munibilling.com,Normal,Closed,Your one-time code: 664825
+[System] Service request,TRI-1483,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 59 City of Mountain Park Missing Paya Payments 
+[System] Service request,TRI-1482,guppy.sivakumar@munibilling.com,Normal,Resolved,Enterprise - MAR Out of Balance / Adjustments Report - October 2024
+[System] Service request,TRI-1481,alvaro.escobar@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1480,alvaro.escobar@munibilling.com,Normal,Closed,Important Information from Wells Fargo SAFE Transmission
+[System] Service request,TRI-1479,alvaro.escobar@munibilling.com,Normal,Closed,amarriotti@sahuaritaaz.gov secured: Wells Fargo Lockbox Transmission
+[System] Service request,TRI-1478,,Normal,Closed,St Helena 1634- Unable to load meter reads
+[System] Service request,TRI-1477,,Normal,Resolved,Master Company: NRG - AKA Cordia/Energy Center - Can this be printed by route? Invoice Detail Recap
+[System] Service request,TRI-1476,addie@munibilling.com,Normal,Closed,CID:262 Add Reading button missing-
+[System] Service request,TRI-1475,jim.martineau@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain Account 000881 is locked out of the new portal and there is no way to unlock in the UI
+[System] Service request,TRI-1473,clyde.qasolli@munibilling.com,Normal,Resolved,CID 128  Paya - Payment processed but not showing in MUNI
+[System] Service request,TRI-1471,bhavana.savaram@munibilling.com,Normal,Resolved,Autopay flags on accounts
+[System] Service request,TRI-1470,nathaniel@munibilling.com,Normal,Closed,CID: 205 - Late fee's generating the wrong amount on e-bills
+[System] Service request,TRI-1469,clyde.qasolli@munibilling.com,Normal,Resolved,CID 897 Redmond - Balance not showing correctly in UI 
+[System] Service request,TRI-1463,clyde.qasolli@munibilling.com,Normal,Resolved,CID 61 - City of Caseville - Pending Heartland Payment
+[System] Service request,TRI-1462,clyde.qasolli@munibilling.com,Normal,Resolved,CID 127 : Golden Isles - Paya Payment - Remote Charge  not updating 
+[System] Service request,TRI-1461,alvaro.escobar@munibilling.com,Normal,Closed,CID 715: Yadkin County- Auto-Pay did not run for the month of October (Nuvei Client)
+[System] Service request,TRI-1460,bettina@munibilling.com,Normal,Resolved,CID 1483 - Bill Date 11.01.2024 - Count 209 - Bill Amount $3303.90 Remove Late Fees 
+[System] Service request,TRI-1459,,Normal,Resolved,Emergency: Cedar Hill Double Trash Charges on accounts after re-calculation of Trash Rates 10.31.2024
+[System] Service request,TRI-1458,clyde.qasolli@munibilling.com,Normal,Closed,CID: 413 - Missing payment
+[System] Service request,TRI-1456,alvaro.escobar@munibilling.com,Normal,Closed,Riverwood - Bill Posting Error Message - 10/29/24
+[System] Service request,TRI-1455,nathaniel@munibilling.com,Normal,Closed,CID 1165: Indigo at the Park - Sync 2 Error
+[System] Service request,TRI-1454,amanda.chavez@munibilling.com,Normal,Resolved,Sync 
+[System] Service request,TRI-1451,alvaro.escobar@munibilling.com,Normal,Closed,New User Request - Yimaris Rodriguez Rivera 
+[System] Service request,TRI-1450,nathaniel@munibilling.com,Normal,Closed,CID: 23 - QR Code
+[System] Service request,TRI-1449,,Normal,Closed,Account Numbers
+[System] Service request,TRI-1448,nathaniel@munibilling.com,Normal,Resolved,Aqua Waste- Granville CID 1697 Oxford CID 1702 Warrenton Chase CID 1704- Missing Online Payments & Duplicate Payments Posted to Accounts
+[System] Service request,TRI-1443,alvaro.escobar@munibilling.com,Normal,Closed,CID: 226 - Legacy Mobile site is not saving the meter readings
+[System] Service request,TRI-1441,nathaniel@munibilling.com,Normal,Resolved,POI- CID 1575- Missing Online Payments & Duplicate Payments Posted to Accounts
+[System] Service request,TRI-1440,caiden.robinson@munibilling.com,Normal,Resolved,CID: 23 - Invoices not downloading
+[System] Service request,TRI-1439,nathaniel@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain: Account 001062: Customer signed up for AutoPay on the new portal (Nuvei) and they appear as pending on the auto pay report.
+[System] Service request,TRI-1436,clyde.qasolli@munibilling.com,Normal,Closed,Cannot Reconcile DELUXE Lockbox Payments for 10.21.2024 and 10.22.2024
+[System] Service request,TRI-1435,nathaniel@munibilling.com,Normal,Closed,CID 1749 - Neskowin Regional Water District - Online Payment for Account 1340-00 Does Not Have a Payment Date
+[System] Service request,TRI-1433,bettina@munibilling.com,Normal,Resolved,"CID 1544: City of Newburg: Client posted bill before printing, can we unpost the most recent bill so the client can print bills? "
+[System] Service request,TRI-1431,clyde.qasolli@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain: Account 000688 Payment shows double in MuniBilling when customer paid a lesser amount. 
+[System] Service request,TRI-1426,clyde.qasolli@munibilling.com,Normal,Closed,St Helena CID (1634) : AutoPay Did NOT Run for 10.15.2024 Due Date
+[System] Service request,TRI-1425,nathaniel@munibilling.com,Normal,Closed,CID: 52 - E-bills not delivering  message
+[System] Service request,TRI-1424,clyde.qasolli@munibilling.com,Normal,Resolved,Oxford CID 1702- Online Payment Not Posted to Account (Pending Transactions Issue)
+[System] Service request,TRI-1423,,Normal,Closed,CID 426: Northfield Township-Account 11862 Made a payment on the new customer portal when it wasn't ready.  Payment date 9/3/2024 for 54.64 
+[System] Service request,TRI-1422,bettina@munibilling.com,Normal,Resolved,Enterprise - CID 738 - Deposit Posted Twice - Balances Incorrect
+[System] Service request,TRI-1421,bettina@munibilling.com,Normal,Resolved,CID: 861 - Delete Bills - Late fee removal
+[System] Service request,TRI-1420,clyde.qasolli@munibilling.com,Normal,Resolved,Enterprise - CID 738 - Heartland Payment Applied Incorrectly
+[System] Service request,TRI-1418,bettina@munibilling.com,Normal,Closed,CID 1664 West Chester Tax - Update date of Transactions
+[System] Service request,TRI-1417,nathaniel@munibilling.com,Normal,Closed,Heartland - Failed Autopay Notices CID 1633 Pine Brook

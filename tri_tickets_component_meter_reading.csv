@@ -1,0 +1,35 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2322,nathaniel@munibilling.com,Normal,Waiting for support,Epcor - Meter Read Issue,Meter Reading
+[System] Service request,TRI-2318,,Normal,Waiting for support,CID 1518: Roamingwood: Incorrect Consumption Values (One digit short) for Large Meters (Size 1–2) on Neptune V4 Import,Meter Reading
+[System] Service request,TRI-2305,,Normal,Waiting for support,Improve Accuracy and Error Handling in Meter Reading Import for Two-Digit Year Formats,Meter Reading
+[System] Service request,TRI-2251,samuel.aubin@munibilling.com,Normal,Closed,CID- 1823 - City of Buffalo - Add Consumption Source - East or West to all ELEC Meters,Meter Reading
+[System] Service request,TRI-2249,,Normal,Canceled,CID 262 Update of Meters ,Meter Reading
+[System] Service request,TRI-2243,samuel.aubin@munibilling.com,Normal,Closed,"CID - 1823 - City of Buffalo - Add Consumpiton Sources to WAT, MASTER, and DEDUCT Meters",Meter Reading
+[System] Service request,TRI-2234,bhavana.savaram@munibilling.com,Normal,Resolved,CID 262  - Update Meter Serial Numbers,Meter Reading
+[System] Service request,TRI-2220,nathaniel@munibilling.com,Normal,Resolved,CID:423- Details of barcode scanner parameters.  ,Meter Reading
+[System] Service request,TRI-2156,samuel.aubin@munibilling.com,Normal,Closed,CID: 1802 - Hope Valley: Water - Readings Import,Meter Reading
+[System] Service request,TRI-2141,bettina@munibilling.com,High,Resolved,CID 1802 - Hope Water: Valley - Readings Removal,Meter Reading
+[System] Service request,TRI-2104,clyde.qasolli@munibilling.com,Normal,Resolved,CID: 448 - Unpost Meter Readings request,Meter Reading
+[System] Service request,TRI-2099,bettina@munibilling.com,Normal,Resolved,CID: 448 - Unpost bills and Meter Readings,Meter Reading
+[System] Service request,TRI-2090,bhavana.savaram@munibilling.com,Normal,Resolved,WhoDunIt - CID 1600 - Change to Meter Sizes,Meter Reading
+[System] Service request,TRI-2041,samuel.aubin@munibilling.com,Normal,Resolved,CID 1783 - City of Onamia - Meter Readings Swap,Meter Reading
+[System] Service request,TRI-1991,stephanie.williams@munibilling.com,Normal,Closed,CID: 1770 -Consumption reports not operating correctly.,Meter Reading
+[System] Service request,TRI-1969,samuel.aubin@munibilling.com,Normal,Resolved,CID: 1783 - Onamia - Meter Size and Read Type swap,Meter Reading
+[System] Service request,TRI-1894,stephanie.williams@munibilling.com,Normal,Resolved,"CID 1783 - City of Onamia, MN - Itron Export Not Working",Meter Reading
+[System] Service request,TRI-1892,stephanie.williams@munibilling.com,Normal,Resolved,Meter ReRead Report vs. Meter Unread Metes,Meter Reading
+[System] Service request,TRI-1879,stephanie.williams@munibilling.com,Normal,Resolved,Please reassign correct serial numbers to meters - CID: 1720 - Beach City Utilities,Meter Reading
+[System] Service request,TRI-1858,,Normal,Canceled,CID 1769: Durango West Metro District: Unpost Meter Reading with end date 03/31/25,Meter Reading
+[System] Service request,TRI-1829,bettina@munibilling.com,Normal,Resolved,"CID 1783 -  City of Onamia, MN - Enable Invoicing through PDFize Process",Meter Reading
+[System] Service request,TRI-1805,stephanie.williams@munibilling.com,Normal,Resolved,South Sunflower CID-1771 Meter Read Rework,Meter Reading
+[System] Service request,TRI-1717,bettina@munibilling.com,Normal,Resolved,"Global - Meter Screen - ""Replace Serial Number""  What is this? ",Meter Reading
+[System] Service request,TRI-1699,bettina@munibilling.com,Normal,Resolved,CID: 248-Please Delete Meter Reads - End Read Date 1/31/25,Meter Reading
+[System] Service request,TRI-1696,alvaro.escobar@munibilling.com,Normal,Closed,CID: 248- Please Unpost Meter Reads - End Read Date 1/31/25,Meter Reading
+[System] Service request,TRI-1681,,Normal,Canceled,CID 1120 - King George - Consumption Count,Meter Reading
+[System] Service request,TRI-1648,nathaniel@munibilling.com,Normal,Resolved,CID 1769 - Durango West Metro Dist #1 - Error Message When Exporting Meter Read List,Meter Reading
+[System] Service request,TRI-1638,nathaniel@munibilling.com,Normal,Resolved,CID: 118 - Meter Code 1 and Meter Code 2 Not Pulling Correctly in Custom Meter Readings Export,Meter Reading
+[System] Service request,TRI-1619,,Normal,Resolved,CID 1464: North East Township: Error message when importing meter reads with Neptune V4 import type,Meter Reading
+[System] Service request,TRI-1531,alvaro.escobar@munibilling.com,Normal,Resolved,"CID 1762 - Town of Fort Jones, CA - Add Consumption Source To All Meters",Meter Reading
+[System] Service request,TRI-1494,nathaniel@munibilling.com,Normal,Canceled,CID:262-Delete Meter Readings,Meter Reading
+[System] Service request,TRI-1478,,Normal,Closed,St Helena 1634- Unable to load meter reads,Meter Reading
+[System] Service request,TRI-1476,addie@munibilling.com,Normal,Closed,CID:262 Add Reading button missing-,Meter Reading
+[System] Service request,TRI-1443,alvaro.escobar@munibilling.com,Normal,Closed,CID: 226 - Legacy Mobile site is not saving the meter readings,Meter Reading

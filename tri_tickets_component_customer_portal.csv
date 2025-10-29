@@ -1,0 +1,33 @@
+Type,Key,Assignee,Priority,Status,Summary,Inferred_Component
+[System] Service request,TRI-2286,,Normal,Waiting for customer,CID 1575- Customer Portal Auto-Pay – Checking Account Option Missing- Acct 10087,Customer Portal
+[System] Service request,TRI-2258,nathaniel@munibilling.com,Normal,Resolved,CID: 414  Epcor/Harmony - Customer portal error ,Customer Portal
+[System] Service request,TRI-2209,,Normal,Resolved,URGENT - GLOBAL - login button missing from customer portal,Customer Portal
+[System] Service request,TRI-2183,,Normal,In Progress,CID 1634 - St Helena Water - MuniRead Pro App Not Downloading All Service Locations for Specific Route,Customer Portal
+[System] Service request,TRI-2180,nathaniel@munibilling.com,Normal,Resolved,CID: 1800 Customer Portal Issue,Customer Portal
+[System] Service request,TRI-2087,bettina@munibilling.com,Normal,Resolved,Sahuarita Lockbox Password: Wells Fargo Lockbox Transmission Credentials,Customer Portal
+[System] Service request,TRI-2029,nathaniel@munibilling.com,Normal,Resolved,CID: 215: Customer Portal Log In Issue,Customer Portal
+[System] Service request,TRI-2007,nathaniel@munibilling.com,Normal,Closed,CID: 130: Portal Password Issue,Customer Portal
+[System] Service request,TRI-1964,,Normal,Resolved,Unable to view screen in Portal ,Customer Portal
+[System] Service request,TRI-1948,stephanie.williams@munibilling.com,Normal,Resolved,List of Clients showing customer portal use,Customer Portal
+[System] Service request,TRI-1947,katilyn.wiggins@munibilling.com,Normal,Closed,CID 23 City of Farrell Sewage Login issue,Customer Portal
+[System] Service request,TRI-1945,nathaniel@munibilling.com,Normal,Resolved,CID 1469 Town of Washington Login error ,Customer Portal
+[System] Service request,TRI-1935,bettina@munibilling.com,Normal,Resolved,CID: 213 Login Issue,Customer Portal
+[System] Service request,TRI-1934,guppy.sivakumar@munibilling.com,Normal,Resolved,CID 1634 - St Helena Water System - MuniRead Pro app is not Downloading Their 2 Routes,Customer Portal
+[System] Service request,TRI-1910,drago.todorov@munibilling.com,Normal,Resolved,CIDs 737 & 738 - Customer Portal Pages Going to Generic Login Pages,Customer Portal
+[System] Service request,TRI-1909,,Normal,Canceled,Enterprise / Riverwood - Customer Portal Issues,Customer Portal
+[System] Service request,TRI-1898,bettina@munibilling.com,Normal,Resolved,CID 23 - City of Farrell Login Issues ,Customer Portal
+[System] Service request,TRI-1897,,Normal,Canceled,Customer Portal Access ,Customer Portal
+[System] Service request,TRI-1873,jim.martineau@munibilling.com,Normal,Resolved,Impersonate Button No Longer Appearing for some Clients ,Customer Portal
+[System] Service request,TRI-1863,,Normal,Resolved,Parkland CID 730 - Clients cannot Login - Master Company Users,Customer Portal
+[System] Service request,TRI-1862,,Normal,Resolved,1634 St Helena customer- issue with balances on customer portal,Customer Portal
+[System] Service request,TRI-1861,nathaniel@munibilling.com,Normal,Resolved,CID 1518: Roamingwood: Customer accoung 3182000 are not able to make payments from the customer portal.,Customer Portal
+[System] Service request,TRI-1831,nathaniel@munibilling.com,Normal,Resolved,CID: 1469-Autopay Button missing on the customer portal,Customer Portal
+[System] Service request,TRI-1794,nathaniel@munibilling.com,Normal,Resolved,CID: 1483-Password Reset Not Working,Customer Portal
+[System] Service request,TRI-1742,nathaniel@munibilling.com,Normal,Resolved,Possible Global Issue: Version 2 of the customer portal is not allowing customers to sign up for autopay. ,Customer Portal
+[System] Service request,TRI-1707,nathaniel@munibilling.com,Normal,Resolved,CID: 1758: Customers do not have the option to pay by eCheck when using the Pay Now feature of the Customer Portal,Customer Portal
+[System] Service request,TRI-1672,alvaro.escobar@munibilling.com,Normal,Resolved,Reset Password Admin Sign In,Customer Portal
+[System] Service request,TRI-1668,,Normal,Resolved,CID 176: Durango West MD#1: Pay Online button is not appearing for client when Impersonating,Customer Portal
+[System] Service request,TRI-1666,nathaniel@munibilling.com,Normal,Resolved,CID: 1483 -  Error in Customer Portal for Payment and Impersonation,Customer Portal
+[System] Service request,TRI-1650,nathaniel@munibilling.com,Normal,Resolved,Multi-client Portal Issue,Customer Portal
+[System] Service request,TRI-1475,jim.martineau@munibilling.com,Normal,Closed,CID 1369: Cabinet Mountain Account 000881 is locked out of the new portal and there is no way to unlock in the UI,Customer Portal
+[System] Service request,TRI-1423,,Normal,Closed,CID 426: Northfield Township-Account 11862 Made a payment on the new customer portal when it wasn't ready.  Payment date 9/3/2024 for 54.64 ,Customer Portal
